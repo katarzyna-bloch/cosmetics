@@ -1,12 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
-const Header = styled.header`
-  top: 0;
-  left: 0;
-  position: sticky;
-  background-color: palevioletred;
-`
+import Header from './components/Header'
 
 const Main = styled.main`
   flex: 1;
@@ -22,7 +16,7 @@ const Footer = styled.footer`
 function App() {
   return (
     <>
-      <Header>...</Header>
+      <Header/>
       <Main>content</Main>
       <Footer>...</Footer>
     </>
