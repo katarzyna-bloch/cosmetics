@@ -3,6 +3,7 @@
 exports[`renders correctly 1`] = `
 <Fragment>
   <Header />
+  <Navigation />
   <styled.main>
     content
   </styled.main>

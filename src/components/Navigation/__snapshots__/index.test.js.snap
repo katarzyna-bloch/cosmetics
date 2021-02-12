@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<styled.nav>
+  <styled.a
+    as="a"
+    href="/"
+  >
+    Oczyszczanie
+  </styled.a>
+  <styled.a
+    as="a"
+    href="/"
+  >
+    Demakijaż
+  </styled.a>
+  <styled.a
+    as="a"
+    href="/"
+  >
+    Pielegnacja
+  </styled.a>
+  <styled.input
+    placeholder="szukaj"
+    type="text"
+  />
+</styled.nav>
+`;
