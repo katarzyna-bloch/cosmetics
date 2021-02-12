@@ -13,14 +13,12 @@ const Footer = styled.footer`
   background-color: palevioletred;
 `
 
-function App() {
-  return (
-    <>
-      <Header/>
-      <Main>content</Main>
-      <Footer>...</Footer>
-    </>
-  );
-}
+const App = () => (
+  <>
+    <Header/>
+    <Main>content</Main>
+    <Footer>...</Footer>
+  </>
+);
 
-export default App;
+export default App

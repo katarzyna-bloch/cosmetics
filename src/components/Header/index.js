@@ -1,5 +1,3 @@
-import React from 'react'
-import '../../index.css'
 import styled from 'styled-components'
 
 const Text = styled.h1`
@@ -9,7 +7,7 @@ const Text = styled.h1`
   background-color: palevioletred;
   padding: 20px;
 `
-const Header= () => {
+const Header = () => {
   return (     
     <Text>Blog o kosmetykach</Text>
   )
