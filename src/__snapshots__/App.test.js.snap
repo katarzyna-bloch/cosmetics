@@ -2,9 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <Fragment>
-  <styled.header>
-    ...
-  </styled.header>
+  <Header />
   <styled.main>
     content
   </styled.main>
