@@ -8,7 +8,7 @@ const Wrapper = styled.header`
   padding: 20px;
 `
 const Title = styled.h1`
-font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 `
 const Header = () => (     
   <Wrapper>
