@@ -17,7 +17,7 @@ const Footer = styled.footer`
 const App = () => (
   <>
     <Header />
-    <Navigation/>
+    <Navigation />
     <Main>content</Main>
     <Footer>...</Footer>
   </>

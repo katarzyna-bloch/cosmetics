@@ -7,12 +7,14 @@ const Nav = styled.nav`
   background-color: lightgray;
   padding: 20px;
 `
+
 const Link = styled.a`
 padding: 30px;
 font-weight: 600;
 text-decoration: none;
 color: black;
 `
+
 const Search = styled.input``
 
 const Navigation = () => (     
