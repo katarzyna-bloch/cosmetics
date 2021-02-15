@@ -2,8 +2,16 @@
 
 exports[`should render correctly 1`] = `
 <styled.header>
-  <styled.h1>
-    Blog o kosmetykach
-  </styled.h1>
+  <Styled(Link)
+    to="/"
+  >
+    <styled.h1>
+      Blog o kosmetykach
+    </styled.h1>
+    <styled.img
+      alt="kosmetyki"
+      src="kosmetyki1.png"
+    />
+  </Styled(Link)>
 </styled.header>
 `;

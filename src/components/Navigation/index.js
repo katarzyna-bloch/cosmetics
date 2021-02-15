@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link as RouterLink } from 'react-router-dom'
 
 const Nav = styled.nav`
   top: 0;
@@ -8,7 +9,7 @@ const Nav = styled.nav`
   padding: 20px;
 `
 
-const Link = styled.a`
+const Link = styled(RouterLink)`
   padding: 40px;
   font-weight: 600;
   text-decoration: none;
@@ -19,12 +20,12 @@ const Search = styled.input`
   margin-left: 50px;
 `
 
-const Navigation = () => (     
+const Navigation = () => (
   <Nav>
-    <Link href="/">Oczyszczanie</Link>
-    <Link href="/">Demakijaż</Link>
-    <Link href="/">Pielegnacja</Link>
-    <Search type='text' placeholder='szukaj'/>
+    <Link to="/cleaning">Oczyszczanie</Link>
+    <Link to="/make-up-removal">Demakijaż</Link>
+    <Link to="/care">Pielęgnacja</Link>
+    <Search type='text' placeholder='szukaj' />
   </Nav>
 )
 

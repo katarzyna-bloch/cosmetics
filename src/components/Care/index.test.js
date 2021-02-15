@@ -1,8 +1,8 @@
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import App from './App'
+import Care from '.'
 
-it('renders correctly', () => {
-  let wrapped = shallow(<App />)
+it('should render correctly', () => {
+  let wrapped = shallow(<Care />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })
