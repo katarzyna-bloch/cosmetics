@@ -7,8 +7,6 @@ exports[`renders correctly 1`] = `
   <styled.main>
     content
   </styled.main>
-  <styled.footer>
-    ...
-  </styled.footer>
+  <Footer />
 </Fragment>
 `;
