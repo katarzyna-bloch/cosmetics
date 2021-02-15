@@ -2,12 +2,13 @@ import styled from 'styled-components'
 
 const Wrapper = styled.footer`
   background-color: palevioletred;
+  padding: 10px;
 `
 
 const Link = styled.a`
   text-decoration: none;
   color: black;
-  margin:30px;
+  margin: 30px;
 `
 
 const Footer = () => (     

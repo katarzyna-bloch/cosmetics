@@ -16,7 +16,7 @@ const Link = styled.a`
 `
 
 const Search = styled.input`
-margin-left: 50px;
+  margin-left: 50px;
 `
 
 const Navigation = () => (     
