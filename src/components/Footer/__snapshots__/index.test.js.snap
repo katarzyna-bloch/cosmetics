@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<styled.footer>
+  <styled.a
+    href="http://facebook.com"
+    target="_blank"
+  >
+    Facebook
+  </styled.a>
+  <styled.a
+    href="http://instagram.com"
+    target="_blank"
+  >
+    Instagram
+  </styled.a>
+  <styled.a
+    href="http://youtube.com"
+    target="_blank"
+  >
+    YouTube
+  </styled.a>
+</styled.footer>
+`;

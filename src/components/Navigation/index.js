@@ -9,13 +9,15 @@ const Nav = styled.nav`
 `
 
 const Link = styled.a`
-  padding: 30px;
+  padding: 40px;
   font-weight: 600;
   text-decoration: none;
   color: black;
 `
 
-const Search = styled.input``
+const Search = styled.input`
+margin-left: 50px;
+`
 
 const Navigation = () => (     
   <Nav>
