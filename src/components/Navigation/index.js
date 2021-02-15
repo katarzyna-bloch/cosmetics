@@ -9,19 +9,19 @@ const Nav = styled.nav`
 `
 
 const Link = styled.a`
-padding: 30px;
-font-weight: 600;
-text-decoration: none;
-color: black;
+  padding: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
 `
 
 const Search = styled.input``
 
 const Navigation = () => (     
   <Nav>
-    <Link as="a" href="/">Oczyszczanie</Link>
-    <Link as="a" href="/">Demakijaż</Link>
-    <Link as="a" href="/">Pielegnacja</Link>
+    <Link href="/">Oczyszczanie</Link>
+    <Link href="/">Demakijaż</Link>
+    <Link href="/">Pielegnacja</Link>
     <Search type='text' placeholder='szukaj'/>
   </Nav>
 )
