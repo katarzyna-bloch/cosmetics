@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<styled.h1>
-  Blog o kosmetykach
-</styled.h1>
+<styled.header>
+  <styled.h1>
+    Blog o kosmetykach
+  </styled.h1>
+</styled.header>
 `;
