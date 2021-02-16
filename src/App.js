@@ -8,10 +8,10 @@ import Footer from './components/Footer'
 import Routes from './Routes'
 
 const Main = styled.main`
+  position: relative;
   flex: 1;
-  align-self: center;
-  max-width: 1024px;
-  padding: 10px;
+  /* align-self: center; */
+  /* max-width: 1024px; */
 `
 
 const App = () => (

@@ -5,7 +5,7 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   position: sticky;
-  background-color: lightgray;
+  background-color: ghostwhite;
   padding: 10px;
 `
 

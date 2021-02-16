@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.footer`
-  background-color: palevioletred;
+  background-color: ghostwhite;
   padding: 10px;
 `
 

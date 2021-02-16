@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
 
 const Wrapper = styled.header`
-  background-color: palevioletred;
+  background-color: ghostwhite;
   padding-top: 10px;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ const Header = () => (
   <Wrapper>
     <Link to="/">
       <Title>Blog o kosmetykach</Title>
-      <Photo src="kosmetyki.png" alt='kosmetyki' />   
+      <Photo src="logo.png" alt='kosmetyki' />   
     </Link>
   </Wrapper>
 )
