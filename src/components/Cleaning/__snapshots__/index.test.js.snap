@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<p>
-  Oczyszczanie
-</p>
+<h4>
+  Oczyszczanie to podstawowy krok w dojściu do pięknej skóry
+</h4>
 `;

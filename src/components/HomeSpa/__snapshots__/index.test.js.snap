@@ -2,6 +2,6 @@
 
 exports[`should render correctly 1`] = `
 <p>
-  Demakijaż
+  Domowe SPA
 </p>
 `;

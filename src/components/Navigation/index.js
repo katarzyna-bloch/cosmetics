@@ -20,8 +20,8 @@ const Search = styled.input``
 
 const Navigation = () => (
   <Nav>
+    <Link to="/home-spa">Domowe SPA</Link>
     <Link to="/cleaning">Oczyszczanie</Link>
-    <Link to="/make-up-removal">Demakijaż</Link>
     <Link to="/care">Pielęgnacja</Link>
     <Search type='text' placeholder='szukaj' />
   </Nav>
