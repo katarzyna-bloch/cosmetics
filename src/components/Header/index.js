@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
+import media from '../../utils/media'
 
 const Wrapper = styled.header`
   background-color: palevioletred;
@@ -11,11 +12,14 @@ const Wrapper = styled.header`
 const Title = styled.h1`
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+
+  ${media.phone} {
+    font-size: 25px;
+  }
 `
 
 const Photo = styled.img`
   width: 50px;
-  margin: 0px 0px 20px 10px;
 `
 
 const Link = styled(RouterLink)`
