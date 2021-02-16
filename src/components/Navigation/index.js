@@ -1,30 +1,29 @@
 import styled from 'styled-components'
+import { Link as RouterLink } from 'react-router-dom'
 
 const Nav = styled.nav`
   top: 0;
   left: 0;
   position: sticky;
   background-color: lightgray;
-  padding: 20px;
+  padding: 10px;
 `
 
-const Link = styled.a`
-  padding: 40px;
-  font-weight: 600;
+const Link = styled(RouterLink)`
+  padding-right: 70px;
   text-decoration: none;
   color: black;
 `
 
-const Search = styled.input`
-  margin-left: 50px;
-`
+const Search = styled.input``
 
-const Navigation = () => (     
+
+const Navigation = () => (
   <Nav>
-    <Link href="/">Oczyszczanie</Link>
-    <Link href="/">Demakijaż</Link>
-    <Link href="/">Pielegnacja</Link>
-    <Search type='text' placeholder='szukaj'/>
+    <Link to="/cleaning">Oczyszczanie</Link>
+    <Link to="/make-up-removal">Demakijaż</Link>
+    <Link to="/care">Pielęgnacja</Link>
+    <Search type='text' placeholder='szukaj' />
   </Nav>
 )
 

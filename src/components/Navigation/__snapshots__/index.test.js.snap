@@ -2,21 +2,21 @@
 
 exports[`should render correctly 1`] = `
 <styled.nav>
-  <styled.a
-    href="/"
+  <Styled(Link)
+    to="/cleaning"
   >
     Oczyszczanie
-  </styled.a>
-  <styled.a
-    href="/"
+  </Styled(Link)>
+  <Styled(Link)
+    to="/make-up-removal"
   >
     Demakijaż
-  </styled.a>
-  <styled.a
-    href="/"
+  </Styled(Link)>
+  <Styled(Link)
+    to="/care"
   >
-    Pielegnacja
-  </styled.a>
+    Pielęgnacja
+  </Styled(Link)>
   <styled.input
     placeholder="szukaj"
     type="text"
