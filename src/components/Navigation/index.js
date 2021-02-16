@@ -6,19 +6,17 @@ const Nav = styled.nav`
   left: 0;
   position: sticky;
   background-color: lightgray;
-  padding: 20px;
+  padding: 10px;
 `
 
 const Link = styled(RouterLink)`
-  padding: 40px;
-  font-weight: 600;
+  padding-right: 70px;
   text-decoration: none;
   color: black;
 `
 
-const Search = styled.input`
-  margin-left: 50px;
-`
+const Search = styled.input``
+
 
 const Navigation = () => (
   <Nav>
