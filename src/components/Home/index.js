@@ -7,11 +7,10 @@ const Photo = styled.img`
   max-height: 100%;
   width: 100%;
   object-fit: cover;
-  /* max-width: 1024px; */
 `
 
 const Home = () => ( 
-  <Photo src="photo.jpg" alt='kosmetyki' /> 
+  <Photo src="cosmetics.jpg" alt='kosmetyki' /> 
 )
 
 export default Home
