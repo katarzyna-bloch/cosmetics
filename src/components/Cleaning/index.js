@@ -1,5 +1,9 @@
-const Cleaning = () => (     
-  <h4>Oczyszczanie to podstawowy krok w dojściu do pięknej skóry</h4>
+import PageWrapper from '../PageWrapper'
+
+const Cleaning = () => ( 
+  <PageWrapper>
+    <p>Oczyszczanie to podstawowy krok w dojściu do pięknej skóry</p>
+  </PageWrapper>      
 )
 
 export default Cleaning

@@ -9,9 +9,9 @@ import Routes from './Routes'
 
 const Main = styled.main`
   position: relative;
+  display: flex;
+  justify-content: center;
   flex: 1;
-  /* align-self: center; */
-  /* max-width: 1024px; */
 `
 
 const App = () => (

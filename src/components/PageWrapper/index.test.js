@@ -1,8 +1,8 @@
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import HomeSpa from '.'
+import PageWrapper from '.'
 
 it('should render correctly', () => {
-  let wrapped = shallow(<HomeSpa />)
+  let wrapped = shallow(<PageWrapper />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })
