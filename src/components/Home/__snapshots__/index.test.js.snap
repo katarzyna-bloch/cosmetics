@@ -3,6 +3,6 @@
 exports[`should render correctly 1`] = `
 <styled.img
   alt="kosmetyki"
-  src="photo.jpg"
+  src="cosmetics.jpg"
 />
 `;
