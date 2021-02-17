@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
+import media from '../../utils/media'
 
 const Nav = styled.nav`
   top: 0;
@@ -10,9 +11,13 @@ const Nav = styled.nav`
 `
 
 const Link = styled(RouterLink)`
-  padding-right: 70px;
+  padding-right: 30px;
   text-decoration: none;
   color: black;
+
+  ${media.phone} {
+    padding-right: 15px;
+  }
 `
 
 const Search = styled.input``

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from '../../utils/media'
 
 const Wrapper = styled.footer`
   background-color: ghostwhite;
@@ -9,6 +10,10 @@ const Link = styled.a`
   text-decoration: none;
   color: black;
   margin: 30px;
+
+  ${media.phone} {
+    margin: 15px;
+  }
 `
 
 const Footer = () => (     
