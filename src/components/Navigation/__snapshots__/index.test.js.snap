@@ -3,14 +3,14 @@
 exports[`should render correctly 1`] = `
 <styled.nav>
   <Styled(Link)
+    to="/home-spa"
+  >
+    Domowe SPA
+  </Styled(Link)>
+  <Styled(Link)
     to="/cleaning"
   >
     Oczyszczanie
-  </Styled(Link)>
-  <Styled(Link)
-    to="/make-up-removal"
-  >
-    Demakijaż
   </Styled(Link)>
   <Styled(Link)
     to="/care"

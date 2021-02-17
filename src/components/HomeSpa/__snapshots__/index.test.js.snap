@@ -3,7 +3,7 @@
 exports[`should render correctly 1`] = `
 <styled.div>
   <p>
-    Oczyszczanie to podstawowy krok w dojściu do pięknej skóry
+    Domowe SPA
   </p>
 </styled.div>
 `;

@@ -1,9 +1,9 @@
 import PageWrapper from '../PageWrapper'
 
-const Care = () => (
+const HomeSpa = () => ( 
   <PageWrapper>
-    <p>Pielęgnacja</p>
+    <p>Domowe SPA</p>
   </PageWrapper>
 )
 
-export default Care
+export default HomeSpa
