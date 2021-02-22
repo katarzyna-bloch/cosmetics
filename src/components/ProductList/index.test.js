@@ -3,6 +3,9 @@ import toJson from 'enzyme-to-json'
 import ProductList from '.'
 
 it('should render correctly', () => {
-  let wrapped = shallow(<ProductList />)
+  const props = {
+    products: ['Test', 'img']
+    }
+  const wrapped = shallow(<ProductList {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })

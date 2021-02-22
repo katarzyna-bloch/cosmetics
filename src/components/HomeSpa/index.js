@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import PageWrapper from '../PageWrapper'
 import ContentHeader from '../ContentHeader'
 import ProductList from '../ProductList'
-import Product from '../Product'
 
 const cosmetics = [
   {
@@ -61,13 +60,7 @@ function HomeSpa() {
   return (
     <PageWrapper>
       <ContentHeader>Relaks dla ciała i duszy</ContentHeader>
-      <ProductList> 
-        {products.map(product => (
-          <Product key={product.name}
-          name={product.name} 
-          img={product.img} />
-        ))}
-      </ProductList>
+      <ProductList products={cosmetics}/>
     </PageWrapper>
   )
 }

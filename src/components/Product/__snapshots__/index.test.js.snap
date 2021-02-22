@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<div>
-  <styled.div />
+<styled.div>
+  <styled.div>
+    Test product!
+  </styled.div>
   <styled.img
-    alt="kosmetyk"
+    alt="cosmetic"
+    src="img"
   />
-</div>
+</styled.div>
 `;
