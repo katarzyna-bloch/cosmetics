@@ -4,6 +4,7 @@ import media from '../../utils/media'
 const Wrapper = styled.footer`
   background-color: ghostwhite;
   padding: 10px;
+  text-align: center;
 `
 
 const Link = styled.a`
