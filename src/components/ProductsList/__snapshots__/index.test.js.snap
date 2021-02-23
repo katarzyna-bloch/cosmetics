@@ -2,7 +2,10 @@
 
 exports[`should render correctly 1`] = `
 <styled.div>
-  <Product />
-  <Product />
+  <Product
+    img="img.jpg"
+    key="1"
+    name="Test"
+  />
 </styled.div>
 `;

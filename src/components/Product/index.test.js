@@ -5,8 +5,8 @@ import Product from '.'
 it('should render correctly', () => {
   const props = {
     name: 'Test product!',
-    img: 'img',
+    img: 'img.jpg',
   }
-  const wrapped = shallow(<Product {...props}/>)
+  const wrapped = shallow(<Product {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })

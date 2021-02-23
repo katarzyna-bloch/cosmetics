@@ -10,11 +10,11 @@ const List = styled.div`
   flex-wrap: wrap;
 `
 
-const ProductList = ({ products }) => ( 
+const ProductsList = ({ products }) => ( 
   <List>
-    {products.map(({ name, img }) => (
+    {products.map(({ name, img, id}) => (
       <Product
-        key={name}
+        key={id}
         name={name}
         img={img}
       />
@@ -22,11 +22,12 @@ const ProductList = ({ products }) => (
   </List>
 )
 
-ProductList.propTypes = {
+ProductsList.propTypes = {
   products: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
   })).isRequired,
 }
 
-export default ProductList
+export default ProductsList

@@ -5,54 +5,66 @@ exports[`should render correctly 1`] = `
   <styled.h5>
     Relaks dla ciała i duszy
   </styled.h5>
-  <ProductList
+  <ProductsList
     products={
       Array [
         Object {
+          "id": "1",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
           "name": "Peeling",
         },
         Object {
+          "id": "2",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
           "name": "Szczotka",
         },
         Object {
+          "id": "3",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
           "name": "Olejek",
         },
         Object {
+          "id": "4",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
           "name": "Peeling",
         },
         Object {
+          "id": "4",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
           "name": "Szczotka",
         },
         Object {
+          "id": "5",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
           "name": "Olejek",
         },
         Object {
+          "id": "6",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
           "name": "Peeling",
         },
         Object {
+          "id": "7",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
           "name": "Szczotka",
         },
         Object {
+          "id": "8",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
           "name": "Olejek",
         },
         Object {
+          "id": "9",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
           "name": "Peeling",
         },
         Object {
+          "id": "10",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
           "name": "Szczotka",
         },
         Object {
+          "id": "11",
           "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
           "name": "Olejek",
         },

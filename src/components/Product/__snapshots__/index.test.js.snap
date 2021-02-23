@@ -7,7 +7,7 @@ exports[`should render correctly 1`] = `
   </styled.div>
   <styled.img
     alt="cosmetic"
-    src="img"
+    src="img.jpg"
   />
 </styled.div>
 `;
