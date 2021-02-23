@@ -8,6 +8,8 @@ const Nav = styled.nav`
   position: sticky;
   background-color: ghostwhite;
   padding: 10px;
+  text-align: center;
+  z-index: 1;
 `
 
 const Link = styled(RouterLink)`
