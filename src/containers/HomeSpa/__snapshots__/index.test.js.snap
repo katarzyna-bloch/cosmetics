@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<HomeSpa
+  fetchProducts={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  products={
+    Array [
+      Object {
+        "id": "1",
+        "img": "img.jpg",
+        "name": "Test",
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ lbYnYk"
+    >
+      <styled.h5>
+        <h5
+          className="sc-gsTCUz dLmfuT"
+        >
+          Relaks dla ciała i duszy
+        </h5>
+      </styled.h5>
+      <ProductsList
+        products={
+          Array [
+            Object {
+              "id": "1",
+              "img": "img.jpg",
+              "name": "Test",
+            },
+          ]
+        }
+      >
+        <styled.div>
+          <div
+            className="sc-jSgupP iOWofb"
+          >
+            <Product
+              img="img.jpg"
+              key="1"
+              name="Test"
+            >
+              <styled.div>
+                <div
+                  className="sc-dlfnbm"
+                >
+                  <styled.div>
+                    <div
+                      className="sc-hKgILt ZTQiC"
+                    >
+                      Test
+                    </div>
+                  </styled.div>
+                  <styled.img
+                    alt="cosmetic"
+                    src="img.jpg"
+                  >
+                    <img
+                      alt="cosmetic"
+                      className="sc-eCssSg dbkirC"
+                      src="img.jpg"
+                    />
+                  </styled.img>
+                </div>
+              </styled.div>
+            </Product>
+          </div>
+        </styled.div>
+      </ProductsList>
+    </div>
+  </styled.div>
+</HomeSpa>
+`;

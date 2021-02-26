@@ -3,6 +3,6 @@ import toJson from 'enzyme-to-json'
 import App from './App'
 
 it('renders correctly', () => {
-  let wrapped = shallow(<App />)
+  const wrapped = shallow(<App />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })
