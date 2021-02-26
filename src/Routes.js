@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import HomeSpa from './components/HomeSpa'
+import HomeSpa from './containers/HomeSpa'
 import Care from './components/Care'
 import Cleaning from './components/Cleaning'
 import Home from './components/Home'
