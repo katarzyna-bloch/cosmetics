@@ -1,7 +1,7 @@
-import homeSpaProducts from './homeSpaProducts'
-import { FETCH_HOME_SPA_PRODUCTS_SUCCESS } from '../actions/homeSpaProducts'
+import careProducts from './careProducts'
+import { FETCH_CARE_PRODUCTS_SUCCESS } from '../actions/careProducts'
 
-it('should handle FETCH_HOME_SPA_PRODUCTS_SUCCESS successfully ', () => {
+it('should handle FETCH_CARE_PRODUCTS_SUCCESS successfully ', () => {
   const products = [
     { 
       "id": "1",
@@ -17,8 +17,8 @@ it('should handle FETCH_HOME_SPA_PRODUCTS_SUCCESS successfully ', () => {
     },
   ]
   const action = {
-    type: FETCH_HOME_SPA_PRODUCTS_SUCCESS,
+    type: FETCH_CARE_PRODUCTS_SUCCESS,
     payload: products,
   }
-  expect(homeSpaProducts([], action)).toEqual(products)
+  expect(careProducts([], action)).toEqual(products)
 })

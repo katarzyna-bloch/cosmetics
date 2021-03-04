@@ -32,7 +32,7 @@ const Link = styled(RouterLink)`
 const Header = () => (     
   <Wrapper>
     <Link to="/">
-      <Title>Blog o kosmetykach</Title>
+      <Title> Sklep kosmetyczny</Title>
       <Photo src="logo.png" alt='kosmetyki' />   
     </Link>
   </Wrapper>

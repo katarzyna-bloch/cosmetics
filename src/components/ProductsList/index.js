@@ -12,11 +12,12 @@ const List = styled.div`
 
 const ProductsList = ({ products }) => ( 
   <List>
-    {products.map(({ name, img, id}) => (
+    {products.map(({ name, img, id, price}) => (
       <Product
         key={id}
         name={name}
         img={img}
+        price={price}
       />
     ))}
   </List>
@@ -27,6 +28,7 @@ ProductsList.propTypes = {
     name: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
   })).isRequired,
 }
 

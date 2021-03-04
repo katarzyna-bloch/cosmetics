@@ -13,7 +13,7 @@ export const HomeSpa = ({ fetchProducts, products }) => {
 
   return (
     <PageWrapper>
-      <ContentHeader>Relaks dla ciała i duszy</ContentHeader>
+      <ContentHeader> Profesjonalne SPA w domowym zaciszu, relaks dla ciała i duszy</ContentHeader>
       <ProductsList products={products}/>
     </PageWrapper>
   )
