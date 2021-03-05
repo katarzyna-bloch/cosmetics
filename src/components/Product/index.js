@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   cursor: pointer;
   margin: 10px;
   border-radius: 2px;
+  border: 1px solid transparent;
 `
 
 const Name = styled.div`
