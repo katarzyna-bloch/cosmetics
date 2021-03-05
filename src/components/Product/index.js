@@ -1,16 +1,39 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import React from 'react'
+import media from '../../utils/media'
 
 const Image = styled.img`
   height: 180px;
   padding: 15px 20px 0px;
+
+  ${media.tablet} {
+    height: 140px;
+  }
 `
 const Wrapper = styled.div`
   cursor: pointer;
-  margin: 10px;
   border-radius: 2px;
   border: 1px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+  flex: 0 25%;
+
+  &:hover {
+    border-color: lightgray;
+  }
+
+  ${media.desktop} {
+    flex: 0 33%;
+  }
+
+  ${media.tablet} {
+    flex: 0 50%;
+  }
+
+  ${media.phone} {
+    flex: 1;
+  }
 `
 
 const Name = styled.div`
@@ -21,20 +44,13 @@ const Price = styled.div`
   text-align: center;
   padding:5px;
 `
-const BorderWrapper = styled.div`
-  &:hover ${Wrapper} {
-  border: 1px solid lightgray;
-}
-`
 
 const Product = ({ name, img, price }) => ( 
-  <BorderWrapper>
-    <Wrapper>
-      <Image src={img} alt='cosmetic' />
-      <Name>{name}</Name>
-      <Price>{price}</Price>
-    </Wrapper>
-  </BorderWrapper>
+  <Wrapper>
+    <Image src={img} alt='cosmetic' />
+    <Name>{name}</Name>
+    <Price>{price}</Price>
+  </Wrapper>
 )
 
 Product.propTypes = {
