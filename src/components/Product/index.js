@@ -32,7 +32,7 @@ const Wrapper = styled.div`
   }
 
   ${media.phone} {
-    flex: 1;
+    flex: 1 100%;
   }
 `
 

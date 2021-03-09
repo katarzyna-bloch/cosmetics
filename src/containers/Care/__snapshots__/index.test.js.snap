@@ -32,7 +32,7 @@ exports[`should render correctly 1`] = `
     >
       <styled.h5>
         <h5
-          className="sc-gsTCUz jUlaeV"
+          className="sc-gsTCUz hGwFLv"
         >
            Aby uzyskać zdrowy wygląd cery, należy przestrzegać codzienną pielęgnację twarzy 
         </h5>
@@ -61,7 +61,7 @@ exports[`should render correctly 1`] = `
             >
               <styled.div>
                 <div
-                  className="sc-hKgILt bGGBDG"
+                  className="sc-hKgILt joCFVe"
                 >
                   <styled.img
                     alt="cosmetic"
