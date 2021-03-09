@@ -1,6 +1,6 @@
 import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import { Care} from '.'
+import { Care } from '.'
 
 it('should render correctly', () => {
   const props = {

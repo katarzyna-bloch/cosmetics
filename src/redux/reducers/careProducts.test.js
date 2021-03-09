@@ -7,13 +7,13 @@ it('should handle FETCH_CARE_PRODUCTS_SUCCESS successfully ', () => {
       "id": "1",
       "name": "Peeling",
       "img": "peeling.png",
-      "price": "10zł"
+      "price": "10zł",
     },
     {  
       "id": "2",
       "name": "Tonik",
       "img": "tonik.png",
-      "price": "10zł"
+      "price": "10zł",
     },
   ]
   const action = {

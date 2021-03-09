@@ -13,13 +13,13 @@ export const Care = ({ fetchProducts, products }) => {
 
   return (
     <PageWrapper>
-      <ContentHeader> Aby uzyskać zdrowy wygląd cery, należy przestrzegać codzienną pielęgnację twarzy </ContentHeader>
-      <ProductsList products={products}/>
+      <ContentHeader>Aby uzyskać zdrowy wygląd cery, należy przestrzegać codzienną pielęgnację twarzy</ContentHeader>
+      <ProductsList products={products} />
     </PageWrapper> 
   )     
 }
 
-const mapStateToProps = ({ careProducts}) => ({
+const mapStateToProps = ({ careProducts }) => ({
   products: careProducts,
 })
 

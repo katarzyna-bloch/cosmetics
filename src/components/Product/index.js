@@ -42,7 +42,7 @@ const Name = styled.div`
 const Price = styled.div`
   font-weight: 600;
   text-align: center;
-  padding:5px;
+  padding: 5px;
 `
 
 const Product = ({ name, img, price }) => ( 

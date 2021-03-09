@@ -1,6 +1,6 @@
 import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import { Cleaning} from '.'
+import { Cleaning } from '.'
 
 it('should render correctly', () => {
   const props = {

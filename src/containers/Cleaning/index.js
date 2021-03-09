@@ -21,7 +21,7 @@ export const Cleaning = ({ fetchProducts, products }) => {
   )     
 }
 
-const mapStateToProps = ({ cleaningProducts}) => ({
+const mapStateToProps = ({ cleaningProducts }) => ({
   products: cleaningProducts,
 })
 
