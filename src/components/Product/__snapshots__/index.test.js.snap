@@ -2,12 +2,15 @@
 
 exports[`should render correctly 1`] = `
 <styled.div>
-  <styled.div>
-    Test product!
-  </styled.div>
   <styled.img
     alt="cosmetic"
     src="img.jpg"
   />
+  <styled.div>
+    Test product!
+  </styled.div>
+  <styled.div>
+    15zł
+  </styled.div>
 </styled.div>
 `;

@@ -1,28 +1,62 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import React from 'react'
+import media from '../../utils/media'
 
-const Wrapper = styled.div``
+const Image = styled.img`
+  height: 180px;
+  padding: 15px 20px 0px;
+
+  ${media.tablet} {
+    height: 140px;
+  }
+`
+const Wrapper = styled.div`
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+  flex: 0 25%;
+
+  &:hover {
+    border-color: lightgray;
+  }
+
+  ${media.desktop} {
+    flex: 0 33%;
+  }
+
+  ${media.tablet} {
+    flex: 0 50%;
+  }
+
+  ${media.phone} {
+    flex: 1 100%;
+  }
+`
 
 const Name = styled.div`
   text-align: center;
 `
-
-const Image = styled.img`
-  height: 180px;
-  padding: 15px 10px 40px;
+const Price = styled.div`
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
 `
 
-const Product = ({ name, img }) => ( 
+const Product = ({ name, img, price }) => ( 
   <Wrapper>
-    <Name>{name}</Name>
     <Image src={img} alt='cosmetic' />
+    <Name>{name}</Name>
+    <Price>{price}</Price>
   </Wrapper>
 )
 
 Product.propTypes = {
   name: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
 }
 
 export default Product

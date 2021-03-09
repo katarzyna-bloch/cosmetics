@@ -6,6 +6,7 @@ exports[`should render correctly 1`] = `
     img="img.jpg"
     key="1"
     name="Test"
+    price="50zł"
   />
 </styled.div>
 `;

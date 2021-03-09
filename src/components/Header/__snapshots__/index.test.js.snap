@@ -6,7 +6,7 @@ exports[`should render correctly 1`] = `
     to="/"
   >
     <styled.h1>
-      Blog o kosmetykach
+      Sklep kosmetyczny
     </styled.h1>
     <styled.img
       alt="kosmetyki"

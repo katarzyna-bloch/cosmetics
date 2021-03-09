@@ -1,6 +1,6 @@
 import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import { HomeSpa } from '.'
+import { Care } from '.'
 
 it('should render correctly', () => {
   const props = {
@@ -9,7 +9,7 @@ it('should render correctly', () => {
       { name: 'Test', img: 'img.jpg', id: '1', price: '10zł' },
     ],
   }
-  const wrapped = mount(<HomeSpa {...props} />)
+  const wrapped = mount(<Care {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()
   wrapped.update()
   expect(props.fetchProducts).toHaveBeenCalled()
