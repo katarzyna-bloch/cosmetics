@@ -32,7 +32,7 @@ exports[`should render correctly 1`] = `
     >
       <styled.h5>
         <h5
-          className="sc-gsTCUz hGwFLv"
+          className="sc-gsTCUz AWQJG"
         >
           Oczyszczanie to podstawowy krok w dojściu do pięknej skóry
         </h5>
@@ -82,7 +82,7 @@ exports[`should render correctly 1`] = `
                   </styled.div>
                   <styled.div>
                     <div
-                      className="sc-jSgupP bjHwBQ"
+                      className="sc-jSgupP dZsdDY"
                     >
                       10zł
                     </div>

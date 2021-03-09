@@ -32,9 +32,9 @@ exports[`should render correctly 1`] = `
     >
       <styled.h5>
         <h5
-          className="sc-gsTCUz hGwFLv"
+          className="sc-gsTCUz AWQJG"
         >
-           Profesjonalne SPA w domowym zaciszu, relaks dla ciała i duszy
+          Profesjonalne SPA w domowym zaciszu, relaks dla ciała i duszy
         </h5>
       </styled.h5>
       <ProductsList
@@ -82,7 +82,7 @@ exports[`should render correctly 1`] = `
                   </styled.div>
                   <styled.div>
                     <div
-                      className="sc-jSgupP bjHwBQ"
+                      className="sc-jSgupP dZsdDY"
                     >
                       10zł
                     </div>
