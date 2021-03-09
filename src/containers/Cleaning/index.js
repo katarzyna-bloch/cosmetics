@@ -14,9 +14,7 @@ export const Cleaning = ({ fetchProducts, products }) => {
   return (
     <PageWrapper>
       <ContentHeader>Oczyszczanie to podstawowy krok w dojściu do pięknej skóry</ContentHeader>
-      <ProductsList
-        products={products}
-      />
+      <ProductsList products={products} />
     </PageWrapper> 
   )     
 }
