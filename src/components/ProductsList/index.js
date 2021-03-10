@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import Product from '../Product'
+import ProductListItem from '../ProductListItem'
 
 const List = styled.div`
   display: flex;
@@ -10,10 +10,11 @@ const List = styled.div`
   flex-wrap: wrap;
 `
 
-const ProductsList = ({ products }) => ( 
+const ProductsList = ({ products }) => (
   <List>
     {products.map(({ name, img, id, price}) => (
-      <Product
+      <ProductListItem
+        id={id}
         key={id}
         name={name}
         img={img}
