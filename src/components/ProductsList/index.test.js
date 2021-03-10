@@ -5,7 +5,11 @@ import ProductsList from '.'
 it('should render correctly', () => {
   const props = {
     products: [
-      { name: 'Test', img: 'img.jpg', id: '1', price: '50zł' },
+      { name: 'Test', 
+        img: 'img.jpg', 
+        id: '1', 
+        price: '50zł'
+      },
     ],
   }
   const wrapped = shallow(<ProductsList {...props} />)

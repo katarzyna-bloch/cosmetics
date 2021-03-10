@@ -1,154 +1,172 @@
 
 {
-  "homeSpaProducts": [
+  "products": [
     { 
       "id": "1",
-      "name": "Peeling",
-      "price": "39zł",
+      "name": "Cytrusowy Peeling Enzymatyczny w Żelu",
+      "price": "89zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
     },
     {  
       "id": "2",
-      "name": "Szczotka",
-      "price": "19zł",
+      "name": "Szczotka do Masażu",
+      "price": "21zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801"
     },
     {
       "id": "3",
-      "name": "Olejek",
-      "price": "32zł",
+      "name": "Orzeźwiający Olejek do Mycia Ciała",
+      "price": "36zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
     },
     {
       "id": "4",
-      "name": "Peeling",
-      "price": "39zł",
+      "name": "Peeling-Maska z Superowocami",
+      "price": "71zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
     },
     {
       "id": "5",
-      "name": "Olejek",
-      "price": "32zł",
+      "name": "Relaksujący Olejek do Mycia Ciała z Płatkami Róży",
+      "price": "62zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
     },
     {
       "id": "6",
-      "name": "Peeling",
-      "price": "39zł",
+      "name": "Delikatny Peeling",
+      "price": "25zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
     },
     {  
       "id": "7",
-      "name": "Szczotka",
+      "name": "Bambusowa Szczotka do Masażu na Sucho",
       "price": "19zł",
+      "type": "homeSpa",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801"
-    }
-  ],
-
-  "cleaningProducts": [
-    {  
-      "id": "1",
-      "name": "Żel oczyszczający",
-      "price": "27zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
-    },
-    { 
-      "id": "2",
-      "name": "Rozświetlająca maska do twarzy",
-      "price": "35zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
-    },
-    {
-      "id": "3",
-      "name": "Tonik",
-      "price": "13zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
-    },
-    {
-      "id": "4",
-      "name": "Żel oczyszczający",
-      "price": "27zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
-    },
-    {
-      "id": "5",
-      "name": "Tonik",
-      "price": "13zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
-    },
-    {
-      "id": "6",
-      "name": "Rozświetlająca maska do twarzy",
-      "price": "35zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
     },
     {  
-      "id": "7",
-      "name": "Żel oczyszczający",
-      "price": "27zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
-    },
-    {
       "id": "8",
-      "name": "Tonik",
-      "price": "13zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
+      "name": "Oczyszczający Żel do Mycia Twarzy",
+      "price": "47zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
     },
-    {
+    { 
       "id": "9",
-      "name": "Rozświetlająca maska do twarzy",
-      "price": "35zł",
+      "name": "Rozświetlająca Maska do Twarzy",
+      "price": "38zł",
+      "type": "cleaning",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
     },
-    {  
+    {
       "id": "10",
-      "name": "Żel oczyszczający",
-      "price": "27zł",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
+      "name": "Tonik Żelowy z 5% Kwasem Glikolowym ",
+      "price": "22zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
     },
     {
       "id": "11",
-      "name": "Tonik",
-      "price": "13zł",
+      "name": "Żel Oczyszczający do Skóry Tłustej i Wrażliwej",
+      "price": "42zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
+    },
+    {
+      "id": "12",
+      "name": "Tonik Żelowy Nawilżający z Mocznikiem",
+      "price": "23zł",
+      "type": "cleaning",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
-    }
-  ],
-
-  "careProducts": [
+    },
+    {
+      "id": "13",
+      "name": "Kremowa Maska do Twarzy do Skóry Pozbawionej Blasku",
+      "price": "78zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
+    },
     {  
-      "id": "1",
-      "name": "Płyn micelarny",
-      "price": "17zł",
+      "id": "14",
+      "name": "Kremowy Żel Oczyszczający o Działaniu Ochronnym",
+      "price": "99zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
+    },
+    {
+      "id": "15",
+      "name": "Nawilżający Tonik do Twarzy",
+      "price": "32zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Całonocna Maska Rozjaśniająca Do Twarzy",
+      "price": "35zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
+    },
+    {  
+      "id": "17",
+      "name": "Żel Oczyszczający o Zapachu Białej Herbaty",
+      "price": "21zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
+    },
+    {
+      "id": "18",
+      "name": "Tonik Nawilżający - Jedwab i Kwiaty Maku Polnego",
+      "price": "89zł",
+      "type": "cleaning",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
+    },
+    {  
+      "id": "19",
+      "name": "Lipowy Płyn Micelarny",
+      "price": "27zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
     },
     { 
-      "id": "2",
-      "name": "Krem nawilżający",
-      "price": "44zł",
+      "id": "20",
+      "name": "Krem Nawilżający z Migdałem i Algami",
+      "price": "98zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401"
     },
     {
-      "id": "3",
-      "name": "Serum",
-      "price": "51zł",
+      "id": "21",
+      "name": "Kolagenowe Serum Odżywcze",
+      "price": "66zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
     },
     {
-      "id": "4",
-      "name": "Płyn micelarny",
+      "id": "22",
+      "name": "Płyn Micelarny z Wodą Różaną",
       "price": "17zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001"
     },
     {
-      "id": "5",
-      "name": "Krem nawilżający",
+      "id": "23",
+      "name": "Intensywnie Nawilżający Krem do Twarzy na Dzień",
       "price": "44zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401"
     },
     {
-      "id": "6",
-      "name": "Serum",
+      "id": "24",
+      "name": "Serum Zwalczające Niedoskonałości Skóry",
       "price": "51zł",
+      "type": "care",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg"
     }
   ]

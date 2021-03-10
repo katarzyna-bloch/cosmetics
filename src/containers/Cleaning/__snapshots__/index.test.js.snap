@@ -48,51 +48,7 @@ exports[`should render correctly 1`] = `
             },
           ]
         }
-      >
-        <styled.div>
-          <div
-            className="sc-gKsewC dWdvfS"
-          >
-            <Product
-              img="img.jpg"
-              key="1"
-              name="Test"
-              price="10zł"
-            >
-              <styled.div>
-                <div
-                  className="sc-hKgILt joCFVe"
-                >
-                  <styled.img
-                    alt="cosmetic"
-                    src="img.jpg"
-                  >
-                    <img
-                      alt="cosmetic"
-                      className="sc-dlfnbm bWLOIL"
-                      src="img.jpg"
-                    />
-                  </styled.img>
-                  <styled.div>
-                    <div
-                      className="sc-eCssSg kWxpnN"
-                    >
-                      Test
-                    </div>
-                  </styled.div>
-                  <styled.div>
-                    <div
-                      className="sc-jSgupP dZsdDY"
-                    >
-                      10zł
-                    </div>
-                  </styled.div>
-                </div>
-              </styled.div>
-            </Product>
-          </div>
-        </styled.div>
-      </ProductsList>
+      />
     </div>
   </styled.div>
 </Cleaning>

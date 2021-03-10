@@ -15,8 +15,8 @@ export const Care = ({ fetchProducts, products }) => {
     <PageWrapper>
       <ContentHeader>Aby uzyskać zdrowy wygląd cery, należy przestrzegać codzienną pielęgnację twarzy</ContentHeader>
       <ProductsList products={products} />
-    </PageWrapper> 
-  )     
+    </PageWrapper>
+  )
 }
 
 const mapStateToProps = ({ careProducts }) => ({

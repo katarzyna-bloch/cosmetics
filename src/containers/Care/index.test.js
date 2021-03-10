@@ -2,6 +2,8 @@ import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import { Care } from '.'
 
+jest.mock('../../components/ProductsList', () => 'ProductsList')
+
 it('should render correctly', () => {
   const props = {
     fetchProducts: jest.fn(),

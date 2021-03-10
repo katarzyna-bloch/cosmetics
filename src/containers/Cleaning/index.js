@@ -15,8 +15,8 @@ export const Cleaning = ({ fetchProducts, products }) => {
     <PageWrapper>
       <ContentHeader>Oczyszczanie to podstawowy krok w dojściu do pięknej skóry</ContentHeader>
       <ProductsList products={products} />
-    </PageWrapper> 
-  )     
+    </PageWrapper>
+  )
 }
 
 const mapStateToProps = ({ cleaningProducts }) => ({
