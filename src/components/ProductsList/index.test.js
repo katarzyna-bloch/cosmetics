@@ -8,7 +8,7 @@ it('should render correctly', () => {
       { name: 'Test', 
         img: 'img.jpg', 
         id: '1', 
-        price: '50zł'
+        price: '50zł',
       },
     ],
   }

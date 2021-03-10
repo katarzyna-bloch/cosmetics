@@ -68,6 +68,7 @@ ProductListItem.propTypes = {
   name: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 }
 
 export default ProductListItem
