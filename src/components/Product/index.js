@@ -20,6 +20,7 @@ const Wrapper = styled(PageWrapper)`
 const ContainerDetails = styled.div`
   flex-direction: row;
   display: flex;
+  padding-top: 20px;
 
   ${media.phone} {
     flex-direction: column;
@@ -28,11 +29,11 @@ const ContainerDetails = styled.div`
 
 const ContentDetails = styled.div`
   flex: 1;
-  flex-direction: column;
 `
 
 const ContentImage = styled(ContentDetails)`
-  padding-top: 15px;
+  display: flex;
+  justify-content: center;
 
   ${media.tablet} {
     padding: 20px;
@@ -48,7 +49,7 @@ const BrandName = styled.div`
   font-family: sans-serif;
   font-weight: 600;
   font-size: 20px;
-  padding: 40px 0px 5px 0px;
+  padding-bottom: 5px;
 `
 
 const ProductName = styled.div`
@@ -56,11 +57,10 @@ const ProductName = styled.div`
   padding-bottom: 15px;
 `
 
-
 const ProductDetails = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px;
   border-top: 1px solid lightgrey;
 `
 
@@ -119,8 +119,6 @@ const Product = () => (
       {product.description}
     </ContainerDescription>
   </Wrapper>
-
-      
 )
 
 export default Product
