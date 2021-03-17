@@ -9,8 +9,8 @@ exports[`should render correctly 1`] = `
       Sklep kosmetyczny
     </styled.h1>
     <styled.img
-      alt="kosmetyki"
-      src="logo.png"
+      alt="cosmetics"
+      src="/logo.png"
     />
   </Styled(Link)>
 </styled.header>
