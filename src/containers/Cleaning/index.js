@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
 import PageWrapper from '../../components/PageWrapper'
 import ContentHeader from '../../components/ContentHeader'
@@ -26,5 +27,10 @@ const mapStateToProps = ({ cleaningProducts }) => ({
 const mapDispatchToProps = dispatch => ({
   fetchProducts: () => dispatch(requestCleaningProducts()),
 })
+
+Cleaning.propTypes = {
+  fetchProducts: PropTypes.func.isRequired,
+  products: PropTypes.array.isRequired,
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cleaning)

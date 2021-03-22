@@ -4,8 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 import HomeSpa from './containers/HomeSpa'
 import Care from './containers/Care'
 import Cleaning from './containers/Cleaning'
+import Product from'./containers/Product'
 import Home from './components/Home'
-import Product from'./components/Product'
 
 const Routes = () => (
   <Switch>

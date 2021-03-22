@@ -12,3 +12,8 @@ export const fetchCareProducts = () => {
   return fetch('http://localhost:3004/products?type=care')
     .then(response => response.json());
 }
+
+export const fetchProduct = (id) => {
+  return fetch(`http://localhost:3004/products/${id}`)
+    .then(response => response.json());
+}
