@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Product
+  fetchProducts={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "1",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "id": "1",
+      },
+    }
+  }
+  product={
+    Object {
+      "brand": "Dove",
+      "description": "Opis produktu",
+      "img": "img.jpg",
+      "name": "Test",
+      "price": "10zł",
+      "volume": "20ml",
+    }
+  }
+>
+  <Product
+    brand="Dove"
+    description="Opis produktu"
+    img="img.jpg"
+    name="Test"
+    price="10zł"
+    volume="20ml"
+  >
+    <Styled(styled.div)>
+      <div
+        className="sc-bdfBwQ sc-gsTCUz lbYnYk gsdDAu"
+      >
+        <styled.div>
+          <div
+            className="sc-dlfnbm YVFBv"
+          >
+            <Styled(styled.div)>
+              <div
+                className="sc-hKgILt sc-eCssSg dhzLxW feSPYm"
+              >
+                <styled.img
+                  alt="photo"
+                  src="img.jpg"
+                >
+                  <img
+                    alt="photo"
+                    className="sc-jSgupP etYIRO"
+                    src="img.jpg"
+                  />
+                </styled.img>
+              </div>
+            </Styled(styled.div)>
+            <styled.div>
+              <div
+                className="sc-hKgILt dhzLxW"
+              >
+                <styled.div>
+                  <div
+                    className="sc-gKsewC cyBcNG"
+                  >
+                    Dove
+                  </div>
+                </styled.div>
+                <styled.div>
+                  <div
+                    className="sc-iBPRYJ bkrLyP"
+                  >
+                    Test
+                  </div>
+                </styled.div>
+                <styled.div>
+                  <div
+                    className="sc-fubCfw fRBbOd"
+                  >
+                    <Styled(styled.div)>
+                      <div
+                        className="sc-jrAGrp sc-kEjbxe fkrcdp dpPEcA"
+                      >
+                        20ml
+                      </div>
+                    </Styled(styled.div)>
+                    <styled.div>
+                      <div
+                        className="sc-jrAGrp fkrcdp"
+                      >
+                        10zł
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <Styled(styled.div)>
+                  <div
+                    className="sc-fubCfw sc-pFZIQ fRBbOd iAhtwU"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-iqHYGH bLpkkN"
+                      >
+                        Produkt dostępny
+                      </div>
+                    </styled.div>
+                    <styled.div>
+                      <div
+                        className="sc-crrsfI"
+                      >
+                        Dostawa gratis od 99 zł
+                      </div>
+                    </styled.div>
+                  </div>
+                </Styled(styled.div)>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-dQppl"
+          >
+            <styled.div>
+              <div
+                className="sc-bqyKva gXva-df"
+              >
+                Opis Produktu
+              </div>
+            </styled.div>
+            Opis produktu
+          </div>
+        </styled.div>
+      </div>
+    </Styled(styled.div)>
+  </Product>
+</Product>
+`;

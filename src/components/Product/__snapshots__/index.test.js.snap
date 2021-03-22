@@ -6,22 +6,22 @@ exports[`should render correctly 1`] = `
     <Styled(styled.div)>
       <styled.img
         alt="photo"
-        src="https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801"
+        src="img.jpg"
       />
     </Styled(styled.div)>
     <styled.div>
       <styled.div>
-        resibo
+        Nivea
       </styled.div>
       <styled.div>
-        Cytrusowy Peeling Enzymatyczny w Żelu
+        Test product!
       </styled.div>
       <styled.div>
         <Styled(styled.div)>
-          120ml
+          15 ml
         </Styled(styled.div)>
         <styled.div>
-          89zł
+          15 zł
         </styled.div>
       </styled.div>
       <Styled(styled.div)>
@@ -29,7 +29,7 @@ exports[`should render correctly 1`] = `
           Produkt dostępny
         </styled.div>
         <styled.div>
-          Dostawa gratis od 99zł
+          Dostawa gratis od 99 zł
         </styled.div>
       </Styled(styled.div)>
     </styled.div>
@@ -38,7 +38,7 @@ exports[`should render correctly 1`] = `
     <styled.div>
       Opis Produktu
     </styled.div>
-    Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca.
+    Opis produktu
   </styled.div>
 </Styled(styled.div)>
 `;

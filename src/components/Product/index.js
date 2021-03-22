@@ -1,22 +1,14 @@
 import styled from 'styled-components'
-import PageWrapper from '../PageWrapper'
 import media from '../../utils/media'
+import PropTypes from 'prop-types'
 
-const product = { 
-  id: "1",
-  brand: "resibo",
-  name: "Cytrusowy Peeling Enzymatyczny w Żelu",
-  volume: "120ml",
-  price: "89zł",
-  type: "homeSpa",
-  img: "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-  description: "Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
-}
+import PageWrapper from '../PageWrapper'
 
 const Wrapper = styled(PageWrapper)`
   flex-direction: column;
   padding: 15px;
 `
+
 const ContainerDetails = styled.div`
   flex-direction: row;
   display: flex;
@@ -91,34 +83,43 @@ const ProductDescription = styled.div`
   font-weight: 600;
 `
 
-const Product = () => (
+const Product = ({ img, brand, name, volume, price, description }) => (
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
-        <Image src={product.img} alt='photo'/>
+        <Image src={img} alt='photo' />
       </ContentImage>
 
       <ContentDetails>
-        <BrandName>{product.brand}</BrandName>
-        <ProductName>{product.name}</ProductName >
+        <BrandName>{brand}</BrandName>
+        <ProductName>{name}</ProductName >
 
         <ProductDetails>
-          <Volume>{product.volume}</Volume>
-          <Price>{product.price}</Price>
+          <Volume>{volume}</Volume>
+          <Price>{price}</Price>
         </ProductDetails>
 
         <DeliverContent>
           <DeliveryInfo>Produkt dostępny</DeliveryInfo>
-          <Delivery>Dostawa gratis od 99zł</Delivery>
+          <Delivery>Dostawa gratis od 99 zł</Delivery>
         </DeliverContent>
       </ContentDetails>
     </ContainerDetails>
 
-    <ContainerDescription> 
+    <ContainerDescription>
       <ProductDescription>Opis Produktu</ProductDescription>
-      {product.description}
+      {description}
     </ContainerDescription>
   </Wrapper>
 )
+
+Product.propTypes = {
+  img: PropTypes.string,
+  brand: PropTypes.string,
+  name: PropTypes.string,
+  volume: PropTypes.string,
+  price: PropTypes.string,
+  description: PropTypes.string,
+}
 
 export default Product

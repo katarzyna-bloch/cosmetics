@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
 import PageWrapper from '../../components/PageWrapper'
 import ContentHeader from '../../components/ContentHeader'
@@ -13,8 +14,8 @@ export const HomeSpa = ({ fetchProducts, products }) => {
 
   return (
     <PageWrapper>
-      <ContentHeader>Profesjonalne SPA w domowym zaciszu, relaks dla ciała i duszy</ContentHeader>
-      <ProductsList products={products}/>
+      <ContentHeader>Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy</ContentHeader>
+      <ProductsList products={products} />
     </PageWrapper>
   )
 }
@@ -23,8 +24,13 @@ const mapStateToProps = ({ homeSpaProducts }) => ({
   products: homeSpaProducts,
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   fetchProducts: () => dispatch(requestHomeSpaProducts()),
 })
+
+HomeSpa.propTypes = {
+  fetchProducts: PropTypes.func.isRequired,
+  products: PropTypes.array.isRequired,
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeSpa)

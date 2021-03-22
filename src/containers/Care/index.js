@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
 import PageWrapper from '../../components/PageWrapper'
 import ContentHeader from '../../components/ContentHeader'
@@ -23,8 +24,13 @@ const mapStateToProps = ({ careProducts }) => ({
   products: careProducts,
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   fetchProducts: () => dispatch(requestCareProducts()),
 })
+
+Care.propTypes = {
+  fetchProducts: PropTypes.func.isRequired,
+  products: PropTypes.array.isRequired,
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Care)
