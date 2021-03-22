@@ -24,7 +24,7 @@ const mapStateToProps = ({ homeSpaProducts }) => ({
   products: homeSpaProducts,
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   fetchProducts: () => dispatch(requestHomeSpaProducts()),
 })
 

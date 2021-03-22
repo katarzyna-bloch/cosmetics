@@ -12,7 +12,7 @@ it('should render correctly', () => {
       volume: '20ml',
       price: '10zł',
       description: 'Opis produktu',
-      },
+    },
     match: {
       params: {
         id: '1',
