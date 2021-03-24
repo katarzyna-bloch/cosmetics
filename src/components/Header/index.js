@@ -1,6 +1,6 @@
-import styled from "styled-components"
-import { Link as RouterLink } from "react-router-dom"
-import media from "../../utils/media"
+import styled from 'styled-components'
+import { Link as RouterLink } from 'react-router-dom'
+import media from '../../utils/media'
 
 const Wrapper = styled.header`
   background-color: ghostwhite;

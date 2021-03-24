@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
-import { connect } from "react-redux"
-import PropTypes from "prop-types"
+import React, { useEffect } from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
-import PageWrapper from "../../components/PageWrapper"
-import ContentHeader from "../../components/ContentHeader"
-import ProductsList from "../../components/ProductsList"
-import { requestHomeSpaProducts } from "../../redux/actions"
+import PageWrapper from '../../components/PageWrapper'
+import ContentHeader from '../../components/ContentHeader'
+import ProductsList from '../../components/ProductsList'
+import { requestHomeSpaProducts } from '../../redux/actions'
 
 export const HomeSpa = ({ fetchProducts, products }) => {
   useEffect(() => {

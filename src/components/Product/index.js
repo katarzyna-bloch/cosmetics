@@ -1,8 +1,8 @@
-import styled from "styled-components"
-import media from "../../utils/media"
-import PropTypes from "prop-types"
+import styled from 'styled-components'
+import media from '../../utils/media'
+import PropTypes from 'prop-types'
 
-import PageWrapper from "../PageWrapper"
+import PageWrapper from '../PageWrapper'
 
 const Wrapper = styled(PageWrapper)`
   flex-direction: column;

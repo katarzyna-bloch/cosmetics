@@ -1,7 +1,7 @@
-import careProducts from "./careProducts"
-import { FETCH_CARE_PRODUCTS_SUCCESS } from "../actions/careProducts"
+import careProducts from './careProducts'
+import { FETCH_CARE_PRODUCTS_SUCCESS } from '../actions/careProducts'
 
-it("should handle FETCH_CARE_PRODUCTS_SUCCESS successfully ", () => {
+it('should handle FETCH_CARE_PRODUCTS_SUCCESS successfully', () => {
   const products = [
     { 
       "id": "1",

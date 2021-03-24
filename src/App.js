@@ -1,11 +1,11 @@
-import React from "react"
-import { BrowserRouter as Router } from "react-router-dom"
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-import Header from "./components/Header"
-import Navigation from "./components/Navigation"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
-import Routes from "./Routes"
+import Header from './components/Header'
+import Navigation from './components/Navigation'
+import Main from './components/Main'
+import Footer from './components/Footer'
+import Routes from './Routes'
 
 const App = () => (
   <Router>

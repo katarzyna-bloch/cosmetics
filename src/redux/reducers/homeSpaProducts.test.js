@@ -1,7 +1,7 @@
-import homeSpaProducts from "./homeSpaProducts"
-import { FETCH_HOME_SPA_PRODUCTS_SUCCESS } from "../actions/homeSpaProducts"
+import homeSpaProducts from './homeSpaProducts'
+import { FETCH_HOME_SPA_PRODUCTS_SUCCESS } from '../actions/homeSpaProducts'
 
-it("should handle FETCH_HOME_SPA_PRODUCTS_SUCCESS successfully ", () => {
+it('should handle FETCH_HOME_SPA_PRODUCTS_SUCCESS successfully', () => {
   const products = [
     { 
       "id": "1",
