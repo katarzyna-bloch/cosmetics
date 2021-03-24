@@ -87,7 +87,7 @@ const Product = ({ img, brand, name, volume, price, description }) => (
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
-        <Image src={img} alt='photo' />
+        <Image src={img} alt="photo" />
       </ContentImage>
 
       <ContentDetails>

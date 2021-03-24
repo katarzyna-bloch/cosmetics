@@ -14,7 +14,7 @@ const Link = styled.a`
   margin: 30px;
 
   ${media.phone} {
-    margin: 15px;
+    margin: 10px;
   }
 `
 

@@ -10,7 +10,7 @@ const Photo = styled.img`
 `
 
 const Home = () => ( 
-  <Photo src="cosmetics.jpg" alt='kosmetyki' /> 
+  <Photo src="cosmetics.jpg" alt="kosmetyki" /> 
 )
 
 export default Home

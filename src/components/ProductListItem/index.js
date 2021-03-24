@@ -57,7 +57,7 @@ const Price = styled.div`
 const ProductListItem = ({ id, name, img, price }) => (
   <Link to={`products/${id}`}>
     <Wrapper>
-      <Image src={img} alt='cosmetic' />
+      <Image src={img} alt="cosmetic" />
       <Name>{name}</Name>
       <Price>{price}</Price>
     </Wrapper>

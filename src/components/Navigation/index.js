@@ -8,9 +8,18 @@ const Nav = styled.nav`
   position: sticky;
   background-color: ghostwhite;
   padding: 10px;
-  text-align: center;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+
+  ${media.tablet} {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 15px;
+  }
 `
+const ContentLink = styled.div``
 
 const Link = styled(RouterLink)`
   padding-right: 30px;
@@ -21,17 +30,33 @@ const Link = styled(RouterLink)`
     padding-right: 15px;
   }
 `
-
+const ContentForm = styled.form`
+  ${media.tablet} {
+    margin-top: 10px;
+  }
+`
 const Search = styled.input``
+const Button = styled.button``
 
+const Navigation = () => {
 
-const Navigation = () => (
-  <Nav>
-    <Link to="/home-spa">Domowe SPA</Link>
-    <Link to="/cleaning">Oczyszczanie</Link>
-    <Link to="/care">Pielęgnacja</Link>
-    <Search type='text' placeholder='szukaj' />
-  </Nav>
-)
+  const handleSubmit = (e) => {
+    e.preventDefault()
+  }
+  
+  return (
+    <Nav>
+      <ContentLink>
+        <Link to="/home-spa">Domowe SPA</Link>
+        <Link to="/cleaning">Oczyszczanie</Link>
+        <Link to="/care">Pielęgnacja</Link>
+      </ContentLink>
+      <ContentForm onSubmit={handleSubmit}>
+        <Search type="text" placeholder="znajdź produkt" />
+        <Button type="submit">Szukaj</Button>
+      </ContentForm>
+    </Nav>
+  )
+}
 
 export default Navigation

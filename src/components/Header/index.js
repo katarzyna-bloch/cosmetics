@@ -33,7 +33,7 @@ const Header = () => (
   <Wrapper>
     <Link to="/">
       <Title>Sklep kosmetyczny</Title>
-      <Photo src="/logo.png" alt='cosmetics' />   
+      <Photo src="/logo.png" alt="cosmetics" />   
     </Link>
   </Wrapper>
 )

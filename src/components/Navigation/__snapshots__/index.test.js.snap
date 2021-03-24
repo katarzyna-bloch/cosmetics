@@ -2,24 +2,35 @@
 
 exports[`should render correctly 1`] = `
 <styled.nav>
-  <Styled(Link)
-    to="/home-spa"
+  <styled.div>
+    <Styled(Link)
+      to="/home-spa"
+    >
+      Domowe SPA
+    </Styled(Link)>
+    <Styled(Link)
+      to="/cleaning"
+    >
+      Oczyszczanie
+    </Styled(Link)>
+    <Styled(Link)
+      to="/care"
+    >
+      Pielęgnacja
+    </Styled(Link)>
+  </styled.div>
+  <styled.form
+    onSubmit={[Function]}
   >
-    Domowe SPA
-  </Styled(Link)>
-  <Styled(Link)
-    to="/cleaning"
-  >
-    Oczyszczanie
-  </Styled(Link)>
-  <Styled(Link)
-    to="/care"
-  >
-    Pielęgnacja
-  </Styled(Link)>
-  <styled.input
-    placeholder="szukaj"
-    type="text"
-  />
+    <styled.input
+      placeholder="znajdź produkt"
+      type="text"
+    />
+    <styled.button
+      type="submit"
+    >
+      Szukaj
+    </styled.button>
+  </styled.form>
 </styled.nav>
 `;
