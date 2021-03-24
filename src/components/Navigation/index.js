@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import { Link as RouterLink } from 'react-router-dom'
-import media from '../../utils/media'
+import styled from "styled-components"
+import { Link as RouterLink } from "react-router-dom"
+import media from "../../utils/media"
 
 const Nav = styled.nav`
   top: 0;
@@ -52,8 +52,8 @@ const Navigation = () => {
         <Link to="/care">Pielęgnacja</Link>
       </ContentLink>
       <ContentForm onSubmit={handleSubmit}>
-        <Search type='text' placeholder='znajdź produkt' />
-        <Button type='submit'>Szukaj</Button>
+        <Search type="text" placeholder="znajdź produkt" />
+        <Button type="submit">Szukaj</Button>
       </ContentForm>
     </Nav>
   )

@@ -1,4 +1,4 @@
-import { FETCH_CARE_PRODUCTS_SUCCESS } from '../actions'
+import { FETCH_CARE_PRODUCTS_SUCCESS } from "../actions"
 
 const initialState = []
 

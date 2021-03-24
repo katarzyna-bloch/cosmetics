@@ -1,5 +1,5 @@
-import { fetchHomeSpaProducts } from '../../services';
-export const FETCH_HOME_SPA_PRODUCTS_SUCCESS = 'FETCH_HOME_SPA_PRODUCTS_SUCCESS'
+import { fetchHomeSpaProducts } from "../../services";
+export const FETCH_HOME_SPA_PRODUCTS_SUCCESS = "FETCH_HOME_SPA_PRODUCTS_SUCCESS"
 
 export const requestHomeSpaProducts = () => (dispatch) => {
   return fetchHomeSpaProducts()

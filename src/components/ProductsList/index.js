@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import PropTypes from 'prop-types'
-import React from 'react'
+import styled from "styled-components"
+import PropTypes from "prop-types"
+import React from "react"
 
-import ProductListItem from '../ProductListItem'
+import ProductListItem from "../ProductListItem"
 
 const List = styled.div`
   display: flex;

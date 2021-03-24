@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
-import { compose } from 'redux'
-import { connect } from 'react-redux'
-import { withRouter } from 'react-router'
-import PropTypes from 'prop-types'
+import React, { useEffect } from "react"
+import { compose } from "redux"
+import { connect } from "react-redux"
+import { withRouter } from "react-router"
+import PropTypes from "prop-types"
 
-import ProductComponent from '../../components/Product'
-import { requestProduct } from '../../redux/actions'
+import ProductComponent from "../../components/Product"
+import { requestProduct } from "../../redux/actions"
 
 export const Product = ({ fetchProducts, product, match: { params: { id } } }) => {
   useEffect(() => {

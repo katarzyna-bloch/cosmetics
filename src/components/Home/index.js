@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const Photo = styled.img`
   position: absolute;
@@ -10,7 +10,7 @@ const Photo = styled.img`
 `
 
 const Home = () => ( 
-  <Photo src="cosmetics.jpg" alt='kosmetyki' /> 
+  <Photo src="cosmetics.jpg" alt="kosmetyki" /> 
 )
 
 export default Home

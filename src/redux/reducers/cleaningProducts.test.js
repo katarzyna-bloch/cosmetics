@@ -1,7 +1,7 @@
-import cleaningProducts from './cleaningProducts'
-import { FETCH_CLEANING_PRODUCTS_SUCCESS } from '../actions/cleaningProducts'
+import cleaningProducts from "./cleaningProducts"
+import { FETCH_CLEANING_PRODUCTS_SUCCESS } from "../actions/cleaningProducts"
 
-it('should handle FETCH_CLEANING_PRODUCTS_SUCCESS successfully ', () => {
+it("should handle FETCH_CLEANING_PRODUCTS_SUCCESS successfully ", () => {
   const products = [
     { 
       "id": "1",

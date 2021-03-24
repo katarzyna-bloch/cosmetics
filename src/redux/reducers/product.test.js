@@ -1,7 +1,7 @@
-import product from './product'
-import { FETCH_PRODUCT_SUCCESS } from '../actions/product'
+import product from "./product"
+import { FETCH_PRODUCT_SUCCESS } from "../actions/product"
 
-it('should handle FETCH_PRODUCT_SUCCESS successfully ', () => {
+it("should handle FETCH_PRODUCT_SUCCESS successfully ", () => {
   const productData = { 
     "brand": "Dove",
     "name": "Peeling",

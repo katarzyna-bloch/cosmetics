@@ -1,4 +1,4 @@
-import { FETCH_HOME_SPA_PRODUCTS_SUCCESS } from '../actions'
+import { FETCH_HOME_SPA_PRODUCTS_SUCCESS } from "../actions"
 
 const initialState = []
 

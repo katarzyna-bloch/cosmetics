@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import PropTypes from 'prop-types'
-import React from 'react'
-import media from '../../utils/media'
-import { Link as RouterLink } from 'react-router-dom'
+import styled from "styled-components"
+import PropTypes from "prop-types"
+import React from "react"
+import media from "../../utils/media"
+import { Link as RouterLink } from "react-router-dom"
 
 const Link = styled(RouterLink)`
   text-decoration: none;
@@ -57,7 +57,7 @@ const Price = styled.div`
 const ProductListItem = ({ id, name, img, price }) => (
   <Link to={`products/${id}`}>
     <Wrapper>
-      <Image src={img} alt='cosmetic' />
+      <Image src={img} alt="cosmetic" />
       <Name>{name}</Name>
       <Price>{price}</Price>
     </Wrapper>
