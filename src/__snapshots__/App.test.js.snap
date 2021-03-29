@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <BrowserRouter>
   <Header />
-  <Navigation />
+  <withRouter(Navigation) />
   <styled.main>
     <Routes />
   </styled.main>

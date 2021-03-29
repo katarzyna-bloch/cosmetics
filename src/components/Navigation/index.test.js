@@ -1,8 +1,36 @@
-import { shallow } from 'enzyme'
+import { shallow, mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import Navigation from '.'
+
+import { Navigation } from '.'
+
+jest.mock('react-router-dom', () => {
+  return { Link: () => 'Link' }
+})
+
+const props = {
+  history: {
+    push: jest.fn(),
+  },
+}
 
 it('should render correctly', () => {
-  const wrapped = shallow(<Navigation />)
+  const wrapped = shallow(<Navigation {...props} />)
+  expect(toJson(wrapped)).toMatchSnapshot()
+})
+
+it('should submit form correctly', () => {
+  const wrapped = mount(<Navigation {...props} />)
+
+  const input = wrapped.find('input')
+  input.simulate('change', { target: { value: 'Hello' } })
+
+  expect(toJson(wrapped)).toMatchSnapshot()
+
+  const form = wrapped.find('form')
+  const event = { preventDefault: jest.fn() }
+  form.simulate('submit', event)
+
+  expect(event.preventDefault).toHaveBeenCalled()
+  expect(props.history.push).toHaveBeenCalledWith('/search?q=Hello')
   expect(toJson(wrapped)).toMatchSnapshot()
 })

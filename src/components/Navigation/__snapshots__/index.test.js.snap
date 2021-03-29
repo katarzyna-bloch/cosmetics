@@ -23,8 +23,10 @@ exports[`should render correctly 1`] = `
     onSubmit={[Function]}
   >
     <styled.input
+      onChange={[Function]}
       placeholder="znajdź produkt"
       type="text"
+      value=""
     />
     <styled.button
       type="submit"
@@ -33,4 +35,188 @@ exports[`should render correctly 1`] = `
     </styled.button>
   </styled.form>
 </styled.nav>
+`;
+
+exports[`should submit form correctly 1`] = `
+<Navigation
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+>
+  <styled.nav>
+    <nav
+      className="sc-bdfBwQ hrHEgq"
+    >
+      <styled.div>
+        <div
+          className="sc-gsTCUz"
+        >
+          <Styled(Link)
+            to="/home-spa"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/home-spa"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+          <Styled(Link)
+            to="/cleaning"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/cleaning"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+          <Styled(Link)
+            to="/care"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/care"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+        </div>
+      </styled.div>
+      <styled.form
+        onSubmit={[Function]}
+      >
+        <form
+          className="sc-hKgILt bEzENJ"
+          onSubmit={[Function]}
+        >
+          <styled.input
+            onChange={[Function]}
+            placeholder="znajdź produkt"
+            type="text"
+            value="Hello"
+          >
+            <input
+              className="sc-eCssSg"
+              onChange={[Function]}
+              placeholder="znajdź produkt"
+              type="text"
+              value="Hello"
+            />
+          </styled.input>
+          <styled.button
+            type="submit"
+          >
+            <button
+              className="sc-jSgupP"
+              type="submit"
+            >
+              Szukaj
+            </button>
+          </styled.button>
+        </form>
+      </styled.form>
+    </nav>
+  </styled.nav>
+</Navigation>
+`;
+
+exports[`should submit form correctly 2`] = `
+<Navigation
+  history={
+    Object {
+      "push": [MockFunction] {
+        "calls": Array [
+          Array [
+            "/search?q=Hello",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+>
+  <styled.nav>
+    <nav
+      className="sc-bdfBwQ hrHEgq"
+    >
+      <styled.div>
+        <div
+          className="sc-gsTCUz"
+        >
+          <Styled(Link)
+            to="/home-spa"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/home-spa"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+          <Styled(Link)
+            to="/cleaning"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/cleaning"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+          <Styled(Link)
+            to="/care"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/care"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
+        </div>
+      </styled.div>
+      <styled.form
+        onSubmit={[Function]}
+      >
+        <form
+          className="sc-hKgILt bEzENJ"
+          onSubmit={[Function]}
+        >
+          <styled.input
+            onChange={[Function]}
+            placeholder="znajdź produkt"
+            type="text"
+            value=""
+          >
+            <input
+              className="sc-eCssSg"
+              onChange={[Function]}
+              placeholder="znajdź produkt"
+              type="text"
+              value=""
+            />
+          </styled.input>
+          <styled.button
+            type="submit"
+          >
+            <button
+              className="sc-jSgupP"
+              type="submit"
+            >
+              Szukaj
+            </button>
+          </styled.button>
+        </form>
+      </styled.form>
+    </nav>
+  </styled.nav>
+</Navigation>
 `;
