@@ -3,9 +3,7 @@ import toJson from 'enzyme-to-json'
 
 import { Navigation } from '.'
 
-jest.mock('react-router-dom', () => {
-  return { Link: () => 'Link' }
-})
+jest.mock('react-router-dom', () => ({ Link: () => 'Link' }))
 
 const props = {
   history: {
