@@ -6,6 +6,7 @@ import Care from './containers/Care'
 import Cleaning from './containers/Cleaning'
 import Product from'./containers/Product'
 import Home from './components/Home'
+import Search from './components/Search'
 
 const Routes = () => (
   <Switch>
@@ -13,6 +14,7 @@ const Routes = () => (
     <Route path="/care" component={Care} />
     <Route path="/cleaning" component={Cleaning} />
     <Route path="/products/:id" component={Product} />
+    <Route path="/search" component={Search} />
     <Route exact path="/" component={Home} />
   </Switch>
 )

@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
+import { withRouter } from 'react-router'
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
+
 import media from '../../utils/media'
 
 const Nav = styled.nav`
@@ -35,13 +39,20 @@ const ContentForm = styled.form`
     margin-top: 10px;
   }
 `
-const Search = styled.input``
+const TextField = styled.input``
 const Button = styled.button``
 
-const Navigation = () => {
+export const Navigation = ({ history: { push }}) => {
+  const [textField, setField] = useState('')
+
+  const handleChange = (e) => {
+    setField(e.target.value)
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    push(`/search?q=${textField}`)
+    setField('')
   }
   
   return (
@@ -52,11 +63,16 @@ const Navigation = () => {
         <Link to="/care">Pielęgnacja</Link>
       </ContentLink>
       <ContentForm onSubmit={handleSubmit}>
-        <Search type="text" placeholder="znajdź produkt" />
+        <TextField type="text" placeholder="znajdź produkt" value={textField} onChange={handleChange}/>
         <Button type="submit">Szukaj</Button>
       </ContentForm>
     </Nav>
   )
 }
 
-export default Navigation
+Navigation.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
+}
+export default withRouter(Navigation)
