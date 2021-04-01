@@ -17,3 +17,8 @@ export const fetchProduct = (id) => {
   return fetch(`http://localhost:3004/products/${id}`)
     .then((response) => response.json());
 }
+
+export const fetchSearch = (search) => {
+  return fetch(`http://localhost:3004/products${search}`)
+    .then((response) => response.json());
+}
