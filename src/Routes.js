@@ -5,8 +5,8 @@ import HomeSpa from './containers/HomeSpa'
 import Care from './containers/Care'
 import Cleaning from './containers/Cleaning'
 import Product from'./containers/Product'
+import Search from './containers/Search'
 import Home from './components/Home'
-import Search from './components/Search'
 
 const Routes = () => (
   <Switch>

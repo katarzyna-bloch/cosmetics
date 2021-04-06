@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Search
+  fetchProducts={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "?q=krem",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  location={
+    Object {
+      "search": "?q=krem",
+    }
+  }
+  products={
+    Array [
+      Object {
+        "id": "1",
+        "img": "img.jpg",
+        "name": "Test",
+        "price": "10zł",
+      },
+    ]
+  }
+>
+  <ProductsList
+    products={
+      Array [
+        Object {
+          "id": "1",
+          "img": "img.jpg",
+          "name": "Test",
+          "price": "10zł",
+        },
+      ]
+    }
+  />
+</Search>
+`;
