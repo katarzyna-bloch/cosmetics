@@ -17,12 +17,14 @@ exports[`should render correctly 1`] = `
         Test product!
       </styled.div>
       <styled.div>
-        <Styled(styled.div)>
-          15 ml
-        </Styled(styled.div)>
         <styled.div>
-          15 zł
+          15 ml
         </styled.div>
+        <Price
+          hasDiscount={true}
+          oldPrice="50 zł"
+          price="15 zł"
+        />
       </styled.div>
       <Styled(styled.div)>
         <styled.div>

@@ -12,9 +12,11 @@ exports[`should render correctly 1`] = `
     <styled.div>
       Test product!
     </styled.div>
-    <styled.div>
-      15zł
-    </styled.div>
+    <Price
+      hasDiscount={true}
+      oldPrice="26 zł"
+      price="15zł"
+    />
   </styled.div>
 </Styled(Link)>
 `;

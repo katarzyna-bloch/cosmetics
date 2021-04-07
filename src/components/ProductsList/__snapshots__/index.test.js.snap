@@ -3,10 +3,12 @@
 exports[`should render correctly 1`] = `
 <styled.div>
   <ProductListItem
+    hasDiscount={true}
     id="1"
     img="img.jpg"
     key="1"
     name="Test"
+    oldPrice="79 zł"
     price="50zł"
   />
 </styled.div>

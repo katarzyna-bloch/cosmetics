@@ -1,16 +1,13 @@
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import ProductListItem from '.'
+import Price from '.'
 
 it('should render correctly', () => {
   const props = {
-    name: 'Test product!',
-    img: 'img.jpg',
-    price: '15zł',
-    id: '1',
-    oldPrice: '26 zł',
+    price: '15 zł',
+    oldPrice: '50 zł',
     hasDiscount: true,
   }
-  const wrapped = shallow(<ProductListItem {...props} />)
+  const wrapped = shallow(<Price {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()
 })

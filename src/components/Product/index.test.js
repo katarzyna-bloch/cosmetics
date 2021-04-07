@@ -10,6 +10,8 @@ it('should render correctly', () => {
     price: '15 zł',
     volume: '15 ml',
     description: 'Opis produktu',
+    oldPrice: '50 zł',
+    hasDiscount: true,
   }
   const wrapped = shallow(<Product {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

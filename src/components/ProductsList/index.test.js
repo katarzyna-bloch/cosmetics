@@ -9,6 +9,8 @@ it('should render correctly', () => {
         img: 'img.jpg', 
         id: '1', 
         price: '50zł',
+        oldPrice: '79 zł',
+        hasDiscount: true,
       },
     ],
   }

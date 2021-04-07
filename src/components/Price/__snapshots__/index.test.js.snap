@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <styled.div>
+    50 zł
+  </styled.div>
+  <styled.div
+    hasDiscount={true}
+  >
+    15 zł
+  </styled.div>
+</Fragment>
+`;

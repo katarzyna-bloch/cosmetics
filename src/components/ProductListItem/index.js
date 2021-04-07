@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import media from '../../utils/media'
 import { Link as RouterLink } from 'react-router-dom'
+import Price from '../Price'
 
 const Link = styled(RouterLink)`
   text-decoration: none;
@@ -48,18 +49,12 @@ const Name = styled.div`
   padding: 5px;
 `
 
-const Price = styled.div`
-  font-weight: 600;
-  text-align: center;
-  padding: 5px;
-`
-
-const ProductListItem = ({ id, name, img, price }) => (
+const ProductListItem = ({ id, name, img, oldPrice, price, hasDiscount }) => (
   <Link to={`products/${id}`}>
     <Wrapper>
       <Image src={img} alt="cosmetic" />
       <Name>{name}</Name>
-      <Price>{price}</Price>
+      <Price hasDiscount={hasDiscount} oldPrice={oldPrice} price={price} />
     </Wrapper>
   </Link>
 )
@@ -69,6 +64,7 @@ ProductListItem.propTypes = {
   img: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
+  hasDiscount: PropTypes.bool,
 }
 
 export default ProductListItem

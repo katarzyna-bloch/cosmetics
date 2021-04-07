@@ -3,6 +3,7 @@ import media from '../../utils/media'
 import PropTypes from 'prop-types'
 
 import PageWrapper from '../PageWrapper'
+import Price from '../Price'
 
 const Wrapper = styled(PageWrapper)`
   flex-direction: column;
@@ -62,12 +63,9 @@ const DeliverContent = styled(ProductDetails)`
   }
 `
 
-const Price = styled.div`
-  font-weight: 600;
-`
-
-const Volume = styled(Price)`
+const Volume = styled.div`
   flex: 1;
+  font-weight: 600;
 `
 
 const DeliveryInfo = styled.div`
@@ -83,7 +81,7 @@ const ProductDescription = styled.div`
   font-weight: 600;
 `
 
-const Product = ({ img, brand, name, volume, price, description }) => (
+const Product = ({ img, brand, name, volume, oldPrice, price, description, hasDiscount }) => (
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
@@ -96,7 +94,7 @@ const Product = ({ img, brand, name, volume, price, description }) => (
 
         <ProductDetails>
           <Volume>{volume}</Volume>
-          <Price>{price}</Price>
+          <Price price={price} oldPrice={oldPrice} hasDiscount={hasDiscount} />
         </ProductDetails>
 
         <DeliverContent>
@@ -120,6 +118,7 @@ Product.propTypes = {
   volume: PropTypes.string,
   price: PropTypes.string,
   description: PropTypes.string,
+  hasDiscount: PropTypes.bool,
 }
 
 export default Product
