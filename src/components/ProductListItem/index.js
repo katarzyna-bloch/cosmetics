@@ -64,6 +64,7 @@ ProductListItem.propTypes = {
   img: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
+  oldPrice: PropTypes.string,
   hasDiscount: PropTypes.bool,
 }
 

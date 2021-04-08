@@ -101,11 +101,6 @@ exports[`should render correctly 1`] = `
                     >
                       <styled.div>
                         <div
-                          className="sc-gsTCUz bMekPq"
-                        />
-                      </styled.div>
-                      <styled.div>
-                        <div
                           className="sc-dlfnbm ilbGON"
                         >
                           10zł

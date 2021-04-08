@@ -13,15 +13,10 @@ const List = styled.div`
 const ProductsList = ({ products }) => {
   return (
     <List>
-      {products.map(({ name, img, id, oldPrice, price, hasDiscount }) => (
-        <ProductListItem
-          id={id}
-          key={id}
-          name={name}
-          img={img}
-          oldPrice={oldPrice}
-          price={price}
-          hasDiscount={hasDiscount}
+      {products.map(({ ...product }) => (
+        <ProductListItem 
+        {...product} 
+        key={product.id}
         />
       ))}
     </List>
@@ -34,6 +29,7 @@ ProductsList.propTypes = {
     img: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired,
+    oldPrice: PropTypes.string,
     hasDiscount: PropTypes.bool,
   })).isRequired,
 }

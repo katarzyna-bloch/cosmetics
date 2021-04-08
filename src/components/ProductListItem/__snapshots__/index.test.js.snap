@@ -13,6 +13,25 @@ exports[`should render correctly 1`] = `
       Test product!
     </styled.div>
     <Price
+      price="15zł"
+    />
+  </styled.div>
+</Styled(Link)>
+`;
+
+exports[`should render correctly with has discount 1`] = `
+<Styled(Link)
+  to="products/1"
+>
+  <styled.div>
+    <styled.img
+      alt="cosmetic"
+      src="img.jpg"
+    />
+    <styled.div>
+      Test product!
+    </styled.div>
+    <Price
       hasDiscount={true}
       oldPrice="26 zł"
       price="15zł"

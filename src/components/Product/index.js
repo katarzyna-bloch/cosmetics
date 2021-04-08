@@ -118,6 +118,7 @@ Product.propTypes = {
   volume: PropTypes.string,
   price: PropTypes.string,
   description: PropTypes.string,
+  oldPrice: PropTypes.string,
   hasDiscount: PropTypes.bool,
 }
 
