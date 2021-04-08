@@ -45,15 +45,15 @@ exports[`should render correctly 1`] = `
   >
     <Styled(styled.div)>
       <div
-        className="sc-bdfBwQ sc-gsTCUz lbYnYk gsdDAu"
+        className="sc-bdfBwQ sc-hKgILt lbYnYk XNAWv"
       >
         <styled.div>
           <div
-            className="sc-dlfnbm YVFBv"
+            className="sc-eCssSg dgbnvO"
           >
             <Styled(styled.div)>
               <div
-                className="sc-hKgILt sc-eCssSg dhzLxW feSPYm"
+                className="sc-jSgupP sc-gKsewC hjRaQk hSJkQW"
               >
                 <styled.img
                   alt="photo"
@@ -61,7 +61,7 @@ exports[`should render correctly 1`] = `
                 >
                   <img
                     alt="photo"
-                    className="sc-jSgupP etYIRO"
+                    className="sc-iBPRYJ BYNwn"
                     src="img.jpg"
                   />
                 </styled.img>
@@ -69,56 +69,60 @@ exports[`should render correctly 1`] = `
             </Styled(styled.div)>
             <styled.div>
               <div
-                className="sc-hKgILt dhzLxW"
+                className="sc-jSgupP hjRaQk"
               >
                 <styled.div>
                   <div
-                    className="sc-gKsewC cyBcNG"
+                    className="sc-fubCfw kibijT"
                   >
                     Dove
                   </div>
                 </styled.div>
                 <styled.div>
                   <div
-                    className="sc-iBPRYJ bkrLyP"
+                    className="sc-pFZIQ kKYlex"
                   >
                     Test
                   </div>
                 </styled.div>
                 <styled.div>
                   <div
-                    className="sc-fubCfw fRBbOd"
+                    className="sc-jrAGrp fcaqEu"
                   >
-                    <Styled(styled.div)>
+                    <styled.div>
                       <div
-                        className="sc-jrAGrp sc-kEjbxe fkrcdp dpPEcA"
+                        className="sc-iqHYGH dtHPxG"
                       >
                         20ml
                       </div>
-                    </Styled(styled.div)>
-                    <styled.div>
-                      <div
-                        className="sc-jrAGrp fkrcdp"
-                      >
-                        10zł
-                      </div>
                     </styled.div>
+                    <Price
+                      price="10zł"
+                    >
+                      <styled.div>
+                        <div
+                          className="sc-dlfnbm ilbGON"
+                        >
+                          10zł
+                        </div>
+                      </styled.div>
+                    </Price>
                   </div>
                 </styled.div>
                 <Styled(styled.div)>
                   <div
-                    className="sc-fubCfw sc-pFZIQ fRBbOd iAhtwU"
+                    className="sc-jrAGrp sc-kEjbxe fcaqEu emUMEb"
                   >
                     <styled.div>
                       <div
-                        className="sc-iqHYGH bLpkkN"
+                        className="sc-crrsfI YhPlk"
                       >
                         Produkt dostępny
                       </div>
                     </styled.div>
                     <styled.div>
                       <div
-                        className="sc-crrsfI"
+                        className="sc-dQppl"
                       >
                         Dostawa gratis od 99 zł
                       </div>
@@ -131,11 +135,11 @@ exports[`should render correctly 1`] = `
         </styled.div>
         <styled.div>
           <div
-            className="sc-dQppl"
+            className="sc-bqyKva"
           >
             <styled.div>
               <div
-                className="sc-bqyKva gXva-df"
+                className="sc-kstrdz jiThJl"
               >
                 Opis Produktu
               </div>

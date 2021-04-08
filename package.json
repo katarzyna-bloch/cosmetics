@@ -23,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:nowatch": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
     "api:start": "json-server --watch db.json --port 3004"
   },

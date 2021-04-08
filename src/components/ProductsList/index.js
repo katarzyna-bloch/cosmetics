@@ -10,19 +10,18 @@ const List = styled.div`
   flex-wrap: wrap;
 `
 
-const ProductsList = ({ products }) => (
-  <List>
-    {products.map(({ name, img, id, price}) => (
-      <ProductListItem
-        id={id}
-        key={id}
-        name={name}
-        img={img}
-        price={price}
-      />
-    ))}
-  </List>
-)
+const ProductsList = ({ products }) => {
+  return (
+    <List>
+      {products.map((product) => (
+        <ProductListItem 
+        {...product} 
+        key={product.id}
+        />
+      ))}
+    </List>
+  )
+}
 
 ProductsList.propTypes = {
   products: PropTypes.arrayOf(PropTypes.shape({
@@ -30,6 +29,8 @@ ProductsList.propTypes = {
     img: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired,
+    oldPrice: PropTypes.string,
+    hasDiscount: PropTypes.bool,
   })).isRequired,
 }
 

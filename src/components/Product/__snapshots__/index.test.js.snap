@@ -17,12 +17,57 @@ exports[`should render correctly 1`] = `
         Test product!
       </styled.div>
       <styled.div>
-        <Styled(styled.div)>
-          15 ml
-        </Styled(styled.div)>
         <styled.div>
-          15 zł
+          15 ml
         </styled.div>
+        <Price
+          price="15 zł"
+        />
+      </styled.div>
+      <Styled(styled.div)>
+        <styled.div>
+          Produkt dostępny
+        </styled.div>
+        <styled.div>
+          Dostawa gratis od 99 zł
+        </styled.div>
+      </Styled(styled.div)>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      Opis Produktu
+    </styled.div>
+    Opis produktu
+  </styled.div>
+</Styled(styled.div)>
+`;
+
+exports[`should render correctly with discount 1`] = `
+<Styled(styled.div)>
+  <styled.div>
+    <Styled(styled.div)>
+      <styled.img
+        alt="photo"
+        src="img.jpg"
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <styled.div>
+        Nivea
+      </styled.div>
+      <styled.div>
+        Test product!
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          15 ml
+        </styled.div>
+        <Price
+          hasDiscount={true}
+          oldPrice="50 zł"
+          price="15 zł"
+        />
       </styled.div>
       <Styled(styled.div)>
         <styled.div>
