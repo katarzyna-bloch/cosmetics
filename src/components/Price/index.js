@@ -12,19 +12,19 @@ const PriceAfterDiscount = styled.div`
   color:  ${props => (props.hasDiscount ? 'red' : 'none')};
 `
 
-const Price = ({oldPrice, hasDiscount, price}) => (
+const Price = ({ oldPrice, hasDiscount, price }) => (
   <> 
     {oldPrice && (
-      <OldPrice>{oldPrice}</OldPrice>      
+      <OldPrice>{oldPrice}</OldPrice>
     )}
     <PriceAfterDiscount hasDiscount={hasDiscount}>{price}</PriceAfterDiscount>
   </>
 )
 
 Price.propTypes = {
+  price: PropTypes.string.isRequired,
   oldPrice: PropTypes.string,
   hasDiscount: PropTypes.bool,
-  price: PropTypes.string,
 }
 
 export default Price

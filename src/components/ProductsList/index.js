@@ -13,7 +13,7 @@ const List = styled.div`
 const ProductsList = ({ products }) => {
   return (
     <List>
-      {products.map(( product ) => (
+      {products.map((product) => (
         <ProductListItem 
         {...product} 
         key={product.id}
