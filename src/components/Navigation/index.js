@@ -23,7 +23,13 @@ const Nav = styled.nav`
     padding-right: 15px;
   }
 `
-const ContentLink = styled.div``
+const ContentLink = styled.div`
+  ${media.tablet} {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+`
 
 const Link = styled(RouterLink)`
   padding-right: 30px;
@@ -34,6 +40,7 @@ const Link = styled(RouterLink)`
     padding-right: 15px;
   }
 `
+
 const ContentForm = styled.form`
   ${media.tablet} {
     margin-top: 10px;
@@ -41,6 +48,7 @@ const ContentForm = styled.form`
 `
 const TextField = styled.input``
 const Button = styled.button``
+
 
 export const Navigation = ({ history: { push }}) => {
   const [textField, setField] = useState('')
@@ -58,6 +66,7 @@ export const Navigation = ({ history: { push }}) => {
   return (
     <Nav>
       <ContentLink>
+        <Link to="/sale">Promocje</Link>
         <Link to="/home-spa">Domowe SPA</Link>
         <Link to="/cleaning">Oczyszczanie</Link>
         <Link to="/care">Pielęgnacja</Link>
