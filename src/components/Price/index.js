@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
+const ContentPrice = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`
+
 const OldPrice = styled.div`
   text-decoration: line-through;
   font-weight: 600;
@@ -13,16 +19,16 @@ const PriceAfterDiscount = styled.div`
 `
 
 const Price = ({ oldPrice, hasDiscount, price }) => (
-  <> 
+  <ContentPrice>
     {oldPrice && (
       <OldPrice>{oldPrice}</OldPrice>
     )}
     <PriceAfterDiscount hasDiscount={hasDiscount}>{price}</PriceAfterDiscount>
-  </>
+  </ContentPrice>
 )
 
 Price.propTypes = {
-  price: PropTypes.string.isRequired,
+  price: PropTypes.string,
   oldPrice: PropTypes.string,
   hasDiscount: PropTypes.bool,
 }
