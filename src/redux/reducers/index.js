@@ -4,6 +4,7 @@ import cleaningProducts from './cleaningProducts'
 import careProducts from './careProducts'
 import product from './product'
 import search from './search'
+import sale from './sale'
 
 export default combineReducers({
   homeSpaProducts,
@@ -11,4 +12,5 @@ export default combineReducers({
   careProducts,
   product,
   search,
+  sale,
 })

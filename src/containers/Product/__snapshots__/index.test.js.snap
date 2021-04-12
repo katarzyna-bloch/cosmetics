@@ -45,15 +45,15 @@ exports[`should render correctly 1`] = `
   >
     <Styled(styled.div)>
       <div
-        className="sc-bdfBwQ sc-hKgILt lbYnYk XNAWv"
+        className="sc-bdfBwQ sc-eCssSg lbYnYk ijXETU"
       >
         <styled.div>
           <div
-            className="sc-eCssSg dgbnvO"
+            className="sc-jSgupP gnMCjr"
           >
             <Styled(styled.div)>
               <div
-                className="sc-jSgupP sc-gKsewC hjRaQk hSJkQW"
+                className="sc-gKsewC sc-iBPRYJ fxuPQF dXFpVq"
               >
                 <styled.img
                   alt="photo"
@@ -61,7 +61,7 @@ exports[`should render correctly 1`] = `
                 >
                   <img
                     alt="photo"
-                    className="sc-iBPRYJ BYNwn"
+                    className="sc-fubCfw iTXsZq"
                     src="img.jpg"
                   />
                 </styled.img>
@@ -69,29 +69,29 @@ exports[`should render correctly 1`] = `
             </Styled(styled.div)>
             <styled.div>
               <div
-                className="sc-jSgupP hjRaQk"
+                className="sc-gKsewC fxuPQF"
               >
                 <styled.div>
                   <div
-                    className="sc-fubCfw kibijT"
+                    className="sc-pFZIQ eMowXI"
                   >
                     Dove
                   </div>
                 </styled.div>
                 <styled.div>
                   <div
-                    className="sc-pFZIQ kKYlex"
+                    className="sc-jrAGrp cilGpt"
                   >
                     Test
                   </div>
                 </styled.div>
                 <styled.div>
                   <div
-                    className="sc-jrAGrp fcaqEu"
+                    className="sc-kEjbxe fjCyLh"
                   >
                     <styled.div>
                       <div
-                        className="sc-iqHYGH dtHPxG"
+                        className="sc-crrsfI ehgRfX"
                       >
                         20ml
                       </div>
@@ -101,9 +101,15 @@ exports[`should render correctly 1`] = `
                     >
                       <styled.div>
                         <div
-                          className="sc-dlfnbm ilbGON"
+                          className="sc-gsTCUz hjjJgc"
                         >
-                          10zł
+                          <styled.div>
+                            <div
+                              className="sc-hKgILt LEJdr"
+                            >
+                              10zł
+                            </div>
+                          </styled.div>
                         </div>
                       </styled.div>
                     </Price>
@@ -111,18 +117,18 @@ exports[`should render correctly 1`] = `
                 </styled.div>
                 <Styled(styled.div)>
                   <div
-                    className="sc-jrAGrp sc-kEjbxe fcaqEu emUMEb"
+                    className="sc-kEjbxe sc-iqHYGH fjCyLh jvmjbG"
                   >
                     <styled.div>
                       <div
-                        className="sc-crrsfI YhPlk"
+                        className="sc-dQppl cHuIwy"
                       >
                         Produkt dostępny
                       </div>
                     </styled.div>
                     <styled.div>
                       <div
-                        className="sc-dQppl"
+                        className="sc-bqyKva"
                       >
                         Dostawa gratis od 99 zł
                       </div>
@@ -135,11 +141,11 @@ exports[`should render correctly 1`] = `
         </styled.div>
         <styled.div>
           <div
-            className="sc-bqyKva"
+            className="sc-kstrdz"
           >
             <styled.div>
               <div
-                className="sc-kstrdz jiThJl"
+                className="sc-hBEYos dPdRov"
               >
                 Opis Produktu
               </div>

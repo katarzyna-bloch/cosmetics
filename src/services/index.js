@@ -22,3 +22,8 @@ export const fetchSearch = (search) => {
   return fetch(`http://localhost:3004/products${search}`)
     .then((response) => response.json());
 }
+
+export const fetchSale = () => {
+  return fetch('http://localhost:3004/products?hasDiscount=true')
+    .then((response) => response.json());
+}
