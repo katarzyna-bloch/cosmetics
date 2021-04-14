@@ -4,6 +4,11 @@ exports[`should render correctly 1`] = `
 <styled.nav>
   <styled.div>
     <Styled(Link)
+      to="/sale"
+    >
+      Promocje
+    </Styled(Link)>
+    <Styled(Link)
       to="/home-spa"
     >
       Domowe SPA
@@ -51,8 +56,18 @@ exports[`should submit form correctly 1`] = `
     >
       <styled.div>
         <div
-          className="sc-gsTCUz"
+          className="sc-gsTCUz WeRDD"
         >
+          <Styled(Link)
+            to="/sale"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/sale"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
           <Styled(Link)
             to="/home-spa"
           >
@@ -149,8 +164,18 @@ exports[`should submit form correctly 2`] = `
     >
       <styled.div>
         <div
-          className="sc-gsTCUz"
+          className="sc-gsTCUz WeRDD"
         >
+          <Styled(Link)
+            to="/sale"
+          >
+            <Link
+              className="sc-dlfnbm jQmjui"
+              to="/sale"
+            >
+              Link
+            </Link>
+          </Styled(Link)>
           <Styled(Link)
             to="/home-spa"
           >
