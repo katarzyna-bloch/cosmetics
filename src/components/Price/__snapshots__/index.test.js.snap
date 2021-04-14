@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<Fragment>
+<styled.div>
   <styled.div>
     15 zł
   </styled.div>
-</Fragment>
+</styled.div>
 `;
 
 exports[`should render correctly with has discount 1`] = `
-<Fragment>
+<styled.div>
   <styled.div>
     50 zł
   </styled.div>
@@ -18,5 +18,5 @@ exports[`should render correctly with has discount 1`] = `
   >
     15 zł
   </styled.div>
-</Fragment>
+</styled.div>
 `;
