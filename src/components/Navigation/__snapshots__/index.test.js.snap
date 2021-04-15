@@ -52,17 +52,17 @@ exports[`should submit form correctly 1`] = `
 >
   <styled.nav>
     <nav
-      className="sc-bdfBwQ hrHEgq"
+      className="sc-bdvvaa gmoOLK"
     >
       <styled.div>
         <div
-          className="sc-gsTCUz WeRDD"
+          className="sc-gsDJrp hSAGZl"
         >
           <Styled(Link)
             to="/sale"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/sale"
             >
               Link
@@ -72,7 +72,7 @@ exports[`should submit form correctly 1`] = `
             to="/home-spa"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/home-spa"
             >
               Link
@@ -82,7 +82,7 @@ exports[`should submit form correctly 1`] = `
             to="/cleaning"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/cleaning"
             >
               Link
@@ -92,7 +92,7 @@ exports[`should submit form correctly 1`] = `
             to="/care"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/care"
             >
               Link
@@ -104,7 +104,7 @@ exports[`should submit form correctly 1`] = `
         onSubmit={[Function]}
       >
         <form
-          className="sc-hKgILt bEzENJ"
+          className="sc-hKwCoD hfobKK"
           onSubmit={[Function]}
         >
           <styled.input
@@ -114,7 +114,7 @@ exports[`should submit form correctly 1`] = `
             value="Hello"
           >
             <input
-              className="sc-eCssSg"
+              className="sc-eCImvq"
               onChange={[Function]}
               placeholder="znajdź produkt"
               type="text"
@@ -125,7 +125,7 @@ exports[`should submit form correctly 1`] = `
             type="submit"
           >
             <button
-              className="sc-jSgupP"
+              className="sc-jRQAMF"
               type="submit"
             >
               Szukaj
@@ -160,17 +160,17 @@ exports[`should submit form correctly 2`] = `
 >
   <styled.nav>
     <nav
-      className="sc-bdfBwQ hrHEgq"
+      className="sc-bdvvaa gmoOLK"
     >
       <styled.div>
         <div
-          className="sc-gsTCUz WeRDD"
+          className="sc-gsDJrp hSAGZl"
         >
           <Styled(Link)
             to="/sale"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/sale"
             >
               Link
@@ -180,7 +180,7 @@ exports[`should submit form correctly 2`] = `
             to="/home-spa"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/home-spa"
             >
               Link
@@ -190,7 +190,7 @@ exports[`should submit form correctly 2`] = `
             to="/cleaning"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/cleaning"
             >
               Link
@@ -200,7 +200,7 @@ exports[`should submit form correctly 2`] = `
             to="/care"
           >
             <Link
-              className="sc-dlfnbm jQmjui"
+              className="sc-dkPtyc XNpxy"
               to="/care"
             >
               Link
@@ -212,7 +212,7 @@ exports[`should submit form correctly 2`] = `
         onSubmit={[Function]}
       >
         <form
-          className="sc-hKgILt bEzENJ"
+          className="sc-hKwCoD hfobKK"
           onSubmit={[Function]}
         >
           <styled.input
@@ -222,7 +222,7 @@ exports[`should submit form correctly 2`] = `
             value=""
           >
             <input
-              className="sc-eCssSg"
+              className="sc-eCImvq"
               onChange={[Function]}
               placeholder="znajdź produkt"
               type="text"
@@ -233,7 +233,7 @@ exports[`should submit form correctly 2`] = `
             type="submit"
           >
             <button
-              className="sc-jSgupP"
+              className="sc-jRQAMF"
               type="submit"
             >
               Szukaj

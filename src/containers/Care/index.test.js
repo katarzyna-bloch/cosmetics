@@ -2,7 +2,10 @@ import { mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import { Care } from '.'
 
-jest.mock('../../components/ProductsList', () => 'ProductsList')
+jest.mock('../../components/ProductsList', () => {
+  const ProductsList = () => null
+  return ProductsList
+})
 
 it('should render correctly', () => {
   const props = {
