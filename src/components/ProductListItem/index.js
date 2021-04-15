@@ -9,6 +9,13 @@ const Link = styled(RouterLink)`
   text-decoration: none;
   color: black;
   flex: 0 25%;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  &:hover {
+    border-color: lightgray;
+  }
 
   ${media.desktop} {
     flex: 0 33%;
@@ -24,15 +31,7 @@ const Link = styled(RouterLink)`
 `
 
 const Wrapper = styled.div`
-  cursor: pointer;
-  border-radius: 2px;
-  border: 1px solid transparent;
-  box-sizing: border-box;
   text-align: center;
-
-  &:hover {
-    border-color: lightgray;
-  }
 `
 
 const Image = styled.img`
