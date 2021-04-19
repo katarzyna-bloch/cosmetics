@@ -7,6 +7,7 @@ import PropTypes from 'prop-types'
 import { requestSearch } from '../../redux/actions'
 import ProductsList from '../../components/ProductsList'
 import PageWrapper from '../../components/PageWrapper'
+import ProductNotFound from '../../components/ProductNotFound'
 
 export const Search = ({fetchProducts, products, location: { search }}) => {
   useEffect(() => {
@@ -15,7 +16,11 @@ export const Search = ({fetchProducts, products, location: { search }}) => {
 
   return (
     <PageWrapper>
-      <ProductsList products={products} />
+      {products.length > 0 ? (
+        <ProductsList products={products} />
+      ) : (
+        <ProductNotFound />
+      )}
     </PageWrapper>
   )
 }

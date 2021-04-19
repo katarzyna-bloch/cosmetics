@@ -53,3 +53,9 @@ exports[`should render correctly 1`] = `
   </styled.div>
 </Search>
 `;
+
+exports[`should render correctly without products 1`] = `
+<styled.div>
+  <ProductNotFound />
+</styled.div>
+`;
