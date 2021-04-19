@@ -1,4 +1,5 @@
 import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import { Search } from '.'
 
@@ -26,4 +27,16 @@ it('should render correctly', () => {
   expect(toJson(wrapped)).toMatchSnapshot()
   wrapped.update()
   expect(props.fetchProducts).toHaveBeenCalled()
+})
+
+it('should render correctly without products', () => {
+  const props = {
+    fetchProducts: jest.fn(),
+    products: [],
+    location: {
+      search: '?q=krem',
+    },
+  }
+  const wrapped = shallow(<Search {...props} />)
+  expect(toJson(wrapped)).toMatchSnapshot()
 })
