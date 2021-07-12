@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Category
+  category={
+    Object {
+      "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+      "id": "3",
+      "name": "Pielęgnacja",
+      "products": Array [
+        Object {
+          "brand": "iS Clinical",
+          "categoryId": "3",
+          "description": "Lekki, bezzapachowy płyn, który łagodnie, usuwa makijaż bez konieczności spłukiwania.",
+          "id": "19",
+          "img": "img.jpg",
+          "name": "Lipowy Płyn Micelarny",
+          "price": "27 zł",
+          "volume": "200 ml",
+        },
+      ],
+      "type": "care",
+      "url": "/categories/care",
+    }
+  }
+  fetchCategoryByUrl={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "/categories/care",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  match={
+    Object {
+      "url": "/categories/care",
+    }
+  }
+>
+  <styled.div>
+    <div
+      className="sc-gsDJrp fFqmwK"
+    >
+      <styled.h5>
+        <h5
+          className="sc-bdvvaa bzqbfa"
+        >
+          Należy przestrzegać codziennej pielęgnacji twarzy
+        </h5>
+      </styled.h5>
+      <ProductsList
+        products={
+          Array [
+            Object {
+              "brand": "iS Clinical",
+              "categoryId": "3",
+              "description": "Lekki, bezzapachowy płyn, który łagodnie, usuwa makijaż bez konieczności spłukiwania.",
+              "id": "19",
+              "img": "img.jpg",
+              "name": "Lipowy Płyn Micelarny",
+              "price": "27 zł",
+              "volume": "200 ml",
+            },
+          ]
+        }
+      />
+    </div>
+  </styled.div>
+</Category>
+`;

@@ -49,8 +49,7 @@ const ContentForm = styled.form`
 const TextField = styled.input``
 const Button = styled.button``
 
-
-export const Navigation = ({ history: { push }}) => {
+export const Navigation = ({ categories, history: { push } }) => {
   const [textField, setField] = useState('')
 
   const handleChange = (e) => {
@@ -67,12 +66,14 @@ export const Navigation = ({ history: { push }}) => {
     <Nav>
       <ContentLink>
         <Link to="/sale">Promocje</Link>
-        <Link to="/home-spa">Domowe SPA</Link>
-        <Link to="/cleaning">Oczyszczanie</Link>
-        <Link to="/care">Pielęgnacja</Link>
+        {categories.map((category) => (
+          <Link to={category.url} key={category.url}>
+            {category.name}
+          </Link>
+        ))}
       </ContentLink>
       <ContentForm onSubmit={handleSubmit}>
-        <TextField type="text" placeholder="znajdź produkt" value={textField} onChange={handleChange}/>
+        <TextField type="text" placeholder="znajdź produkt" value={textField} onChange={handleChange} />
         <Button type="submit">Szukaj</Button>
       </ContentForm>
     </Nav>
@@ -80,8 +81,10 @@ export const Navigation = ({ history: { push }}) => {
 }
 
 Navigation.propTypes = {
+  categories: PropTypes.array.isRequired,
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
   }).isRequired,
 }
+
 export default withRouter(Navigation)

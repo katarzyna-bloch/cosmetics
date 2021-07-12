@@ -49,7 +49,7 @@ const Name = styled.div`
 `
 
 const ProductListItem = ({ id, name, img, oldPrice, price, hasDiscount }) => (
-  <Link to={`products/${id}`}>
+  <Link to={`/products/${id}`}>
     <Wrapper>
       <Image src={img} alt="cosmetic" />
       <Name>{name}</Name>
