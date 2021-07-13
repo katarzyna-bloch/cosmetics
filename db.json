@@ -1,7 +1,30 @@
 
 {
+  "categories": [
+    {
+      "id": "1",
+      "type": "homeSpa",
+      "url": "/categories/home-spa",
+      "name": "Domowe SPA",
+      "description": "Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy" 
+    },
+    {
+      "id": "2",
+      "type": "cleaning",
+      "url": "/categories/cleaning",
+      "name": "Oczyszczanie",
+      "description": "Oczyszczanie to podstawowy krok w dojściu do pięknej cery"
+    },
+    {
+      "id": "3",
+      "type": "care",
+      "url": "/categories/care",
+      "name": "Pielęgnacja",
+      "description": "Aby uzyskać zdrowy wygląd skóry, należy przestrzegać codziennej pielęgnacji twarzy"
+    }
+  ],
   "products": [
-    { 
+    {
       "id": "1",
       "brand": "resibo",
       "name": "Cytrusowy Peeling Enzymatyczny w Żelu",
@@ -9,7 +32,7 @@
       "oldPrice": "169 zł",
       "hasDiscount": true,
       "price": "89,20 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description": "Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
     },
@@ -19,7 +42,7 @@
       "name": "Szczotka do Masażu",
       "volume": "1 szt.",
       "price": "21 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
       "description":"Szczotka do masażu ciała została wykonana z naturalnego włókna agawy oraz wysokiej jakości drewna bukowego. Kształt dopasowany do dłoni z paskiem ułatwiającym trzymanie. Polecana do stosowania zarówno na sucho, jak i na mokro. Sucha szczotka jest twardsza i ostrzejsza, natomiast po zmoczeniu jej włókna są łagodniejsze. Masowanie ciała szczotką zwiększa ukrwienie skóry, wygładza oraz ujędrnia, złuszcza martwy naskórek, przygotowując skórę do aplikacji kosmetyków pielęgnacyjnych. Po zastosowaniu szczotki skóra lepiej wchłania składniki aktywne zawarte w balsamach, czy olejkach, dzięki czemu działają one skuteczniej. Masaż szczotką pomaga także likwidować obrzęki limfatyczne, jest także świetnym uzupełnieniem kuracji antycellulitowej."
     },
@@ -29,7 +52,7 @@
       "name": "Orzeźwiający Olejek do Mycia Ciała",
       "volume": "100 ml",
       "price": "36 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Orzeźwiający olejek to produkt wielozadaniowy. Jego kluczowa rola sprowadza się do zapewnienia uczucia czystości i świeżości, ale to dopiero początek jego doskonałych zastosowań. Dzięki niemu dostarczamy naszej skórze budulca potrzebnego do odbudowy i wzmocnienia bariery lipidowej naskórka. Zabezpiecza skórę przed wysuszeniem. Dzięki składnikom roślinnym nie powoduje podrażnień. Zawarte w nim witaminy, minerały i flawonoidy gwarantują doskonałe nawilżenie skóry oraz ochronę przed niekorzystnymi warunkami atmosferycznymi."
     },
@@ -41,7 +64,7 @@
       "oldPrice": "109 zł",
       "hasDiscount": true,
       "price": "71,20 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description": "Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
     },
@@ -51,7 +74,7 @@
       "name": "Relaksujący Olejek do Mycia Ciała z Płatkami Róży",
       "volume": "100 ml",
       "price": "62 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Relaksujący olejek to produkt wielozadaniowy. Jego kluczowa rola sprowadza się do zapewnienia uczucia czystości i świeżości, ale to dopiero początek jego doskonałych zastosowań. Dzięki niemu dostarczamy naszej skórze budulca potrzebnego do odbudowy i wzmocnienia bariery lipidowej naskórka. Zabezpiecza skórę przed wysuszeniem. Dzięki składnikom roślinnym nie powoduje podrażnień. Zawarte w nim witaminy, minerały i flawonoidy gwarantują doskonałe nawilżenie skóry oraz ochronę przed niekorzystnymi warunkami atmosferycznymi."
     },
@@ -63,7 +86,7 @@
       "oldPrice": "37 zł",
       "hasDiscount": true,
       "price": "25,20 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description":"Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
     },
@@ -73,7 +96,7 @@
       "name": "Bambusowa Szczotka do Masażu na Sucho",
       "volume": "1 szt.",
       "price": "19 zł",
-      "type": "homeSpa",
+      "categoryId": "1",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
       "description": "Szczotka do masażu ciała została wykonana z naturalnego włókna agawy oraz wysokiej jakości drewna bukowego. Kształt dopasowany do dłoni z paskiem ułatwiającym trzymanie. Polecana do stosowania zarówno na sucho, jak i na mokro. Sucha szczotka jest twardsza i ostrzejsza, natomiast po zmoczeniu jej włókna są łagodniejsze. Masowanie ciała szczotką zwiększa ukrwienie skóry, wygładza oraz ujędrnia, złuszcza martwy naskórek, przygotowując skórę do aplikacji kosmetyków pielęgnacyjnych. Po zastosowaniu szczotki skóra lepiej wchłania składniki aktywne zawarte w balsamach, czy olejkach, dzięki czemu działają one skuteczniej. Masaż szczotką pomaga także likwidować obrzęki limfatyczne, jest także świetnym uzupełnieniem kuracji antycellulitowej."
     },
@@ -85,7 +108,7 @@
       "oldPrice": "70 zł",
       "hasDiscount": true,
       "price": "47,20 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
       "description":"Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
     },
@@ -95,7 +118,7 @@
       "name": "Rozświetlająca Maska do Twarzy",
       "volume": "200 ml",
       "price": "38 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, rozświetlająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
     },
@@ -105,7 +128,7 @@
       "name": "Tonik Żelowy z 5% Kwasem Glikolowym ",
       "volume": "75 ml",
       "price": "22 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
     },
@@ -117,7 +140,7 @@
       "oldPrice": "65 zł",
       "hasDiscount": true,
       "price": "42,20 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
       "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
     },
@@ -129,7 +152,7 @@
       "oldPrice": "29 zł",
       "hasDiscount": true,
       "price": "23,20 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
     },
@@ -139,7 +162,7 @@
       "name": "Kremowa Maska do Twarzy do Skóry Pozbawionej Blasku",
       "volume": "50 ml",
       "price": "78 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, nawilżająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
     },
@@ -149,7 +172,7 @@
       "name": "Kremowy Żel Oczyszczający o Działaniu Ochronnym",
       "volume": "125 ml",
       "price": "99 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
       "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
     },
@@ -159,7 +182,7 @@
       "name": "Nawilżający Tonik do Twarzy",
       "volume": "150 ml",
       "price": "32 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
     },
@@ -169,7 +192,7 @@
       "name": "Całonocna Maska Rozjaśniająca Do Twarzy",
       "volume": "75 ml",
       "price": "35 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
       "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, rozjaśniająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
     },
@@ -179,7 +202,7 @@
       "name": "Żel Oczyszczający o Zapachu Białej Herbaty",
       "volume": "100 ml",
       "price": "21 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
       "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
     },
@@ -191,7 +214,7 @@
       "oldPrice": "95 zł",
       "hasDiscount": true,
       "price": "89,20 zł",
-      "type": "cleaning",
+      "categoryId": "2",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
     },
@@ -201,7 +224,7 @@
       "name": "Lipowy Płyn Micelarny",
       "volume": "200 ml",
       "price": "27 zł",
-      "type": "care",
+      "categoryId": "3",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
       "description": "Lekki, bezzapachowy płyn, który łagodnie, ale skutecznie usuwa makijaż bez konieczności spłukiwania. Wzbogacony kwasem hialuronowym, ekstraktem z lipy i mimozy. Nawilża, łagodzi, przyjemnie odświeża, a dzięki neutralnemu pH nie narusza bariery ochronnej. Dla każdego rodzaju cery"
     },
@@ -211,7 +234,7 @@
       "name": "Krem Nawilżający z Migdałem i Algami",
       "volume": "50 ml",
       "price": "98 zł",
-      "type": "care",
+      "categoryId": "3",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401",
       "description": "Wyjątkowy krem idealny dla każdego rodzaju skóry, który pomaga nawilżać i odżywiać komórki skóry przez cały dzień. Zawiera Hydromanil, zaawansowaną technologicznie składnik, który zatrzymuje wodę i stopniowo dostarcza wilgoci do skóry. Więc nie tylko zapewnia natychmiastowe nawilżenie, ale również w dalszym ciągu utrzymuje wodę w warstwach skóry w czasie. Pomaga również chronić skórę przed szkodliwym wpływem czynników zewnętrznych, które powodują oznaki starzenia takie jak zmarszczki i przebarwienia."
     },
@@ -221,41 +244,41 @@
       "name": "Kolagenowe Serum Odżywcze",
       "volume": "75 ml",
       "price": "66 zł",
-      "type": "care",
+      "categoryId": "3",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Serum do twarzy to skuteczna broń w walce z uporczywymi przebarwieniami i nierównomiernym kolorytem skóry. Uznawany za kultowy w swojej kategorii preparat oparty na skutecznie złuszczającym kwasie mlekowym działa na zmiany pigmentacyjne, wybielając je i zrównując koloryt cery. Wysokie stężenie tego kwasu pozwala na wydobycie naturalnego blasku cery i zapobieganiu kolejnym zmianom, dzięki czemu skóra twarzy jest jednolita i widocznie rozjaśniona."
     },
     {
       "id": "22",
-      "brand": "iS Clinical",
-      "name": "Płyn Micelarny z Wodą Różaną",
-      "volume": "125 ml",
-      "price": "17 zł",
-      "type": "care",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Lekki, bezzapachowy płyn, który łagodnie, ale skutecznie usuwa makijaż bez konieczności spłukiwania. Wzbogacony kwasem hialuronowym, ekstraktem z wody różanej. Nawilża, łagodzi, przyjemnie odświeża, a dzięki neutralnemu pH nie narusza bariery ochronnej. Dla każdego rodzaju cery"
-    },
-    {
-      "id": "23",
       "brand": "Thalgo",
       "name": "Intensywnie Nawilżający Krem do Twarzy na Dzień",
       "volume": "50 ml",
       "oldPrice": "63 zł",
       "hasDiscount": true,
       "price": "44,20 zł",
-      "type": "care",
+      "categoryId": "3",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401",
       "description": "Wyjątkowy krem idealny dla każdego rodzaju skóry, który pomaga nawilżać i odżywiać komórki skóry przez cały dzień. Zawiera Hydromanil, zaawansowaną technologicznie składnik, który zatrzymuje wodę i stopniowo dostarcza wilgoci do skóry. Więc nie tylko zapewnia natychmiastowe nawilżenie, ale również w dalszym ciągu utrzymuje wodę w warstwach skóry w czasie. Pomaga również chronić skórę przed szkodliwym wpływem czynników zewnętrznych, które powodują oznaki starzenia takie jak zmarszczki i przebarwienia."
     },
     {
-      "id": "24",
+      "id": "23",
       "brand": "veoli botanica",
       "name": "Serum Zwalczające Niedoskonałości Skóry",
       "volume": "120 ml",
       "price": "51 zł",
-      "type": "care",
+      "categoryId": "3",
       "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
       "description": "Serum do twarzy to skuteczna broń w walce z uporczywymi przebarwieniami i nierównomiernym kolorytem skóry. Uznawany za kultowy w swojej kategorii preparat oparty na skutecznie złuszczającym kwasie mlekowym działa na zmiany pigmentacyjne, wybielając je i zrównując koloryt cery. Wysokie stężenie tego kwasu pozwala na wydobycie naturalnego blasku cery i zapobieganiu kolejnym zmianom, dzięki czemu skóra twarzy jest jednolita i widocznie rozjaśniona."
+    },
+    {
+      "id": "24",
+      "brand": "iS Clinical",
+      "name": "Płyn Micelarny z Wodą Różaną",
+      "volume": "125 ml",
+      "price": "17 zł",
+      "categoryId": "3",
+      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
+      "description": "Lekki, bezzapachowy płyn, który łagodnie, ale skutecznie usuwa makijaż bez konieczności spłukiwania. Wzbogacony kwasem hialuronowym, ekstraktem z wody różanej. Nawilża, łagodzi, przyjemnie odświeża, a dzięki neutralnemu pH nie narusza bariery ochronnej. Dla każdego rodzaju cery"
     }
   ]
 }

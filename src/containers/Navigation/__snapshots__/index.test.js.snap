@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Navigation
+  categories={
+    Array [
+      Object {
+        "description": "Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy",
+        "id": "1",
+        "name": "Domowe SPA",
+        "type": "homeSpa",
+        "url": "/categories/home-spa",
+      },
+      Object {
+        "description": "Oczyszczanie to podstawowy krok w dojściu do pięknej cery",
+        "id": "2",
+        "name": "Oczyszczanie",
+        "type": "cleaning",
+        "url": "/categories/cleaning",
+      },
+      Object {
+        "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+        "id": "3",
+        "name": "Pielęgnacja",
+        "type": "care",
+        "url": "/categories/care",
+      },
+    ]
+  }
+  fetchCategories={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Nav
+    categories={
+      Array [
+        Object {
+          "description": "Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy",
+          "id": "1",
+          "name": "Domowe SPA",
+          "type": "homeSpa",
+          "url": "/categories/home-spa",
+        },
+        Object {
+          "description": "Oczyszczanie to podstawowy krok w dojściu do pięknej cery",
+          "id": "2",
+          "name": "Oczyszczanie",
+          "type": "cleaning",
+          "url": "/categories/cleaning",
+        },
+        Object {
+          "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+          "id": "3",
+          "name": "Pielęgnacja",
+          "type": "care",
+          "url": "/categories/care",
+        },
+      ]
+    }
+  />
+</Navigation>
+`;
+
+exports[`should render correctly without categories 1`] = `""`;

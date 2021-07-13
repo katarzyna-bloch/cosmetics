@@ -1,16 +1,7 @@
-export const fetchHomeSpaProducts = () => {
-  return fetch('http://localhost:3004/products?type=homeSpa')
-    .then((response) => response.json());
-}
-
-export const fetchCleaningProducts = () => {
-  return fetch('http://localhost:3004/products?type=cleaning')
-    .then((response) => response.json());
-}
-
-export const fetchCareProducts = () => {
-  return fetch('http://localhost:3004/products?type=care')
-    .then((response) => response.json());
+export const fetchCategory = (url) => {
+  return fetch(`http://localhost:3004/categories?url=${url}&_embed=products`)
+    .then((response) => response.json())
+    .then((response) => response[0]);
 }
 
 export const fetchProduct = (id) => {
@@ -25,5 +16,10 @@ export const fetchSearch = (search) => {
 
 export const fetchSale = () => {
   return fetch('http://localhost:3004/products?hasDiscount=true')
+    .then((response) => response.json());
+}
+
+export const fetchCategories = () => {
+  return fetch('http://localhost:3004/categories')
     .then((response) => response.json());
 }

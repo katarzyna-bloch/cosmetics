@@ -1,16 +1,14 @@
 import { combineReducers } from 'redux'
-import homeSpaProducts from './homeSpaProducts'
-import cleaningProducts from './cleaningProducts'
-import careProducts from './careProducts'
 import product from './product'
 import search from './search'
+import category from './category'
 import sale from './sale'
+import categories from './categories'
 
 export default combineReducers({
-  homeSpaProducts,
-  cleaningProducts,
-  careProducts,
   product,
   search,
+  category,
   sale,
+  categories,
 })

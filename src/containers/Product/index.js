@@ -11,6 +11,7 @@ export const Product = ({ fetchProducts, product, match: { params: { id } } }) =
   useEffect(() => {
     fetchProducts(id)
   }, [])
+
   return (
     <ProductComponent {...product} />
   )
