@@ -8,8 +8,12 @@ import { requestSearch } from '../../redux/actions'
 import ProductsList from '../../components/ProductsList'
 import PageWrapper from '../../components/PageWrapper'
 import ProductNotFound from '../../components/ProductNotFound'
+import ContentHeader from '../../components/ContentHeader'
 
 export const Search = ({fetchProducts, products, location: { search }}) => {
+  const searchParams = new URLSearchParams(search)
+  const query = searchParams.get('q')
+
   useEffect(() => {
     fetchProducts(search)
   }, [search])
@@ -17,7 +21,10 @@ export const Search = ({fetchProducts, products, location: { search }}) => {
   return (
     <PageWrapper>
       {products.length > 0 ? (
-        <ProductsList products={products} />
+        <>
+          <ContentHeader>Wyniki dla frazy: {query} ({products.length})</ContentHeader>
+          <ProductsList products={products} />
+        </>
       ) : (
         <ProductNotFound />
       )}
