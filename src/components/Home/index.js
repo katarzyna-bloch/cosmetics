@@ -4,7 +4,7 @@ const Photo = styled.img`
   position: absolute;
   left: 0;
   top: 0;
-  max-height: 100%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 `

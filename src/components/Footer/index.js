@@ -5,7 +5,6 @@ const Wrapper = styled.footer`
   background-color: ghostwhite;
   padding: 12px;
   text-align: center;
-  margin-top: 10px;
 `
 
 const Link = styled.a`

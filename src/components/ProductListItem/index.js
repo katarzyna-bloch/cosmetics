@@ -32,11 +32,11 @@ const Link = styled(RouterLink)`
 
 const Wrapper = styled.div`
   text-align: center;
+  padding: 15px;
 `
 
 const Image = styled.img`
   height: 180px;
-  padding: 15px 20px 0px;
 
   ${media.tablet} {
     height: 140px;
