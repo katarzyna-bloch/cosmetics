@@ -37,6 +37,17 @@ exports[`should render correctly 1`] = `
     <div
       className="sc-bdvvaa hugagk"
     >
+      <styled.h5>
+        <h5
+          className="sc-gsDJrp bydNIY"
+        >
+          Wyniki dla frazy: 
+          krem
+           (
+          1
+          )
+        </h5>
+      </styled.h5>
       <ProductsList
         products={
           Array [

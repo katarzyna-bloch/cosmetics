@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PageWrapper from '../PageWrapper'
+import ContentHeader from '../ContentHeader'
 
 const Content = styled(PageWrapper)`
   text-align: center;
@@ -8,7 +9,7 @@ const Content = styled(PageWrapper)`
 
 const ProductNotFound = () => (
   <Content>
-    <h3>Nie znaleziono produktu :(</h3>
+    <ContentHeader>Nie znaleziono produktu :(</ContentHeader>
   </Content>
 )
 
