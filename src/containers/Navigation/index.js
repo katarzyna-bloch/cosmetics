@@ -29,7 +29,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 Navigation.propTypes = {
   fetchCategories: PropTypes.func.isRequired,
-  categories: PropTypes.array.isRequired,
+  categories: PropTypes.array,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Navigation)

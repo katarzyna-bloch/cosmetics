@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<styled.div>
+  <styled.span>
+    <Styled(Link)
+      to="/"
+    >
+      Home
+    </Styled(Link)>
+  </styled.span>
+  <styled.span
+    key="Domowe SPA"
+  >
+    <Styled(Link)
+      to="/categories/home-spa"
+    >
+      Domowe SPA
+    </Styled(Link)>
+  </styled.span>
+  <styled.span
+    key="Cytrusowy Peeling Enzymatyczny w Żelu"
+  >
+    <styled.span>
+      Cytrusowy Peeling Enzymatyczny w Żelu
+    </styled.span>
+  </styled.span>
+</styled.div>
+`;

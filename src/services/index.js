@@ -5,7 +5,7 @@ export const fetchCategory = (url) => {
 }
 
 export const fetchProduct = (id) => {
-  return fetch(`http://localhost:3004/products/${id}`)
+  return fetch(`http://localhost:3004/products/${id}?_expand=category`)
     .then((response) => response.json());
 }
 
