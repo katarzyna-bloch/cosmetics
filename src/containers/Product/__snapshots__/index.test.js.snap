@@ -26,135 +26,61 @@ exports[`should render correctly 1`] = `
   }
   product={
     Object {
-      "brand": "Dove",
+      "brand": "mokosh",
+      "category": Object {
+        "description": "Profesjonalne SPA w domowym zaciszu",
+        "id": "1",
+        "name": "Domowe SPA",
+        "type": "homeSpa",
+        "url": "/categories/home-spa",
+      },
+      "categoryId": "1",
       "description": "Opis produktu",
-      "img": "img.jpg",
-      "name": "Test",
-      "price": "10zł",
-      "volume": "20ml",
+      "id": "7",
+      "img": "https://www.topestetic.pl/img/",
+      "name": "Bambusowa Szczotka do Masażu na Sucho",
+      "price": "19 zł",
+      "volume": "1 szt.",
     }
   }
 >
-  <Product
-    brand="Dove"
-    description="Opis produktu"
-    img="img.jpg"
-    name="Test"
-    price="10zł"
-    volume="20ml"
-  >
-    <Styled(styled.div)>
-      <div
-        className="sc-bdvvaa sc-eCImvq hugagk bYqZdB"
-      >
-        <styled.div>
-          <div
-            className="sc-jRQAMF fipYQh"
-          >
-            <Styled(styled.div)>
-              <div
-                className="sc-gKckTs sc-iCfLBT fNdLvK iBvEKs"
-              >
-                <styled.img
-                  alt="photo"
-                  src="img.jpg"
-                >
-                  <img
-                    alt="photo"
-                    className="sc-furvIG jXJxAC"
-                    src="img.jpg"
-                  />
-                </styled.img>
-              </div>
-            </Styled(styled.div)>
-            <styled.div>
-              <div
-                className="sc-gKckTs fNdLvK"
-              >
-                <styled.div>
-                  <div
-                    className="sc-pVTma klRKRc"
-                  >
-                    Dove
-                  </div>
-                </styled.div>
-                <styled.div>
-                  <div
-                    className="sc-jrQzUz ezWilb"
-                  >
-                    Test
-                  </div>
-                </styled.div>
-                <styled.div>
-                  <div
-                    className="sc-kDThTU giUTvm"
-                  >
-                    <styled.div>
-                      <div
-                        className="sc-crHlIS gpZKRB"
-                      >
-                        20ml
-                      </div>
-                    </styled.div>
-                    <Price
-                      price="10zł"
-                    >
-                      <styled.div>
-                        <div
-                          className="sc-gsDJrp bJTsku"
-                        >
-                          <styled.div>
-                            <div
-                              className="sc-hKwCoD gJJxfc"
-                            >
-                              10zł
-                            </div>
-                          </styled.div>
-                        </div>
-                      </styled.div>
-                    </Price>
-                  </div>
-                </styled.div>
-                <Styled(styled.div)>
-                  <div
-                    className="sc-kDThTU sc-iqsfdx giUTvm kUMUVf"
-                  >
-                    <styled.div>
-                      <div
-                        className="sc-egiSv fBmSfH"
-                      >
-                        Produkt dostępny
-                      </div>
-                    </styled.div>
-                    <styled.div>
-                      <div
-                        className="sc-bqiQRQ"
-                      >
-                        Dostawa gratis od 99 zł
-                      </div>
-                    </styled.div>
-                  </div>
-                </Styled(styled.div)>
-              </div>
-            </styled.div>
-          </div>
-        </styled.div>
-        <styled.div>
-          <div
-            className="sc-ksdxAp"
-          >
-            <styled.div>
-              <div
-                className="sc-hBURRC jQIWDf"
-              >
-                Opis Produktu
-              </div>
-            </styled.div>
-            Opis produktu
-          </div>
-        </styled.div>
-      </div>
-    </Styled(styled.div)>
-  </Product>
+  <styled.div>
+    <div
+      className="sc-bdvvaa fImdWK"
+    >
+      <Breadcrumb
+        values={
+          Array [
+            Object {
+              "label": "Domowe SPA",
+              "link": "/categories/home-spa",
+            },
+            Object {
+              "label": "Bambusowa Szczotka do Masażu na Sucho",
+            },
+          ]
+        }
+      />
+      <Product
+        brand="mokosh"
+        category={
+          Object {
+            "description": "Profesjonalne SPA w domowym zaciszu",
+            "id": "1",
+            "name": "Domowe SPA",
+            "type": "homeSpa",
+            "url": "/categories/home-spa",
+          }
+        }
+        categoryId="1"
+        description="Opis produktu"
+        id="7"
+        img="https://www.topestetic.pl/img/"
+        name="Bambusowa Szczotka do Masażu na Sucho"
+        price="19 zł"
+        volume="1 szt."
+      />
+    </div>
+  </styled.div>
 </Product>
 `;
