@@ -30,9 +30,9 @@ exports[`should render correctly 1`] = `
       "category": Object {
         "description": "Profesjonalne SPA w domowym zaciszu",
         "id": "1",
-        "name": "Domowe SPA",
-        "type": "homeSpa",
-        "url": "/categories/home-spa",
+        "name": "Pielęgnacja",
+        "type": "care",
+        "url": "/categories/care",
       },
       "categoryId": "1",
       "description": "Opis produktu",
@@ -52,8 +52,8 @@ exports[`should render correctly 1`] = `
         values={
           Array [
             Object {
-              "label": "Domowe SPA",
-              "link": "/categories/home-spa",
+              "label": "Pielęgnacja",
+              "link": "/categories/care",
             },
             Object {
               "label": "Bambusowa Szczotka do Masażu na Sucho",
@@ -67,9 +67,9 @@ exports[`should render correctly 1`] = `
           Object {
             "description": "Profesjonalne SPA w domowym zaciszu",
             "id": "1",
-            "name": "Domowe SPA",
-            "type": "homeSpa",
-            "url": "/categories/home-spa",
+            "name": "Pielęgnacja",
+            "type": "care",
+            "url": "/categories/care",
           }
         }
         categoryId="1"

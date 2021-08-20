@@ -11,10 +11,10 @@ it('should render correctly', () => {
   const props = {
     fetchCategories: jest.fn(),
     categories: [
-      { id: "1", type: "homeSpa", url: "/categories/home-spa", name: "Domowe SPA", description: "Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy" },
-      { id: "2", type: "cleaning", url: "/categories/cleaning", name: "Oczyszczanie", description: "Oczyszczanie to podstawowy krok w dojściu do pięknej cery" },
-      { id: "3", type: "care", url: "/categories/care", name: "Pielęgnacja", description: "Należy przestrzegać codziennej pielęgnacji twarzy" },
-    ]    
+      { id: "1", type: "care", url: "/categories/care", name: "Pielęgnacja", description: "Należy przestrzegać codziennej pielęgnacji twarzy" },
+      { id: "2", type: "perfume", url: "/categories/perfume", name: "Perfumy", description: "Prfumy w których się zakochasz" },
+      { id: "3", type: "makeup", url: "/categories/makeup", name: "Makijaż", description: "Te kosmetyki odmienią twoje spojrzenie" },
+    ],  
   }
   const wrapped = mount(<Navigation {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

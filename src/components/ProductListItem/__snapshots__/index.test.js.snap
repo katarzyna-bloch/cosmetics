@@ -7,7 +7,7 @@ exports[`should render correctly 1`] = `
   <styled.div>
     <styled.img
       alt="cosmetic"
-      src="img.jpg"
+      src="/images/img.jpg"
     />
     <styled.div>
       Test product!
@@ -26,7 +26,7 @@ exports[`should render correctly with has discount 1`] = `
   <styled.div>
     <styled.img
       alt="cosmetic"
-      src="img.jpg"
+      src="/images/img.jpg"
     />
     <styled.div>
       Test product!

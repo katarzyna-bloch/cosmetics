@@ -11,7 +11,7 @@ it('should handle FETCH_CATEGORY_SUCCESS successfully', () => {
     "products": [
       {
       "brand": "iS Clinical",
-      "categoryId": "3",
+      "categoryId": "1",
       "description": "Lekki, bezzapachowy płyn, który łagodnie, usuwa makijaż bez konieczności spłukiwania",
       "id": "19",
       "img": "img.jpg",

@@ -10,7 +10,7 @@ exports[`should render correctly 1`] = `
     </styled.h1>
     <styled.img
       alt="cosmetics"
-      src="/logo.png"
+      src="/images/logo.png"
     />
   </Styled(Link)>
 </styled.header>

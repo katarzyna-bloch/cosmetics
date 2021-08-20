@@ -6,7 +6,7 @@ exports[`should render correctly 1`] = `
     <Styled(styled.div)>
       <styled.img
         alt="photo"
-        src="img.jpg"
+        src="/images/img.jpg"
       />
     </Styled(styled.div)>
     <styled.div>
@@ -49,7 +49,7 @@ exports[`should render correctly with discount 1`] = `
     <Styled(styled.div)>
       <styled.img
         alt="photo"
-        src="img.jpg"
+        src="/images/img.jpg"
       />
     </Styled(styled.div)>
     <styled.div>

@@ -10,7 +10,7 @@ exports[`should render correctly 1`] = `
       "products": Array [
         Object {
           "brand": "iS Clinical",
-          "categoryId": "3",
+          "categoryId": "1",
           "description": "Lekki, bezzapachowy płyn, który łagodnie, usuwa makijaż bez konieczności spłukiwania.",
           "id": "19",
           "img": "img.jpg",
@@ -60,7 +60,7 @@ exports[`should render correctly 1`] = `
           Array [
             Object {
               "brand": "iS Clinical",
-              "categoryId": "3",
+              "categoryId": "1",
               "description": "Lekki, bezzapachowy płyn, który łagodnie, usuwa makijaż bez konieczności spłukiwania.",
               "id": "19",
               "img": "img.jpg",

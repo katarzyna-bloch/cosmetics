@@ -5,7 +5,7 @@ const Main = styled.main`
   display: flex;
   justify-content: center;
   flex: 1;
-  padding: 15px;
+  padding: 25px;
 `
 
 export default Main

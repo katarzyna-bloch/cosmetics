@@ -4,16 +4,16 @@ import PropTypes from 'prop-types'
 
 import PageWrapper from '../PageWrapper'
 import Price from '../Price'
+import { getImagePath } from '../../utils/images'
 
 const Wrapper = styled(PageWrapper)`
   flex-direction: column;
-  padding: 15px;
 `
 
 const ContainerDetails = styled.div`
   flex-direction: row;
   display: flex;
-  padding-top: 20px;
+  padding-top: 25px;
 
   ${media.phone} {
     flex-direction: column;
@@ -21,21 +21,25 @@ const ContainerDetails = styled.div`
 `
 
 const ContentDetails = styled.div`
-  flex: 1;
+  flex: 2;
 `
 
 const ContentImage = styled(ContentDetails)`
   display: flex;
   justify-content: center;
+  flex: 1;
+  padding: 0px 20px 20px 0px;
 
-  ${media.tablet} {
-    padding: 20px;
+  ${media.phone} {
+    padding: 0px 0px 20px 0px;
   }
 `
 
 const Image = styled.img`
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
+  object-fit: cover;
 `
 
 const BrandName = styled.div`
@@ -85,7 +89,7 @@ const Product = ({ img, brand, name, volume, oldPrice, price, description, hasDi
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
-        <Image src={img} alt="photo" />
+        <Image src={getImagePath(img)} alt="photo" />
       </ContentImage>
 
       <ContentDetails>
