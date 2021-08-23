@@ -26,9 +26,9 @@ it('should render correctly', () => {
       description: "Opis produktu",
       category: {
         id: "1",
-        type: "homeSpa",
-        url: "/categories/home-spa",
-        name: "Domowe SPA",
+        type: "care",
+        url: "/categories/care",
+        name: "Pielęgnacja",
         description: "Profesjonalne SPA w domowym zaciszu",
       },
     },

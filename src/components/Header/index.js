@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
 import media from '../../utils/media'
+import { getImagePath } from '../../utils/images'
 
 const Wrapper = styled.header`
   background-color: ghostwhite;
@@ -33,7 +34,7 @@ const Header = () => (
   <Wrapper>
     <Link to="/">
       <Title>Sklep kosmetyczny</Title>
-      <Photo src="/logo.png" alt="cosmetics" />   
+      <Photo src={getImagePath('logo.png')} alt="cosmetics" />   
     </Link>
   </Wrapper>
 )

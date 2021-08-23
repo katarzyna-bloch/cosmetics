@@ -1,284 +1,283 @@
-
 {
   "categories": [
     {
       "id": "1",
-      "type": "homeSpa",
-      "url": "/categories/home-spa",
-      "name": "Domowe SPA",
-      "description": "Profesjonalne SPA w domowym zaciszu to relaks dla ciała i duszy" 
-    },
-    {
-      "id": "2",
-      "type": "cleaning",
-      "url": "/categories/cleaning",
-      "name": "Oczyszczanie",
-      "description": "Oczyszczanie to podstawowy krok w dojściu do pięknej cery"
-    },
-    {
-      "id": "3",
       "type": "care",
       "url": "/categories/care",
       "name": "Pielęgnacja",
       "description": "Aby uzyskać zdrowy wygląd skóry, należy przestrzegać codziennej pielęgnacji twarzy"
+    },
+    {
+      "id": "2",
+      "type": "perfume",
+      "url": "/categories/perfume",
+      "name": "Perfumy",
+      "description": "Perfumy w których się zakochasz"
+    },
+    {
+      "id": "3",
+      "type": "makeup",
+      "url": "/categories/makeup",
+      "name": "Makijaż",
+      "description": "Najlepsze kosmetyki do makijażu, które spradzą się bez zarzutu"
     }
   ],
   "products": [
     {
       "id": "1",
-      "brand": "resibo",
-      "name": "Cytrusowy Peeling Enzymatyczny w Żelu",
+      "brand": "I'M FABULOUS",
+      "name": "Regenerujący olejek do ciała do skóry suchej",
       "volume": "120 ml",
       "oldPrice": "169 zł",
       "hasDiscount": true,
       "price": "89,20 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description": "Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
+      "img": "olejek.jpg",
+      "description": "Czysty i naturalny zapach kwiatu pomarańczy całkowicie oczaruje Twoje zmysły w regenerującym olejku do ciała do skóry suchej. Olejek sprawdzi się nie tylko w ramach codziennej pielęgnacji skóry po prysznicu czy kąpieli, ale stanowić będzie idealne uzupełnienie każdego masażu. Wyselekcjonowana kompozycja kilku olejków roślinnych zapewni Twojej skórze niezbędne odżywienie, pozostawiając ją naturalnie jędrną i sprężystą oraz aksamitnie miękką w dotyku."
     },
-    {  
+    {
       "id": "2",
-      "brand": "mokosh",
-      "name": "Szczotka do Masażu",
+      "brand": "Herbarie",
+      "name": "Szampon wzmacniający dla zdrowych i pięknych włosów",
       "volume": "1 szt.",
       "price": "21 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
-      "description":"Szczotka do masażu ciała została wykonana z naturalnego włókna agawy oraz wysokiej jakości drewna bukowego. Kształt dopasowany do dłoni z paskiem ułatwiającym trzymanie. Polecana do stosowania zarówno na sucho, jak i na mokro. Sucha szczotka jest twardsza i ostrzejsza, natomiast po zmoczeniu jej włókna są łagodniejsze. Masowanie ciała szczotką zwiększa ukrwienie skóry, wygładza oraz ujędrnia, złuszcza martwy naskórek, przygotowując skórę do aplikacji kosmetyków pielęgnacyjnych. Po zastosowaniu szczotki skóra lepiej wchłania składniki aktywne zawarte w balsamach, czy olejkach, dzięki czemu działają one skuteczniej. Masaż szczotką pomaga także likwidować obrzęki limfatyczne, jest także świetnym uzupełnieniem kuracji antycellulitowej."
+      "img": "shampon.jpg",
+      "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby także bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację. Specjalne połączenie wyciągów ze złotej quinoi i protein pszenicy eliminuje uszkodzenia powierzchni włosów nawet o 77%. Po użyciu włosy staną się niezwykle delikatne i zyskają 7 razy więcej blasku."
     },
     {
       "id": "3",
-      "brand": "veoli botanica",
-      "name": "Orzeźwiający Olejek do Mycia Ciała",
+      "brand": "caffeine",
+      "name": "Serum z zielonej herbaty",
       "volume": "100 ml",
       "price": "36 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Orzeźwiający olejek to produkt wielozadaniowy. Jego kluczowa rola sprowadza się do zapewnienia uczucia czystości i świeżości, ale to dopiero początek jego doskonałych zastosowań. Dzięki niemu dostarczamy naszej skórze budulca potrzebnego do odbudowy i wzmocnienia bariery lipidowej naskórka. Zabezpiecza skórę przed wysuszeniem. Dzięki składnikom roślinnym nie powoduje podrażnień. Zawarte w nim witaminy, minerały i flawonoidy gwarantują doskonałe nawilżenie skóry oraz ochronę przed niekorzystnymi warunkami atmosferycznymi."
+      "img": "face serum.jpg",
+      "description": "Czy Twoja skóra traci jędrność i jest gorzej nawilżona? Serum za pomocą specjalnych mikrokapsułek przenika głęboko pod skórę, w której na długo zamyka substancje nawilżające i przeciwutleniające. Efektem regularnego stosowania jest widocznie odmłodzona skóra, bez oznak zwiotczenia i wysuszenia."
     },
     {
       "id": "4",
-      "brand": "resibo",
-      "name": "Peeling-Maska z Superowocami",
+      "brand": "SKANDINAVIA BIOLABS",
+      "name": "Nawilżający szampon",
       "volume": "75 ml",
       "oldPrice": "109 zł",
       "hasDiscount": true,
       "price": "71,20 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description": "Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
+      "img": "shampon+.jpg",
+      "description": "Szampon SKANDINAVIA BIOLABS skutecznie oczyszcza skórę głowy, dokładnie myje włosy i przywraca im naturalne piękno. Właściwości: myje włosy i oczyszcza skórę głowy, regeneruje i odżywia włosy, intensywnie nawilża, nadaje włosom delikatny zapach, nadaje włosom miękkość"
     },
     {
       "id": "5",
-      "brand": "veoli botanica",
-      "name": "Relaksujący Olejek do Mycia Ciała z Płatkami Róży",
+      "brand": "The Ordinary",
+      "name": "Serum z niacynamidem",
       "volume": "100 ml",
       "price": "62 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Relaksujący olejek to produkt wielozadaniowy. Jego kluczowa rola sprowadza się do zapewnienia uczucia czystości i świeżości, ale to dopiero początek jego doskonałych zastosowań. Dzięki niemu dostarczamy naszej skórze budulca potrzebnego do odbudowy i wzmocnienia bariery lipidowej naskórka. Zabezpiecza skórę przed wysuszeniem. Dzięki składnikom roślinnym nie powoduje podrażnień. Zawarte w nim witaminy, minerały i flawonoidy gwarantują doskonałe nawilżenie skóry oraz ochronę przed niekorzystnymi warunkami atmosferycznymi."
+      "img": "serum z niacynamidem.jpg",
+      "description": "Skoncentrowane serum do twarzy z niacynamidem w aktywnym stężeniu 10%, witaminą C, ekstraktem z jagód Acai i olejkiem z drzewa herbacianego. B3-shot to ultra nawilżenie i wygładzenie każdego typu cery, zwłaszcza problematycznej i trądzikowej. Posiada lekką wodną konsystencję, która natychmiast wtapia się w skórę. Badania wykazały, że podnosi poziom nawilżenia o 37.1% po 4 tygodniach regularnej aplikacji. Skutecznie zmniejsza ilość wydzielanego sebum i przywraca cerze zdrowy wygląd."
     },
     {
       "id": "6",
-      "brand": "resibo",
-      "name": "Delikatny Peeling",
+      "brand": "GINGER WHITE",
+      "name": "Nawilżający żel do kąpieli ",
       "volume": "150 ml",
       "oldPrice": "37 zł",
       "hasDiscount": true,
       "price": "25,20 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description":"Skuteczne złuszczanie i intensywna regeneracja po jednym użyciu. Peeling sprawia, że nawet bardzo zmęczona i sucha skóra od razu staje się gładka, miękka, silnie nawilżona i ujędrniona. Zrogowaciały naskórek znika, a specjalne dobrane aktywne składniki natychmiast pobudzają skórę do wytwarzania nowych, zdrowych komórek. Stosować podczas kąpieli. Nabrać peeling w dłonie i masować całe ciało okrężnymi ruchami. Zacząć od stóp i kierować się stopniowo w górę. Masować zawsze w kierunku serca."
+      "img": "gel.jpg",
+      "description": "Naturalny i odżywczy żel do kąpieli doskonale pielęgnuje skórę pozostawiając ją jedwabiście gładką, nie powodując podrażnień. Innowacyjna formuła o neutralnym pH nie tylko dokładnie oczyszcza, ale też odżywia skórę podczas kąpieli. Prowitamina B5 oraz gliceryna roślinna doskonale odżywia skórę podczas kąpieli. Miód Manuka bogaty jest w dużą ilość substancji odżywczych, wspomaga regenerację skóry. Słodki, miodowy aromat wypełni całą łazienkę."
     },
-    {  
+    {
       "id": "7",
-      "brand": "mokosh",
-      "name": "Bambusowa Szczotka do Masażu na Sucho",
+      "brand": "SKANDINAVIAN BIOLABS",
+      "name": "Serum stymulujący wzrost włosów",
       "volume": "1 szt.",
       "price": "19 zł",
       "categoryId": "1",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/mokosh-body-massage-brush-szczotka-do-masazu-ciala-1-szt.jpg?1613602801",
-      "description": "Szczotka do masażu ciała została wykonana z naturalnego włókna agawy oraz wysokiej jakości drewna bukowego. Kształt dopasowany do dłoni z paskiem ułatwiającym trzymanie. Polecana do stosowania zarówno na sucho, jak i na mokro. Sucha szczotka jest twardsza i ostrzejsza, natomiast po zmoczeniu jej włókna są łagodniejsze. Masowanie ciała szczotką zwiększa ukrwienie skóry, wygładza oraz ujędrnia, złuszcza martwy naskórek, przygotowując skórę do aplikacji kosmetyków pielęgnacyjnych. Po zastosowaniu szczotki skóra lepiej wchłania składniki aktywne zawarte w balsamach, czy olejkach, dzięki czemu działają one skuteczniej. Masaż szczotką pomaga także likwidować obrzęki limfatyczne, jest także świetnym uzupełnieniem kuracji antycellulitowej."
+      "img": "serum.jpg",
+      "description": "Stymuluje wzrost włosów i zapobiega ich wypadaniu. Przywraca gęstość i zdrowy wygląd. Zwalcza oznaki starzenia włosów, takie jak łamliwość, suchość i matowość. Przeciwdziała pierwszym objawom łysienia, tj. przerzedzeniu włosów oraz utracie włosów osłabionych niedoborami diety czy zmęczeniem. Reguluje wydzielanie sebum i zapobiega przetłuszczaniu się skóry głowy. Działa antybakteryjnie. Chroni włosy przed zewnętrznymi zanieczyszczeniami środowiska. Odświeża. Włosy lepiej się rozczesują i układają, nie elektryzują się. Bezpieczny dla włosów farbowanych i po zabiegach fryzjerskich."
     },
-    {  
+    {
       "id": "8",
-      "brand": "iS Clinical",
-      "name": "Oczyszczający Żel do Mycia Twarzy",
+      "brand": "Pacifig",
+      "name": "Hollister California",
       "volume": "50 ml",
       "oldPrice": "70 zł",
       "hasDiscount": true,
       "price": "47,20 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description":"Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
+      "img": "perfum1.jpg",
+      "description": "Hollister California to iskrzące kwiatowe nuty, obfitość róż z Grasse ożywionych skórką z bergamotki i spotęgowanych nutą piżma. Żywiołowa esencja geranium uszlachetnia kompozycję swoimi cytrusowymi nutami, aby wiernie odtworzyć rozciągające się w nieskończoność pola kwiatów. Zanurza Nas w bezkresnym oceanie płatków róż, których pola rozciągają się w nieskończoność"
     },
-    { 
+    {
       "id": "9",
-      "brand": "resibo",
-      "name": "Rozświetlająca Maska do Twarzy",
+      "brand": "Lancome",
+      "name": "La Vie Est Belle",
       "volume": "200 ml",
       "price": "38 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, rozświetlająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
+      "img": "perfum2.jpg",
+      "description": "Głęboko kobieca, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń. Przyszła właścicielka z pewnością pozostanie jej wierna. A osoby wokół będą rozpromienione dobrym nastrojem. Z każdym ruchem Twoja skóra będzie wykrzykiwać radosną maksymę la vie est belle pełną kwiatowo-owocowej rozkoszy. Słodkie nuty gruszy i cierpka czarna porzeczka w niezwykłym tańcu zawibrują wokół."
     },
     {
       "id": "10",
-      "brand": "veoli botanica",
-      "name": "Tonik Żelowy z 5% Kwasem Glikolowym ",
+      "brand": "SINA RICCI",
+      "name": "Saint Laurent Pink Opium",
       "volume": "75 ml",
       "price": "22 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
+      "img": "perfum3.jpg",
+      "description": "Nowy zapach Saint Laurent Pink Opium. Zdefiniowany przez prowansalską lawendę. Zachęca do wolności i łamania wszelkich granic, zamknięty w prostym flakonie ze złotym symbolem oznacza wolność. Bądź wolna, wychodź przed szereg, nie bój się eksperymentów i łam wszelkie granice z nowym zapachem. Zapach to elegancja i szczypta szaleństwa zamknięta w prostym flakonie przywodzącym na myśl klasyczny garnitur. "
     },
     {
       "id": "11",
-      "brand": "iS Clinical",
-      "name": "Żel Oczyszczający do Skóry Tłustej i Wrażliwej",
+      "brand": "quokka",
+      "name": "Crystal For Women",
       "volume": "100 ml",
       "oldPrice": "65 zł",
       "hasDiscount": true,
       "price": "42,20 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
+      "img": "perfum4.jpg",
+      "description": "Piękny, rozkwitający, uwodzicielski. Wzbudza pożądanie, odkrywa tajemnice. Najnowszy zapach w rodzinie. Wejdź do świata  czyli Szalonej Miłości. Daj się otulić zmysłowemu, szyprowemu zapachowi. Wyjdź na spotkanie intensywnej kwiatowej przygody. Ty i on. Razem. Na ulicach Paryża. Magiczne momenty, chwile, które przeradzają się w pasje i namiętność. Nic już nie będzie takie samo. To czas kiedy chwila przybiera jeszcze głębszą intensywność i trwa. Wprowadzając Cię w nowy rozdział życia."
     },
     {
       "id": "12",
-      "brand": "veoli botanica",
-      "name": "Tonik Żelowy Nawilżający z Mocznikiem",
+      "brand": "BLACK CURRANT 10",
+      "name": "Morra 2nd collection",
       "volume": "150 ml",
       "oldPrice": "29 zł",
       "hasDiscount": true,
       "price": "23,20 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
+      "img": "perfum5.jpg",
+      "description": "W klasycznym zapachu Morra 2nd collection kobiecość została ujęta w oryginalny i nietypowy sposób. Klasyczny aromat róży połączono z delikatnymi nutami kwiatów peonii i lychee. Powstała woń o lekkim, uwodzicielskim charakterze."
     },
     {
       "id": "13",
-      "brand": "resibo",
-      "name": "Kremowa Maska do Twarzy do Skóry Pozbawionej Blasku",
+      "brand": "MYRIAMK",
+      "name": "Argan mood",
       "volume": "50 ml",
       "price": "78 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, nawilżająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
+      "img": "perfum6.jpg",
+      "description": "Kompozycję Argan mood otwiera smakowita świeżość dzikich truskawek, listków fiołka i rubinowego grejpfruta. Nuta głowy przechodzi w aksamitną mieszankę gardenii, listków fiołka i jaśminu. Miękkie, ciepłe, zmysłowe nuty, jak piżmo, wanilia i białe drewno uzupełniają całość w nucie podstawy, tworząc doskonały balans."
     },
-    {  
+    {
       "id": "14",
-      "brand": "iS Clinical",
-      "name": "Kremowy Żel Oczyszczający o Działaniu Ochronnym",
+      "brand": "LOEWE",
+      "name": "Acqua di Gio Homme",
       "volume": "125 ml",
       "price": "99 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
+      "img": "perfum7.jpg",
+      "description": "Uczciwa i optymistyczna. Kobieta zapachu Acqua di Gio Homme nie godzi się na zdefiniowanie, określenie jej. Ceni sobie transparentność, prawdę, wolność. Chce przynależeć do grupy, akceptuje swą kobiecość i siebie."
     },
     {
       "id": "15",
-      "brand": "veoli botanica",
-      "name": "Nawilżający Tonik do Twarzy",
+      "brand": "Chanel",
+      "name": "Coco Mademoiselle",
       "volume": "150 ml",
       "price": "32 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
+      "img": "perfum8.jpg",
+      "description": "COCO to ekspresja wyrazistej osobowości Gabrielle Chanel i jej upodobania do baroku. Luksusowa, orientalna symfonia stopniowo ukazuje swoje kontrastujące nuty. Luksusowa kompozycja o kontrastujących nutach. Zapach otwiera cytrusowa nuta sycylijskiej mandarynki. Po chwili wyłania się zmysłowe serce z absolutem jaśminu i róży majowej. Luksusowa równowaga otulających akordów nuty głębi, podkreślona jest indonezyjską paczulą, bobem tonka i żywicą benzoesową."
     },
     {
       "id": "16",
-      "brand": "resibo",
-      "name": "Całonocna Maska Rozjaśniająca Do Twarzy",
+      "brand": "Versace",
+      "name": "Bright Crystal",
       "volume": "75 ml",
       "price": "35 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/resibo-regenerating-body-scrub-lotus-effect-regenerujacy-peeling-do-ciala-300-g.jpg?1613602801",
-      "description": "Łagodzi podrażnienia, wygładza i regeneruje skórę. Bioaktywna, rozjaśniająca maska o bogatym składzie i cudownie kojącym działaniu. Stanowi codzienne wsparcie dla nocnej regeneracji skóry wrażliwej, suchej, naczyniowej i wymagającej. Zapewnia optymalne, głębokie nawilżenie, działa silnie odżywczo i uelastyczniająco. Sprzyja fizjologicznej odnowie skóry oraz wyciszaniu stanów zapalnych, zaczerwienień i podrażnień. Przynosi skórze ulgę i przyjemne uczucie długotrwałego komfortu."
+      "img": "perfum9.jpg",
+      "description": "Zmysłowy, krystalicznie przejrzysty, cudownie lśniący. Zamknięty we flakonie szlifowanym niczym prawdziwy klejnot wyjątkowej urody. Świeży i musujący, dla kobiety zmysłowej, pewnej siebie i zawsze glamour. Bright Crystal to łagodny kwiatowy zapach z owocowymi i piżmowymi akcentami. W nucie głowy owoc granatu łączy się z akordem lodowym i cytrusowymi nutami yuzu. W nucie serca lekki kwiatowy bukiet magnolii, piwonii i kwiatu lotosu. W nucie głębi piżmo, ambra i drzewo acajou, pozostawiające zmysłowy woal."
     },
-    {  
+    {
       "id": "17",
-      "brand": "iS Clinical",
-      "name": "Żel Oczyszczający o Zapachu Białej Herbaty",
+      "brand": "Marc Jacobs",
+      "name": "Decadence",
       "volume": "100 ml",
       "price": "21 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Wyjątkowo delikatny żel, stworzony z myślą o skórze dojrzałej, przesuszonej, wrażliwej, z niedoskonałościami. Dzięki delikatnym i bezpiecznym czynnikom myjącym pochodzenia naturalnego zapewnia perfekcyjne oczyszczanie bez podrażnień, nie zaburza równowagi hydrolipidowej skóry, chroniąc jej naturalne PH. Oparty na wyciągach z roślin o działaniu złuszczającym i kojącym, usuwa wszelkie zanieczyszczenia, w tym martwe komórki naskórka i nadmiar sebum, odblokowuje pory, łagodzi zapalne zmiany trądzikowe i doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych. Nie zawiera mydła."
+      "img": "perfum10.jpg",
+      "description": "Nowy, niezwykły projekt zapachowy Marc Jacobs Decadence jest obiektem do zaspokajania najgłębszych pragnień, wymarzonym gadżetem modowo-urodowym, intrygującą wonią, której ciężko będzie się oprzeć. Podkreśla charakter marki dzięki odważnej stylizacji, luksusowemu rzemiosłu i rewolucyjnemu designowi flakonu, który zainspirowała jedna z kultowych torebek Marca o nazwie Trouble. Zapach rozkwita w nucie głowy niesamowitym połączeniem włoskiej śliwki, irysa oraz szafranu, aby dalej w nucie serca rozbłysnąć cudownie urzekającym połączeniem róży bułgarskiej, soczystym kosiaciec oraz kwiatem jaśminu sambac. Zamyka się równie uzależniającymi nutami, dopełniającymi zapach: ambrą, wetiwerem i papirusem."
     },
     {
       "id": "18",
-      "brand": "veoli botanica",
-      "name": "Tonik Nawilżający - Jedwab i Kwiaty Maku Polnego",
+      "brand": "GARDENIA",
+      "name": "Morra Sal Gon",
       "volume": "125 ml",
       "oldPrice": "95 zł",
       "hasDiscount": true,
       "price": "89,20 zł",
       "categoryId": "2",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Formuła, która usuwa zanieczyszczenia odpowiedzialne za matową cerę i delikatnie nawilża skórę. Tonik bogaty w hydrojonizowaną wodę mineralną zawierającą 6 minerałów nawilża, rebalansuje i przygotowuje skórę do przyjęcia kolejnych produktów. Zawiera sok brzozowy oraz niezbędne witaminy i minerały, dzięki czemu pomaga wzmocnić barierę ochronną skóry, pozostawiając ją gładszą i bardziej miękką."
+      "img": "perfum11.jpg",
+      "description": "Morra Sal Gon to kompozycja z dominacją nut kwiatu pomarańczy, które otulają zapach śródziemnomorską aurą różnorodności. Świeżość kwiatu pomarańczy podkreślają skórki dwóch rodzajów gorzkich pomarańczy oddających włoską radość życia. Tłem dla nuty centralnej jest połączenie wyjątkowej elegancji pochodzącego z Tunezji kwiatu pomarańczy oraz finezji kobiecej aury wyszukanego indyjskiego jaśminu sambac. Wanilia z Madagaskaru oraz akord miodowy sprawiają, że doświadczenie nuty bazowej staje niezapomnianym przeżyciem"
     },
-    {  
+    {
       "id": "19",
-      "brand": "iS Clinical",
-      "name": "Lipowy Płyn Micelarny",
+      "brand": "L’Oréal Paris",
+      "name": "Tusz do rzęs Lash Paradise",
       "volume": "200 ml",
       "price": "27 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Lekki, bezzapachowy płyn, który łagodnie, ale skutecznie usuwa makijaż bez konieczności spłukiwania. Wzbogacony kwasem hialuronowym, ekstraktem z lipy i mimozy. Nawilża, łagodzi, przyjemnie odświeża, a dzięki neutralnemu pH nie narusza bariery ochronnej. Dla każdego rodzaju cery"
+      "img": "tusz do rzes.jpg",
+      "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydluzenia. Dzieki swojej weganskiej i delikatnej formule, jest idealny dla wrazliwych oczy lub osób noszacych szkla kontaktowe. Z latwoscia mozna usunac go przy pomocy tylko cieplej wody! Tusz do rzes spelnia wymogi Clean Beauty i nie zawiera m.in. parabenów, silikonów, olejów mineralnych, siarczanów. Posiada biodegradowalne opakowanie. Formula opracowana specjalnie dla wrazliwych oczu! Maskare mozesz zmyc bez trudu ciepla woda."
     },
-    { 
+    {
       "id": "20",
-      "brand": "Thalgo",
-      "name": "Krem Nawilżający z Migdałem i Algami",
+      "brand": "Xi Xiu",
+      "name": "BB Krem & Podkład w płynie",
       "volume": "50 ml",
       "price": "98 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401",
-      "description": "Wyjątkowy krem idealny dla każdego rodzaju skóry, który pomaga nawilżać i odżywiać komórki skóry przez cały dzień. Zawiera Hydromanil, zaawansowaną technologicznie składnik, który zatrzymuje wodę i stopniowo dostarcza wilgoci do skóry. Więc nie tylko zapewnia natychmiastowe nawilżenie, ale również w dalszym ciągu utrzymuje wodę w warstwach skóry w czasie. Pomaga również chronić skórę przed szkodliwym wpływem czynników zewnętrznych, które powodują oznaki starzenia takie jak zmarszczki i przebarwienia."
+      "img": "podkład.jpg",
+      "description": " BB Cream to wielofunkcyjny krem BB (baza/krem/podkład) przeznaczony do każdego typu cery. Właściwości kryjące podkładu pozwalają na wyrównanie kolorytu skóry, oraz pokrycie niedoskonałości dając efekt zdrowej i naturalnej cery. Składnik Phytosan o działaniu nawilżającym wspomagają prawidłowy poziom nawilżenia skóry, dzięki czemu staje się ona miękka i gładka. Faktor SPF15 stanowi ochronę przed szkodliwym promieniowaniem słonecznym. Bez parabenów i perfum. "
     },
     {
       "id": "21",
-      "brand": "veoli botanica",
-      "name": "Kolagenowe Serum Odżywcze",
+      "brand": "Eco Panda",
+      "name": "Płatki kosmetyczne",
       "volume": "75 ml",
       "price": "66 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Serum do twarzy to skuteczna broń w walce z uporczywymi przebarwieniami i nierównomiernym kolorytem skóry. Uznawany za kultowy w swojej kategorii preparat oparty na skutecznie złuszczającym kwasie mlekowym działa na zmiany pigmentacyjne, wybielając je i zrównując koloryt cery. Wysokie stężenie tego kwasu pozwala na wydobycie naturalnego blasku cery i zapobieganiu kolejnym zmianom, dzięki czemu skóra twarzy jest jednolita i widocznie rozjaśniona."
+      "img": "płatki.jpg",
+      "description": "Powierzchnia płatków została nawilżona substancją Soft Touch, która sprawia, że są one delikatne i miękkie, a ich stosowanie komfortowe i bezpieczne nawet dla delikatnych okolic oczu. Płatki kosmetyczne są niezawodne i uniwersalne. Możesz nakładać nimi toniki, mleczka, żele, olejki, płyny do demakijażu i inne kosmetyki. Są doskonałe do stosowania m.in. na skórę twarzy (także wokół oczu), szyi i dekoltu. Jeśli stosujesz je często, wybierz potrójny zestaw płatków, który zawiera aż trzy opakowania w korzystnej cenie."
     },
     {
       "id": "22",
-      "brand": "Thalgo",
-      "name": "Intensywnie Nawilżający Krem do Twarzy na Dzień",
+      "brand": "Rimmel",
+      "name": "Szminka Moisture Renew",
       "volume": "50 ml",
       "oldPrice": "63 zł",
       "hasDiscount": true,
       "price": "44,20 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/thalgo-hydra-marine-24h-cream-krem-nawilzajacy-24h-50-ml6.jpg?1614812401",
-      "description": "Wyjątkowy krem idealny dla każdego rodzaju skóry, który pomaga nawilżać i odżywiać komórki skóry przez cały dzień. Zawiera Hydromanil, zaawansowaną technologicznie składnik, który zatrzymuje wodę i stopniowo dostarcza wilgoci do skóry. Więc nie tylko zapewnia natychmiastowe nawilżenie, ale również w dalszym ciągu utrzymuje wodę w warstwach skóry w czasie. Pomaga również chronić skórę przed szkodliwym wpływem czynników zewnętrznych, które powodują oznaki starzenia takie jak zmarszczki i przebarwienia."
+      "img": "pomadka.jpg",
+      "description": "Komfortowa, kremowa pomadka podkreśla kształt ust pozostawiając je nawilżone przez wiele godzin. Lekka i ultra-delikatna formuła z witaminami C i E pielęgnuje usta, wygładza je i sprawia, że stają się wyjątkowo kuszące. Piękny, soczysty kolor, wykończony delikatnym połyskiem, utrzymuje się na ustach do 6 godzin. Pomadka w składzie  zawiera  ochronne filtry UV.   "
     },
     {
       "id": "23",
-      "brand": "veoli botanica",
-      "name": "Serum Zwalczające Niedoskonałości Skóry",
+      "brand": "Eigshow",
+      "name": "Zestaw pędzli z etui",
       "volume": "120 ml",
-      "price": "51 zł",
+      "price": "73 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/veoli-botanica-enjoy-the-calmness-relaksuja-cy-olejek-do-ciala-z-platkami-ro-z-y-150-ml.jpg",
-      "description": "Serum do twarzy to skuteczna broń w walce z uporczywymi przebarwieniami i nierównomiernym kolorytem skóry. Uznawany za kultowy w swojej kategorii preparat oparty na skutecznie złuszczającym kwasie mlekowym działa na zmiany pigmentacyjne, wybielając je i zrównując koloryt cery. Wysokie stężenie tego kwasu pozwala na wydobycie naturalnego blasku cery i zapobieganiu kolejnym zmianom, dzięki czemu skóra twarzy jest jednolita i widocznie rozjaśniona."
+      "img": "pędzle.jpg",
+      "description": "Poznaj jedyny w swoim rodzaju zestaw pędzli do blendowania, zawierający wersje standard i max naszych najlepiej sprzedających się pędzli. Dzięki unikalnie zaprojektowanym główkom pędzli do każdego kształtu oka, rozmiaru ten zestaw jest idealny do wykonywania każdego rodzaju makijażu. Pędzle cechująvwyjątkowo miękkie włókna SigmaTech®, które są idealne zarówno do precyzyjnego blendowania, jak i tworzenia rozświetlającego efektu na całej powierzchni twarzy."
     },
     {
       "id": "24",
-      "brand": "iS Clinical",
-      "name": "Płyn Micelarny z Wodą Różaną",
+      "brand": "Xi Xiu",
+      "name": "Lasting Eyeliner Pencil",
       "volume": "125 ml",
       "price": "17 zł",
       "categoryId": "3",
-      "img": "https://www.topestetic.pl/img/zdjecia/strona-big/is-clinical-cleansing-complex-zel-oczyszczajacy-180-ml.jpg?1614726001",
-      "description": "Lekki, bezzapachowy płyn, który łagodnie, ale skutecznie usuwa makijaż bez konieczności spłukiwania. Wzbogacony kwasem hialuronowym, ekstraktem z wody różanej. Nawilża, łagodzi, przyjemnie odświeża, a dzięki neutralnemu pH nie narusza bariery ochronnej. Dla każdego rodzaju cery"
+      "img": "eyeliner.jpg",
+      "description": "Eyeliner w płynie z innowacyjnym pędzelkiem zapewnia możliwość wykonania precyzyjnej kreski o różnej grubości, idealnie podkreślając oczy. Płynna, wodoodporna formuła gwarantuje doskonałą trwałość i wyjątkowo intensywny kolor. Wstrząsnąć przed użyciem. Formuła testowana dermatologicznie i oftalmologicznie. "
     }
   ]
 }
