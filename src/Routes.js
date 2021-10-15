@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Product from'./containers/Product'
 import Search from './containers/Search'
-import Home from './components/Home'
+import Home from './containers/Home'
 import Category from './containers/Category'
 import Sale from './containers/Sale'
 

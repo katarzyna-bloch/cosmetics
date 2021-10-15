@@ -15,7 +15,7 @@ it('should render correctly', () => {
       type: 'care', 
       url: '/categories/care', 
       name: 'Pielęgnacja', 
-      description: 'Należy przestrzegać codziennej pielęgnacji twarzy',
+      heading: 'Należy przestrzegać codziennej pielęgnacji twarzy',
       products: [
         {
         brand: 'iS Clinical',

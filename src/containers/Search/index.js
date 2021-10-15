@@ -10,7 +10,7 @@ import PageWrapper from '../../components/PageWrapper'
 import ProductNotFound from '../../components/ProductNotFound'
 import ContentHeader from '../../components/ContentHeader'
 
-export const Search = ({fetchProducts, products, location: { search }}) => {
+export const Search = ({ fetchProducts, products, location: { search } }) => {
   const searchParams = new URLSearchParams(search)
   const query = searchParams.get('q')
 
@@ -32,7 +32,7 @@ export const Search = ({fetchProducts, products, location: { search }}) => {
   )
 }
 
-const mapStateToProps = ({search}) => ({
+const mapStateToProps = ({ search }) => ({
   products: search,
 })
 

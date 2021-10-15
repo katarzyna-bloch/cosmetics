@@ -1,4 +1,4 @@
-import { fetchCategories} from '../../services'
+import { fetchCategories } from '../../services'
 
 export const FETCH_CATEGORIES_SUCCESS = 'FETCH_CATEGORIES_SUCCESS'
 

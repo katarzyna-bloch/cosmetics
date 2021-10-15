@@ -5,7 +5,8 @@ import ProductsList from '.'
 it('should render correctly', () => {
   const props = {
     products: [
-      { name: 'Test', 
+      { 
+        name: 'Test', 
         img: 'img.jpg', 
         id: '1', 
         price: '50zł',

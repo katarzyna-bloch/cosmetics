@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
+
 import media from '../../utils/media'
-import { getImagePath } from '../../utils/images'
+import { getImageProductsPath  } from '../../utils/images'
 
 const Wrapper = styled.header`
-  background-color: ghostwhite;
+  background-color: lavender;
   padding-top: 10px;
   display: flex;
   justify-content: center;
@@ -30,11 +31,11 @@ const Link = styled(RouterLink)`
   justify-content: center;
 `
 
-const Header = () => (     
+const Header = () => (
   <Wrapper>
     <Link to="/">
       <Title>Sklep kosmetyczny</Title>
-      <Photo src={getImagePath('logo.png')} alt="cosmetics" />   
+      <Photo src={getImageProductsPath('logo.png')} alt="cosmetics" />
     </Link>
   </Wrapper>
 )

@@ -1,4 +1,4 @@
-import { fetchSale } from '../../services';
+import { fetchSale } from '../../services'
 export const FETCH_SALE_SUCCESS = 'FETCH_SALE_SUCCESS'
 
 export const requestSale = () => (dispatch) => {

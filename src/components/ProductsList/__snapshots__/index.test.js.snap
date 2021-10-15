@@ -2,12 +2,19 @@
 
 exports[`should render correctly 1`] = `
 <styled.div>
-  <ProductListItem
-    id="1"
-    img="img.jpg"
+  <styled.div
     key="1"
-    name="Test"
-    price="50zł"
-  />
+  >
+    <ProductListItem
+      product={
+        Object {
+          "id": "1",
+          "img": "img.jpg",
+          "name": "Test",
+          "price": "50zł",
+        }
+      }
+    />
+  </styled.div>
 </styled.div>
 `;

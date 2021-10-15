@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<styled.div
+  sideMargins={0}
+  withBottomMargin={false}
+>
+  <Slider
+    dots={false}
+    draggable={false}
+    gap={0}
+    infinite={true}
+    speed={200}
+  >
+    <styled.div
+      key="0"
+    >
+      <Banner
+        name="Banner 1"
+      />
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <Banner
+        name="Banner 2"
+      />
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <Banner
+        name="Banner 3"
+      />
+    </styled.div>
+  </Slider>
+</styled.div>
+`;

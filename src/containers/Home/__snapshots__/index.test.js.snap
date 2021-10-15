@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should get the data correctly 1`] = `
+<Home
+  banners={
+    Array [
+      Object {
+        "id": "3",
+        "img": "makeup.jpg",
+        "text": "Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!",
+        "url": "/categories/makeup",
+      },
+    ]
+  }
+  fetchBanners={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  fetchSaleProducts={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  fetchTopProducts={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  saleProducts={
+    Array [
+      Object {
+        "brand": "Rimmel",
+        "categoryId": "3",
+        "description": "kremowa pomadka",
+        "hasDiscount": true,
+        "id": "22",
+        "img": "pomadka.jpg",
+      },
+    ]
+  }
+  topProducts={
+    Array [
+      Object {
+        "brand": "Rimmel",
+        "categoryId": "3",
+        "description": "kremowa pomadka",
+        "hasDiscount": true,
+        "id": "22",
+        "img": "pomadka.jpg",
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-iCfLBT dWFFgQ"
+    >
+      <Banners
+        banners={
+          Array [
+            Object {
+              "id": "3",
+              "img": "makeup.jpg",
+              "text": "Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!",
+              "url": "/categories/makeup",
+            },
+          ]
+        }
+      >
+        <Carousel
+          items={
+            Array [
+              <Banner
+                banner={
+                  Object {
+                    "id": "3",
+                    "img": "makeup.jpg",
+                    "text": "Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!",
+                    "url": "/categories/makeup",
+                  }
+                }
+              />,
+            ]
+          }
+          settings={
+            Object {
+              "autoplay": true,
+              "dots": true,
+              "slidesToShow": 1,
+            }
+          }
+        >
+          <styled.div
+            sideMargins={0}
+            withBottomMargin={true}
+          >
+            <div
+              className="sc-jRQAMF ftbaup"
+            >
+              <ProductsSlider
+                autoplay={true}
+                dots={true}
+                draggable={false}
+                gap={0}
+                infinite={true}
+                slidesToShow={1}
+                speed={200}
+              >
+                ProductsSlider
+              </ProductsSlider>
+            </div>
+          </styled.div>
+        </Carousel>
+      </Banners>
+      <Styled(styled.h5)>
+        <h5
+          className="sc-bdvvaa sc-ksdxAp cRcTHD gIxfol"
+        >
+          W tym tygodniu w promocji
+        </h5>
+      </Styled(styled.h5)>
+      <ProductsSlider
+        products={
+          Array [
+            Object {
+              "brand": "Rimmel",
+              "categoryId": "3",
+              "description": "kremowa pomadka",
+              "hasDiscount": true,
+              "id": "22",
+              "img": "pomadka.jpg",
+            },
+          ]
+        }
+      >
+        <Carousel
+          items={
+            Array [
+              <Styled(ProductListItem)
+                product={
+                  Object {
+                    "brand": "Rimmel",
+                    "categoryId": "3",
+                    "description": "kremowa pomadka",
+                    "hasDiscount": true,
+                    "id": "22",
+                    "img": "pomadka.jpg",
+                  }
+                }
+              />,
+            ]
+          }
+          settings={
+            Object {
+              "gap": 30,
+              "responsive": Array [
+                Object {
+                  "breakpoint": 768,
+                  "settings": Object {
+                    "infinite": true,
+                    "slidesToScroll": 2,
+                    "slidesToShow": 2,
+                  },
+                },
+                Object {
+                  "breakpoint": 414,
+                  "settings": Object {
+                    "slidesToScroll": 1,
+                    "slidesToShow": 1,
+                  },
+                },
+              ],
+              "slidesToScroll": 2,
+              "slidesToShow": 3,
+            }
+          }
+        >
+          <styled.div
+            sideMargins={15}
+            withBottomMargin={false}
+          >
+            <div
+              className="sc-jRQAMF iQnpzi"
+            >
+              <ProductsSlider
+                dots={false}
+                draggable={false}
+                gap={30}
+                infinite={true}
+                responsive={
+                  Array [
+                    Object {
+                      "breakpoint": 768,
+                      "settings": Object {
+                        "infinite": true,
+                        "slidesToScroll": 2,
+                        "slidesToShow": 2,
+                      },
+                    },
+                    Object {
+                      "breakpoint": 414,
+                      "settings": Object {
+                        "slidesToScroll": 1,
+                        "slidesToShow": 1,
+                      },
+                    },
+                  ]
+                }
+                slidesToScroll={2}
+                slidesToShow={3}
+                speed={200}
+              >
+                ProductsSlider
+              </ProductsSlider>
+            </div>
+          </styled.div>
+        </Carousel>
+      </ProductsSlider>
+      <Styled(styled.h5)>
+        <h5
+          className="sc-bdvvaa sc-ksdxAp cRcTHD gIxfol"
+        >
+          Top oferty
+        </h5>
+      </Styled(styled.h5)>
+      <ProductsSlider
+        products={
+          Array [
+            Object {
+              "brand": "Rimmel",
+              "categoryId": "3",
+              "description": "kremowa pomadka",
+              "hasDiscount": true,
+              "id": "22",
+              "img": "pomadka.jpg",
+            },
+          ]
+        }
+      >
+        <Carousel
+          items={
+            Array [
+              <Styled(ProductListItem)
+                product={
+                  Object {
+                    "brand": "Rimmel",
+                    "categoryId": "3",
+                    "description": "kremowa pomadka",
+                    "hasDiscount": true,
+                    "id": "22",
+                    "img": "pomadka.jpg",
+                  }
+                }
+              />,
+            ]
+          }
+          settings={
+            Object {
+              "gap": 30,
+              "responsive": Array [
+                Object {
+                  "breakpoint": 768,
+                  "settings": Object {
+                    "infinite": true,
+                    "slidesToScroll": 2,
+                    "slidesToShow": 2,
+                  },
+                },
+                Object {
+                  "breakpoint": 414,
+                  "settings": Object {
+                    "slidesToScroll": 1,
+                    "slidesToShow": 1,
+                  },
+                },
+              ],
+              "slidesToScroll": 2,
+              "slidesToShow": 3,
+            }
+          }
+        >
+          <styled.div
+            sideMargins={15}
+            withBottomMargin={false}
+          >
+            <div
+              className="sc-jRQAMF iQnpzi"
+            >
+              <ProductsSlider
+                dots={false}
+                draggable={false}
+                gap={30}
+                infinite={true}
+                responsive={
+                  Array [
+                    Object {
+                      "breakpoint": 768,
+                      "settings": Object {
+                        "infinite": true,
+                        "slidesToScroll": 2,
+                        "slidesToShow": 2,
+                      },
+                    },
+                    Object {
+                      "breakpoint": 414,
+                      "settings": Object {
+                        "slidesToScroll": 1,
+                        "slidesToShow": 1,
+                      },
+                    },
+                  ]
+                }
+                slidesToScroll={2}
+                slidesToShow={3}
+                speed={200}
+              >
+                ProductsSlider
+              </ProductsSlider>
+            </div>
+          </styled.div>
+        </Carousel>
+      </ProductsSlider>
+    </div>
+  </styled.div>
+</Home>
+`;

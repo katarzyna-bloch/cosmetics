@@ -39,7 +39,7 @@ exports[`should render correctly 1`] = `
     >
       <styled.h5>
         <h5
-          className="sc-gsDJrp bydNIY"
+          className="sc-gsDJrp ilHCrl"
         >
           Wyniki dla frazy: 
           krem

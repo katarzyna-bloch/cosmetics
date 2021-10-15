@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Carousel
+  items={
+    Array [
+      <Banner
+        banner={
+          Object {
+            "id": "1",
+            "img": "pielegnacja.jpg",
+            "text": "Miks produktów aby zadbać o swoją cere.",
+            "url": "/categories/care",
+          }
+        }
+      />,
+      <Banner
+        banner={
+          Object {
+            "id": "2",
+            "img": "perfumy.jpg",
+            "text": "Bestsellery perfum w atrakcyjnych cenach.",
+            "url": "/categories/perfume",
+          }
+        }
+      />,
+      <Banner
+        banner={
+          Object {
+            "id": "3",
+            "img": "makeup.jpg",
+            "text": "Różnorodne rabaty dla Ciebie.",
+            "url": "/categories/makeup",
+          }
+        }
+      />,
+    ]
+  }
+  settings={
+    Object {
+      "autoplay": true,
+      "dots": true,
+      "slidesToShow": 1,
+    }
+  }
+/>
+`;

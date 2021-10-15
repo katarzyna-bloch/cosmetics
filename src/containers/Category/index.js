@@ -20,7 +20,7 @@ export const Category = ({ fetchCategoryByUrl, category, match: { url } }) => {
 
   return (
     <PageWrapper>
-      <ContentHeader>{category.description}</ContentHeader>
+      <ContentHeader>{category.heading}</ContentHeader>
       <ProductsList products={category.products} />
     </PageWrapper>
   )

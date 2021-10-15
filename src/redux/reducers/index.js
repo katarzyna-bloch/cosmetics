@@ -4,6 +4,8 @@ import search from './search'
 import category from './category'
 import sale from './sale'
 import categories from './categories'
+import topProducts from './topProducts'
+import banners from './banners'
 
 export default combineReducers({
   product,
@@ -11,4 +13,6 @@ export default combineReducers({
   category,
   sale,
   categories,
+  topProducts,
+  banners,
 })

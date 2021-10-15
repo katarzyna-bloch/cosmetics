@@ -29,7 +29,7 @@ it('should render correctly', () => {
         type: "care",
         url: "/categories/care",
         name: "Pielęgnacja",
-        description: "Profesjonalne SPA w domowym zaciszu",
+        heading: "Profesjonalne SPA w domowym zaciszu",
       },
     },
     match: {

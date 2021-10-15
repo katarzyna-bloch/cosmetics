@@ -50,21 +50,21 @@ exports[`should submit form correctly 1`] = `
   categories={
     Array [
       Object {
-        "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+        "heading": "Należy przestrzegać codziennej pielęgnacji twarzy",
         "id": "1",
         "name": "Pielęgnacja",
         "type": "care",
         "url": "/categories/care",
       },
       Object {
-        "description": "Prfumy w których się zakochasz",
+        "heading": "Prfumy w których się zakochasz",
         "id": "2",
         "name": "Perfumy",
         "type": "perfume",
         "url": "/categories/perfume",
       },
       Object {
-        "description": "Te kosmetyki odmienią twoje spojrzenie",
+        "heading": "Te kosmetyki odmienią twoje spojrzenie",
         "id": "3",
         "name": "Makijaż",
         "type": "makeup",
@@ -80,7 +80,7 @@ exports[`should submit form correctly 1`] = `
 >
   <styled.nav>
     <nav
-      className="sc-bdvvaa gmoOLK"
+      className="sc-bdvvaa ezQwsJ"
     >
       <styled.div>
         <div
@@ -174,21 +174,21 @@ exports[`should submit form correctly 2`] = `
   categories={
     Array [
       Object {
-        "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+        "heading": "Należy przestrzegać codziennej pielęgnacji twarzy",
         "id": "1",
         "name": "Pielęgnacja",
         "type": "care",
         "url": "/categories/care",
       },
       Object {
-        "description": "Prfumy w których się zakochasz",
+        "heading": "Prfumy w których się zakochasz",
         "id": "2",
         "name": "Perfumy",
         "type": "perfume",
         "url": "/categories/perfume",
       },
       Object {
-        "description": "Te kosmetyki odmienią twoje spojrzenie",
+        "heading": "Te kosmetyki odmienią twoje spojrzenie",
         "id": "3",
         "name": "Makijaż",
         "type": "makeup",
@@ -216,7 +216,7 @@ exports[`should submit form correctly 2`] = `
 >
   <styled.nav>
     <nav
-      className="sc-bdvvaa gmoOLK"
+      className="sc-bdvvaa ezQwsJ"
     >
       <styled.div>
         <div

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Carousel
+  items={
+    Array [
+      <Styled(ProductListItem)
+        product={
+          Object {
+            "brand": "Eigshow",
+            "categoryId": "3",
+            "description": "test opisu",
+            "id": "23",
+            "img": "pędzle.jpg",
+            "name": "Zestaw pędzli",
+            "price": "73 zł",
+            "rate": 8,
+            "volume": "120 ml",
+          }
+        }
+      />,
+    ]
+  }
+  settings={
+    Object {
+      "gap": 30,
+      "responsive": Array [
+        Object {
+          "breakpoint": 768,
+          "settings": Object {
+            "infinite": true,
+            "slidesToScroll": 2,
+            "slidesToShow": 2,
+          },
+        },
+        Object {
+          "breakpoint": 414,
+          "settings": Object {
+            "slidesToScroll": 1,
+            "slidesToShow": 1,
+          },
+        },
+      ],
+      "slidesToScroll": 2,
+      "slidesToShow": 3,
+    }
+  }
+/>
+`;

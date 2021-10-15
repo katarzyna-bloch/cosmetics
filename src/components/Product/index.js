@@ -2,13 +2,10 @@ import styled from 'styled-components'
 import media from '../../utils/media'
 import PropTypes from 'prop-types'
 
-import PageWrapper from '../PageWrapper'
 import Price from '../Price'
-import { getImagePath } from '../../utils/images'
+import { getImageProductsPath } from '../../utils/images'
 
-const Wrapper = styled(PageWrapper)`
-  flex-direction: column;
-`
+const Wrapper = styled.div``
 
 const ContainerDetails = styled.div`
   flex-direction: row;
@@ -89,7 +86,7 @@ const Product = ({ img, brand, name, volume, oldPrice, price, description, hasDi
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
-        <Image src={getImagePath(img)} alt="photo" />
+        <Image src={getImageProductsPath(img)} alt="photo" />
       </ContentImage>
 
       <ContentDetails>

@@ -1,34 +1,14 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import React from 'react'
-import media from '../../utils/media'
 import { Link as RouterLink } from 'react-router-dom'
+
 import Price from '../Price'
-import { getImagePath } from '../../utils/images'
+import { getImageProductsPath } from '../../utils/images'
 
 const Link = styled(RouterLink)`
   text-decoration: none;
   color: black;
-  flex: 0 25%;
-  border: 1px solid transparent;
-  box-sizing: border-box;
-  border-radius: 5px;
-
-  &:hover {
-    border-color: lightgray;
-  }
-
-  ${media.desktop} {
-    flex: 0 33%;
-  }
-
-  ${media.tablet} {
-    flex: 0 50%;
-  }
-
-  ${media.phone} {
-    flex: 1 100%;
-  }
 `
 
 const Wrapper = styled.div`
@@ -36,12 +16,10 @@ const Wrapper = styled.div`
   padding: 15px;
 `
 
-const Image = styled.img`
-  height: 180px;
-
-  ${media.tablet} {
-    height: 140px;
-  }
+export const Image = styled.img`
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
 `
 
 const Name = styled.div`
@@ -49,23 +27,28 @@ const Name = styled.div`
   padding: 5px;
 `
 
-const ProductListItem = ({ id, name, img, oldPrice, price, hasDiscount }) => (
-  <Link to={`/products/${id}`}>
-    <Wrapper>
-      <Image src={getImagePath(img)} alt="cosmetic" />
-      <Name>{name}</Name>
-      <Price hasDiscount={hasDiscount} oldPrice={oldPrice} price={price} />
-    </Wrapper>
-  </Link>
-)
+const ProductListItem = ({ product: {name, img, id, price, oldPrice, hasDiscount}, className }) => {
+  return (
+    <Link to={`/products/${id}`}>
+      <Wrapper className={className}>
+        <Image src={getImageProductsPath(img)} alt="cosmetics" />
+        <Name>{name}</Name>
+        <Price hasDiscount={hasDiscount} oldPrice={oldPrice} price={price} />
+      </Wrapper>
+    </Link>
+  )
+}
 
 ProductListItem.propTypes = {
-  name: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
-  oldPrice: PropTypes.string,
-  hasDiscount: PropTypes.bool,
+  className: PropTypes.string,
+  product: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    oldPrice: PropTypes.string,
+    hasDiscount: PropTypes.bool,
+  }).isRequired,
 }
 
 export default ProductListItem
