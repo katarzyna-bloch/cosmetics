@@ -54,6 +54,3 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.DEPLOY_TOKEN }}
         repository: ${{ github.repository }}
-
-    - name: Set up API
-      run: yarn api:start
