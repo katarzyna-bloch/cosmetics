@@ -33,7 +33,7 @@
       "price": "89,20 zł",
       "categoryId": "1",
       "img": "olejek.jpg",
-      "description": "Czysty i naturalny zapach kwiatu pomarańczy całkowicie oczaruje Twoje zmysły w regenerującym olejku do ciała do skóry suchej. Olejek sprawdzi się nie tylko w ramach codziennej pielęgnacji skóry po prysznicu czy kąpieli, ale stanowić będzie idealne uzupełnienie każdego masażu. Wyselekcjonowana kompozycja kilku olejków roślinnych zapewni Twojej skórze niezbędne odżywienie, pozostawiając ją naturalnie jędrną i sprężystą oraz aksamitnie miękką w dotyku."
+      "description": "Czysty i naturalny zapach kwiatu pomarańczy całkowicie oczaruje Twoje zmysły w regenerującym olejku do ciała do skóry suchej."
     },
     {
       "id": "2",
@@ -43,7 +43,7 @@
       "price": "21 zł",
       "categoryId": "1",
       "img": "shampon.jpg",
-      "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby także bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację. Specjalne połączenie wyciągów ze złotej quinoi i protein pszenicy eliminuje uszkodzenia powierzchni włosów nawet o 77%. Po użyciu włosy staną się niezwykle delikatne i zyskają 7 razy więcej blasku."
+      "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby także bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację."
     },
     {
       "id": "3",
@@ -53,7 +53,7 @@
       "price": "36 zł",
       "categoryId": "1",
       "img": "face serum.jpg",
-      "description": "Czy Twoja skóra traci jędrność i jest gorzej nawilżona? Serum za pomocą specjalnych mikrokapsułek przenika głęboko pod skórę, w której na długo zamyka substancje nawilżające i przeciwutleniające. Efektem regularnego stosowania jest widocznie odmłodzona skóra, bez oznak zwiotczenia i wysuszenia."
+      "description": "Czy Twoja skóra traci jędrność i jest gorzej nawilżona? Serum za pomocą specjalnych mikrokapsułek przenika głęboko pod skórę, w której na długo zamyka substancje nawilżające i przeciwutleniające."
     },
     {
       "id": "4",
@@ -65,7 +65,7 @@
       "price": "71,20 zł",
       "categoryId": "1",
       "img": "shampon+.jpg",
-      "description": "Szampon SKANDINAVIA BIOLABS skutecznie oczyszcza skórę głowy, dokładnie myje włosy i przywraca im naturalne piękno. Właściwości: myje włosy i oczyszcza skórę głowy, regeneruje i odżywia włosy, intensywnie nawilża, nadaje włosom delikatny zapach, nadaje włosom miękkość"
+      "description": "Szampon SKANDINAVIA BIOLABS skutecznie oczyszcza skórę głowy, dokładnie myje włosy i przywraca im naturalne piękno."
     },
     {
       "id": "5",
@@ -75,7 +75,7 @@
       "price": "62 zł",
       "categoryId": "1",
       "img": "serum z niacynamidem.jpg",
-      "description": "Skoncentrowane serum do twarzy z niacynamidem w aktywnym stężeniu 10%, witaminą C, ekstraktem z jagód Acai i olejkiem z drzewa herbacianego. B3-shot to ultra nawilżenie i wygładzenie każdego typu cery, zwłaszcza problematycznej i trądzikowej. Posiada lekką wodną konsystencję, która natychmiast wtapia się w skórę. Badania wykazały, że podnosi poziom nawilżenia o 37.1% po 4 tygodniach regularnej aplikacji. Skutecznie zmniejsza ilość wydzielanego sebum i przywraca cerze zdrowy wygląd."
+      "description": "Skoncentrowane serum do twarzy z niacynamidem w aktywnym stężeniu 10%, witaminą C, ekstraktem z jagód Acai i olejkiem z drzewa herbacianego."
     },
     {
       "id": "6",
@@ -87,7 +87,7 @@
       "price": "25,20 zł",
       "categoryId": "1",
       "img": "gel.jpg",
-      "description": "Naturalny i odżywczy żel do kąpieli doskonale pielęgnuje skórę pozostawiając ją jedwabiście gładką, nie powodując podrażnień. Innowacyjna formuła o neutralnym pH nie tylko dokładnie oczyszcza, ale też odżywia skórę podczas kąpieli. Prowitamina B5 oraz gliceryna roślinna doskonale odżywia skórę podczas kąpieli. Miód Manuka bogaty jest w dużą ilość substancji odżywczych, wspomaga regenerację skóry. Słodki, miodowy aromat wypełni całą łazienkę."
+      "description": "Naturalny i odżywczy żel do kąpieli doskonale pielęgnuje skórę pozostawiając ją jedwabiście gładką, nie powodując podrażnień."
     },
     {
       "id": "7",
@@ -97,7 +97,7 @@
       "price": "19 zł",
       "categoryId": "1",
       "img": "serum.jpg",
-      "description": "Stymuluje wzrost włosów i zapobiega ich wypadaniu. Przywraca gęstość i zdrowy wygląd. Zwalcza oznaki starzenia włosów, takie jak łamliwość, suchość i matowość. Przeciwdziała pierwszym objawom łysienia, tj. przerzedzeniu włosów oraz utracie włosów osłabionych niedoborami diety czy zmęczeniem. Reguluje wydzielanie sebum i zapobiega przetłuszczaniu się skóry głowy. Działa antybakteryjnie. Chroni włosy przed zewnętrznymi zanieczyszczeniami środowiska. Odświeża. Włosy lepiej się rozczesują i układają, nie elektryzują się. Bezpieczny dla włosów farbowanych i po zabiegach fryzjerskich."
+      "description": "Stymuluje wzrost włosów i zapobiega ich wypadaniu. Przywraca gęstość i zdrowy wygląd. Zwalcza oznaki starzenia włosów, takie jak łamliwość, suchość i matowość."
     },
     {
       "id": "8",
@@ -109,7 +109,7 @@
       "price": "47,20 zł",
       "categoryId": "2",
       "img": "perfum1.jpg",
-      "description": "Hollister California to iskrzące kwiatowe nuty, obfitość róż z Grasse ożywionych skórką z bergamotki i spotęgowanych nutą piżma. Żywiołowa esencja geranium uszlachetnia kompozycję swoimi cytrusowymi nutami, aby wiernie odtworzyć rozciągające się w nieskończoność pola kwiatów. Zanurza Nas w bezkresnym oceanie płatków róż, których pola rozciągają się w nieskończoność"
+      "description": "Hollister California to iskrzące kwiatowe nuty, obfitość róż z Grasse ożywionych skórką z bergamotki i spotęgowanych nutą piżma."
     },
     {
       "id": "9",
@@ -119,7 +119,7 @@
       "price": "38 zł",
       "categoryId": "2",
       "img": "perfum2.jpg",
-      "description": "Głęboko kobieca, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń. Przyszła właścicielka z pewnością pozostanie jej wierna. A osoby wokół będą rozpromienione dobrym nastrojem. Z każdym ruchem Twoja skóra będzie wykrzykiwać radosną maksymę la vie est belle pełną kwiatowo-owocowej rozkoszy. Słodkie nuty gruszy i cierpka czarna porzeczka w niezwykłym tańcu zawibrują wokół."
+      "description": "Głęboko kobieca, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń."
     },
     {
       "id": "10",
@@ -129,7 +129,7 @@
       "price": "22 zł",
       "categoryId": "2",
       "img": "perfum3.jpg",
-      "description": "Nowy zapach Saint Laurent Pink Opium. Zdefiniowany przez prowansalską lawendę. Zachęca do wolności i łamania wszelkich granic, zamknięty w prostym flakonie ze złotym symbolem oznacza wolność. Bądź wolna, wychodź przed szereg, nie bój się eksperymentów i łam wszelkie granice z nowym zapachem. Zapach to elegancja i szczypta szaleństwa zamknięta w prostym flakonie przywodzącym na myśl klasyczny garnitur. "
+      "description": "Nowy zapach Saint Laurent Pink Opium. Zdefiniowany przez prowansalską lawendę. Zachęca do wolności i łamania wszelkich granic, zamknięty w prostym flakonie ze złotym symbolem oznacza wolność."
     },
     {
       "id": "11",
@@ -141,7 +141,7 @@
       "price": "42,20 zł",
       "categoryId": "2",
       "img": "perfum4.jpg",
-      "description": "Piękny, rozkwitający, uwodzicielski. Wzbudza pożądanie, odkrywa tajemnice. Najnowszy zapach w rodzinie. Wejdź do świata  czyli Szalonej Miłości. Daj się otulić zmysłowemu, szyprowemu zapachowi. Wyjdź na spotkanie intensywnej kwiatowej przygody. Ty i on. Razem. Na ulicach Paryża. Magiczne momenty, chwile, które przeradzają się w pasje i namiętność. Nic już nie będzie takie samo. To czas kiedy chwila przybiera jeszcze głębszą intensywność i trwa. Wprowadzając Cię w nowy rozdział życia."
+      "description": "Piękny, rozkwitający, uwodzicielski. Wzbudza pożądanie, odkrywa tajemnice. Najnowszy zapach w rodzinie. Wejdź do świata czyli Szalonej Miłości."
     },
     {
       "id": "12",
@@ -153,7 +153,7 @@
       "price": "23,20 zł",
       "categoryId": "2",
       "img": "perfum5.jpg",
-      "description": "W klasycznym zapachu Morra 2nd collection kobiecość została ujęta w oryginalny i nietypowy sposób. Klasyczny aromat róży połączono z delikatnymi nutami kwiatów peonii i lychee. Powstała woń o lekkim, uwodzicielskim charakterze."
+      "description": "W klasycznym zapachu Morra 2nd collection kobiecość została ujęta w oryginalny i nietypowy sposób."
     },
     {
       "id": "13",
@@ -163,7 +163,7 @@
       "price": "78 zł",
       "categoryId": "2",
       "img": "perfum6.jpg",
-      "description": "Kompozycję Argan mood otwiera smakowita świeżość dzikich truskawek, listków fiołka i rubinowego grejpfruta. Nuta głowy przechodzi w aksamitną mieszankę gardenii, listków fiołka i jaśminu. Miękkie, ciepłe, zmysłowe nuty, jak piżmo, wanilia i białe drewno uzupełniają całość w nucie podstawy, tworząc doskonały balans."
+      "description": "Kompozycję Argan mood otwiera smakowita świeżość dzikich truskawek, listków fiołka i rubinowego grejpfruta."
     },
     {
       "id": "14",
@@ -173,7 +173,7 @@
       "price": "99 zł",
       "categoryId": "2",
       "img": "perfum7.jpg",
-      "description": "Uczciwa i optymistyczna. Kobieta zapachu Acqua di Gio Homme nie godzi się na zdefiniowanie, określenie jej. Ceni sobie transparentność, prawdę, wolność. Chce przynależeć do grupy, akceptuje swą kobiecość i siebie."
+      "description": "Uczciwa i optymistyczna. Kobieta zapachu Acqua di Gio Homme nie godzi się na zdefiniowanie, określenie jej."
     },
     {
       "id": "15",
@@ -183,7 +183,7 @@
       "price": "32 zł",
       "categoryId": "2",
       "img": "perfum8.jpg",
-      "description": "COCO to ekspresja wyrazistej osobowości Gabrielle Chanel i jej upodobania do baroku. Luksusowa, orientalna symfonia stopniowo ukazuje swoje kontrastujące nuty. Luksusowa kompozycja o kontrastujących nutach. Zapach otwiera cytrusowa nuta sycylijskiej mandarynki. Po chwili wyłania się zmysłowe serce z absolutem jaśminu i róży majowej. Luksusowa równowaga otulających akordów nuty głębi, podkreślona jest indonezyjską paczulą, bobem tonka i żywicą benzoesową."
+      "description": "COCO to ekspresja wyrazistej osobowości Gabrielle Chanel i jej upodobania do baroku. Luksusowa, orientalna symfonia stopniowo ukazuje swoje kontrastujące nuty."
     },
     {
       "id": "16",
@@ -193,7 +193,7 @@
       "price": "35 zł",
       "categoryId": "2",
       "img": "perfum9.jpg",
-      "description": "Zmysłowy, krystalicznie przejrzysty, cudownie lśniący. Zamknięty we flakonie szlifowanym niczym prawdziwy klejnot wyjątkowej urody. Świeży i musujący, dla kobiety zmysłowej, pewnej siebie i zawsze glamour. Bright Crystal to łagodny kwiatowy zapach z owocowymi i piżmowymi akcentami. W nucie głowy owoc granatu łączy się z akordem lodowym i cytrusowymi nutami yuzu. W nucie serca lekki kwiatowy bukiet magnolii, piwonii i kwiatu lotosu. W nucie głębi piżmo, ambra i drzewo acajou, pozostawiające zmysłowy woal."
+      "description": "Zmysłowy, krystalicznie przejrzysty, cudownie lśniący."
     },
     {
       "id": "17",
@@ -203,7 +203,7 @@
       "price": "21 zł",
       "categoryId": "2",
       "img": "perfum10.jpg",
-      "description": "Nowy, niezwykły projekt zapachowy Marc Jacobs Decadence jest obiektem do zaspokajania najgłębszych pragnień, wymarzonym gadżetem modowo-urodowym, intrygującą wonią, której ciężko będzie się oprzeć. Podkreśla charakter marki dzięki odważnej stylizacji, luksusowemu rzemiosłu i rewolucyjnemu designowi flakonu, który zainspirowała jedna z kultowych torebek Marca o nazwie Trouble. Zapach rozkwita w nucie głowy niesamowitym połączeniem włoskiej śliwki, irysa oraz szafranu, aby dalej w nucie serca rozbłysnąć cudownie urzekającym połączeniem róży bułgarskiej, soczystym kosiaciec oraz kwiatem jaśminu sambac. Zamyka się równie uzależniającymi nutami, dopełniającymi zapach: ambrą, wetiwerem i papirusem."
+      "description": "Nowy, niezwykły projekt zapachowy Marc Jacobs Decadence jest obiektem do zaspokajania najgłębszych pragnień."
     },
     {
       "id": "18",
@@ -215,7 +215,7 @@
       "price": "89,20 zł",
       "categoryId": "2",
       "img": "perfum11.jpg",
-      "description": "Morra Sal Gon to kompozycja z dominacją nut kwiatu pomarańczy, które otulają zapach śródziemnomorską aurą różnorodności. Świeżość kwiatu pomarańczy podkreślają skórki dwóch rodzajów gorzkich pomarańczy oddających włoską radość życia. Tłem dla nuty centralnej jest połączenie wyjątkowej elegancji pochodzącego z Tunezji kwiatu pomarańczy oraz finezji kobiecej aury wyszukanego indyjskiego jaśminu sambac. Wanilia z Madagaskaru oraz akord miodowy sprawiają, że doświadczenie nuty bazowej staje niezapomnianym przeżyciem"
+      "description": "Morra Sal Gon to kompozycja z dominacją nut kwiatu pomarańczy, które otulają zapach śródziemnomorską aurą różnorodności."
     },
     {
       "id": "19",
@@ -225,7 +225,7 @@
       "price": "27 zł",
       "categoryId": "3",
       "img": "tusz do rzes.jpg",
-      "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydluzenia. Dzieki swojej weganskiej i delikatnej formule, jest idealny dla wrazliwych oczy lub osób noszacych szkla kontaktowe. Z latwoscia mozna usunac go przy pomocy tylko cieplej wody! Tusz do rzes spelnia wymogi Clean Beauty i nie zawiera m.in. parabenów, silikonów, olejów mineralnych, siarczanów. Posiada biodegradowalne opakowanie. Formula opracowana specjalnie dla wrazliwych oczu! Maskare mozesz zmyc bez trudu ciepla woda."
+      "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydluzenia."
     },
     {
       "id": "20",
@@ -235,7 +235,7 @@
       "price": "98 zł",
       "categoryId": "3",
       "img": "podkład.jpg",
-      "description": " BB Cream to wielofunkcyjny krem BB (baza/krem/podkład) przeznaczony do każdego typu cery. Właściwości kryjące podkładu pozwalają na wyrównanie kolorytu skóry, oraz pokrycie niedoskonałości dając efekt zdrowej i naturalnej cery. Składnik Phytosan o działaniu nawilżającym wspomagają prawidłowy poziom nawilżenia skóry, dzięki czemu staje się ona miękka i gładka. Faktor SPF15 stanowi ochronę przed szkodliwym promieniowaniem słonecznym. Bez parabenów i perfum. "
+      "description": " BB Cream to wielofunkcyjny krem BB (baza/krem/podkład) przeznaczony do każdego typu cery."
     },
     {
       "id": "21",
@@ -245,7 +245,7 @@
       "price": "66 zł",
       "categoryId": "3",
       "img": "płatki.jpg",
-      "description": "Powierzchnia płatków została nawilżona substancją Soft Touch, która sprawia, że są one delikatne i miękkie, a ich stosowanie komfortowe i bezpieczne nawet dla delikatnych okolic oczu. Płatki kosmetyczne są niezawodne i uniwersalne. Możesz nakładać nimi toniki, mleczka, żele, olejki, płyny do demakijażu i inne kosmetyki. Są doskonałe do stosowania m.in. na skórę twarzy (także wokół oczu), szyi i dekoltu. Jeśli stosujesz je często, wybierz potrójny zestaw płatków, który zawiera aż trzy opakowania w korzystnej cenie."
+      "description": "Powierzchnia płatków została nawilżona substancją Soft Touch, która sprawia, że są one delikatne i miękkie."
     },
     {
       "id": "22",
@@ -257,7 +257,7 @@
       "price": "44,20 zł",
       "categoryId": "3",
       "img": "pomadka.jpg",
-      "description": "Komfortowa, kremowa pomadka podkreśla kształt ust pozostawiając je nawilżone przez wiele godzin. Lekka i ultra-delikatna formuła z witaminami C i E pielęgnuje usta, wygładza je i sprawia, że stają się wyjątkowo kuszące. Piękny, soczysty kolor, wykończony delikatnym połyskiem, utrzymuje się na ustach do 6 godzin. Pomadka w składzie  zawiera  ochronne filtry UV.   "
+      "description": "Komfortowa, kremowa pomadka podkreśla kształt ust pozostawiając je nawilżone przez wiele godzin."
     },
     {
       "id": "23",
@@ -267,7 +267,7 @@
       "price": "73 zł",
       "categoryId": "3",
       "img": "pędzle.jpg",
-      "description": "Poznaj jedyny w swoim rodzaju zestaw pędzli do blendowania, zawierający wersje standard i max naszych najlepiej sprzedających się pędzli. Dzięki unikalnie zaprojektowanym główkom pędzli do każdego kształtu oka, rozmiaru ten zestaw jest idealny do wykonywania każdego rodzaju makijażu. Pędzle cechująvwyjątkowo miękkie włókna SigmaTech®, które są idealne zarówno do precyzyjnego blendowania, jak i tworzenia rozświetlającego efektu na całej powierzchni twarzy."
+      "description": "Poznaj jedyny w swoim rodzaju zestaw pędzli do blendowania, zawierający wersje standard i max naszych najlepiej sprzedających się pędzli."
     },
     {
       "id": "24",
@@ -277,7 +277,7 @@
       "price": "17 zł",
       "categoryId": "3",
       "img": "eyeliner.jpg",
-      "description": "Eyeliner w płynie z innowacyjnym pędzelkiem zapewnia możliwość wykonania precyzyjnej kreski o różnej grubości, idealnie podkreślając oczy. Płynna, wodoodporna formuła gwarantuje doskonałą trwałość i wyjątkowo intensywny kolor. Wstrząsnąć przed użyciem. Formuła testowana dermatologicznie i oftalmologicznie. "
+      "description": "Eyeliner w płynie z innowacyjnym pędzelkiem zapewnia możliwość wykonania precyzyjnej kreski o różnej grubości, idealnie podkreślając oczy."
     }
   ]
 }
