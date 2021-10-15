@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import Routes from './Routes'
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Header />
     <Navigation />
     <Main>
