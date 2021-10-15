@@ -1,4 +1,4 @@
-const URL = 'http://localhost:3004'
+const URL = process.env.REACT_APP_API_URL
 
 export const fetchCategory = (url) => {
   return fetch(`${URL}/categories?url=${url}&_embed=products`)
