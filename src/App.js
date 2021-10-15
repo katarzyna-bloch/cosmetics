@@ -12,7 +12,6 @@ const App = () => (
     <Header />
     <Navigation />
     <Main>
-      <div>Test!</div>
       <Routes />
     </Main>
     <Footer />
