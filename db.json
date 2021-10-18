@@ -5,21 +5,21 @@
       "type": "care",
       "url": "/categories/care",
       "name": "Pielęgnacja",
-      "description": "Aby uzyskać zdrowy wygląd skóry, należy przestrzegać codziennej pielęgnacji twarzy"
+      "heading": "Aby uzyskać zdrowy wygląd skóry, należy przestrzegać codziennej pielęgnacji twarzy"
     },
     {
       "id": "2",
       "type": "perfume",
       "url": "/categories/perfume",
       "name": "Perfumy",
-      "description": "Perfumy w których się zakochasz"
+      "heading": "Perfumy w których się zakochasz"
     },
     {
       "id": "3",
       "type": "makeup",
       "url": "/categories/makeup",
       "name": "Makijaż",
-      "description": "Najlepsze kosmetyki do makijażu, które spradzą się bez zarzutu"
+      "heading": "Najlepsze kosmetyki do makijażu, które odmienią twoje spojrzenie"
     }
   ],
   "products": [
@@ -42,7 +42,7 @@
       "volume": "1 szt.",
       "price": "21 zł",
       "categoryId": "1",
-      "img": "shampon.jpg",
+      "img": "shampon1.jpg",
       "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację."
     },
     {
@@ -52,7 +52,7 @@
       "volume": "100 ml",
       "price": "36 zł",
       "categoryId": "1",
-      "img": "face serum.jpg",
+      "img": "serum3.jpg",
       "description": "Czy Twoja skóra traci jędrność i jest gorzej nawilżona? Serum za pomocą specjalnych mikrokapsułek przenika głęboko pod skórę, w której na długo zamyka substancje nawilżające i przeciwutleniające."
     },
     {
@@ -64,7 +64,7 @@
       "hasDiscount": true,
       "price": "71,20 zł",
       "categoryId": "1",
-      "img": "shampon+.jpg",
+      "img": "shampon2.jpg",
       "description": "Szampon SKANDINAVIA BIOLABS skutecznie oczyszcza skórę głowy, dokładnie myje włosy i przywraca im naturalne piękno."
     },
     {
@@ -74,7 +74,7 @@
       "volume": "100 ml",
       "price": "62 zł",
       "categoryId": "1",
-      "img": "serum z niacynamidem.jpg",
+      "img": "serum1.jpg",
       "description": "Skoncentrowane serum do twarzy z niacynamidem w aktywnym stężeniu 10%, witaminą C, ekstraktem z jagód Acai i olejkiem z drzewa herbacianego."
     },
     {
@@ -91,12 +91,13 @@
     },
     {
       "id": "7",
+      "rate": 9.0,
       "brand": "SKANDINAVIAN BIOLABS",
       "name": "Serum stymulujący wzrost włosów",
       "volume": "1 szt.",
       "price": "19 zł",
       "categoryId": "1",
-      "img": "serum.jpg",
+      "img": "serum2.jpg",
       "description": "Stymuluje wzrost włosów i zapobiega ich wypadaniu. Przywraca gęstość i zdrowy wygląd. Zwalcza oznaki starzenia włosów, takie jak łamliwość, suchość i matowość."
     },
     {
@@ -157,6 +158,7 @@
     },
     {
       "id": "13",
+      "rate": 9.0,
       "brand": "MYRIAMK",
       "name": "Argan mood",
       "volume": "50 ml",
@@ -219,12 +221,13 @@
     },
     {
       "id": "19",
+      "rate": 8.5,
       "brand": "L’Oréal Paris",
       "name": "Tusz do rzęs Lash Paradise",
       "volume": "200 ml",
       "price": "27 zł",
       "categoryId": "3",
-      "img": "tusz do rzes.jpg",
+      "img": "tusz.jpg",
       "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydłużenia."
     },
     {
@@ -239,6 +242,7 @@
     },
     {
       "id": "21",
+      "rate": 10.0,
       "brand": "Eco Panda",
       "name": "Płatki kosmetyczne",
       "volume": "75 ml",
@@ -250,7 +254,7 @@
     {
       "id": "22",
       "brand": "Rimmel",
-      "name": "Szminka Moisture Renew",
+      "name": "Pomadka Moisture Renew",
       "volume": "50 ml",
       "oldPrice": "63 zł",
       "hasDiscount": true,
@@ -261,6 +265,7 @@
     },
     {
       "id": "23",
+      "rate": 8.0,
       "brand": "Eigshow",
       "name": "Zestaw pędzli z etui",
       "volume": "120 ml",
@@ -271,6 +276,7 @@
     },
     {
       "id": "24",
+      "rate": 9.3,
       "brand": "Xi Xiu",
       "name": "Lasting Eyeliner Pencil",
       "volume": "125 ml",
@@ -278,6 +284,26 @@
       "categoryId": "3",
       "img": "eyeliner.jpg",
       "description": "Eyeliner w płynie z innowacyjnym pędzelkiem zapewnia możliwość wykonania precyzyjnej kreski o różnej grubości, idealnie podkreślając oczy."
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "img": "pielegnacja.jpg",
+      "url": "/categories/care",
+      "text": "Miks produktów aby zadbać o swoją cere. Zniżki i bezpłatna dostawa"
+    },
+    {
+      "id": "2",
+      "img": "perfumy.jpg",
+      "url": "/categories/perfume",
+      "text": "Bestsellery perfum w atrakcyjnych cenach - odkryj Ofertę Miesiąca!"
+    },
+    {
+      "id": "3",
+      "img": "makeup.jpg",
+      "url": "/categories/makeup",
+      "text": "Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!"
     }
   ]
 }

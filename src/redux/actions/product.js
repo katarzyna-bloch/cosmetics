@@ -1,4 +1,4 @@
-import { fetchProduct } from '../../services';
+import { fetchProduct } from '../../services'
 export const FETCH_PRODUCT_SUCCESS = 'FETCH_PRODUCT_SUCCESS'
 
 export const requestProduct = (id) => (dispatch) => {

@@ -10,7 +10,7 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   position: sticky;
-  background-color: ghostwhite;
+  background-color: lavender;
   padding: 10px;
   z-index: 1;
   display: flex;

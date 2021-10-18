@@ -25,3 +25,13 @@ export const fetchCategories = () => {
   return fetch(`${URL}/categories`)
     .then((response) => response.json());
 }
+
+export const fetchTopProducts = () => {
+  return fetch('http://localhost:3004/products?rate_gte=7')
+    .then((response) => response.json());
+}
+
+export const fetchBanners = () => {
+  return fetch('http://localhost:3004/banners')
+    .then((response) => response.json());
+}

@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<Styled(styled.div)>
-  <styled.h5>
-    Nie znaleziono produktu :(
-  </styled.h5>
-</Styled(styled.div)>
+<styled.h5>
+  Nie znaleziono produktu :(
+</styled.h5>
 `;

@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-<Styled(styled.div)>
+<styled.div>
   <styled.div>
     <Styled(styled.div)>
       <styled.img
         alt="photo"
-        src="/images/img.jpg"
+        src="/images/products/img.jpg"
       />
     </Styled(styled.div)>
     <styled.div>
@@ -40,16 +40,16 @@ exports[`should render correctly 1`] = `
     </styled.div>
     Opis produktu
   </styled.div>
-</Styled(styled.div)>
+</styled.div>
 `;
 
 exports[`should render correctly with discount 1`] = `
-<Styled(styled.div)>
+<styled.div>
   <styled.div>
     <Styled(styled.div)>
       <styled.img
         alt="photo"
-        src="/images/img.jpg"
+        src="/images/products/img.jpg"
       />
     </Styled(styled.div)>
     <styled.div>
@@ -85,5 +85,5 @@ exports[`should render correctly with discount 1`] = `
     </styled.div>
     Opis produktu
   </styled.div>
-</Styled(styled.div)>
+</styled.div>
 `;

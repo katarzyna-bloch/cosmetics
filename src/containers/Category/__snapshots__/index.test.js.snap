@@ -4,7 +4,7 @@ exports[`should render correctly 1`] = `
 <Category
   category={
     Object {
-      "description": "Należy przestrzegać codziennej pielęgnacji twarzy",
+      "heading": "Należy przestrzegać codziennej pielęgnacji twarzy",
       "id": "3",
       "name": "Pielęgnacja",
       "products": Array [
@@ -50,7 +50,7 @@ exports[`should render correctly 1`] = `
     >
       <styled.h5>
         <h5
-          className="sc-bdvvaa bzqbfa"
+          className="sc-bdvvaa cRcTHD"
         >
           Należy przestrzegać codziennej pielęgnacji twarzy
         </h5>

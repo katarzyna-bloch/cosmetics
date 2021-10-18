@@ -4,10 +4,12 @@ exports[`should render correctly 1`] = `
 <Styled(Link)
   to="/products/1"
 >
-  <styled.div>
+  <styled.div
+    className="className"
+  >
     <styled.img
-      alt="cosmetic"
-      src="/images/img.jpg"
+      alt="cosmetics"
+      src="/images/products/img.jpg"
     />
     <styled.div>
       Test product!
@@ -23,17 +25,17 @@ exports[`should render correctly with has discount 1`] = `
 <Styled(Link)
   to="/products/1"
 >
-  <styled.div>
+  <styled.div
+    className="className"
+  >
     <styled.img
-      alt="cosmetic"
-      src="/images/img.jpg"
+      alt="cosmetics"
+      src="/images/products/img.jpg"
     />
     <styled.div>
       Test product!
     </styled.div>
     <Price
-      hasDiscount={true}
-      oldPrice="26 zł"
       price="15zł"
     />
   </styled.div>

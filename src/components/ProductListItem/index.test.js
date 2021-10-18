@@ -3,10 +3,13 @@ import toJson from 'enzyme-to-json'
 import ProductListItem from '.'
 
 const props = {
-  name: 'Test product!',
-  img: 'img.jpg',
-  price: '15zł',
-  id: '1',
+  product: {
+    name: 'Test product!',
+    img: 'img.jpg',
+    price: '15zł',
+    id: '1',
+  },
+  className: 'className',
 }
 
 it('should render correctly', () => {

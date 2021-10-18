@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<styled.div>
+  <Styled(Link)
+    to="/categories/makeup"
+  >
+    <styled.img
+      alt="banners"
+      src="/images/banners/makeup.jpg"
+    />
+    <styled.div>
+      Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!
+    </styled.div>
+  </Styled(Link)>
+</styled.div>
+`;

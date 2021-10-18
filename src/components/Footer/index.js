@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+
 import media from '../../utils/media'
 
 const Wrapper = styled.footer`
-  background-color: ghostwhite;
+  background-color: lavender;
   padding: 12px;
   text-align: center;
 `

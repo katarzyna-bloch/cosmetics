@@ -3,16 +3,11 @@ import { compose } from 'redux'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
 
 import ProductComponent from '../../components/Product'
 import { requestProduct } from '../../redux/actions'
 import Breadcrumb from '../../components/Breadcrumb'
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-`
+import PageWrapper from '../../components/PageWrapper'
 
 export const Product = ({ fetchProducts, product, match: { params: { id } } }) => {
   useEffect(() => {
@@ -25,14 +20,14 @@ export const Product = ({ fetchProducts, product, match: { params: { id } } }) =
 
   const values = [
     { label: product.category.name, link: product.category.url },
-    { label: product.name},
+    { label: product.name },
   ]
 
   return (
-    <Wrapper>
+    <PageWrapper>
       <Breadcrumb values={values} />
       <ProductComponent {...product} />
-    </Wrapper>
+    </PageWrapper>
   )
 }
 

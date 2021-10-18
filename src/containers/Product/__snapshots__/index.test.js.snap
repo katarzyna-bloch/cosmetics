@@ -28,7 +28,7 @@ exports[`should render correctly 1`] = `
     Object {
       "brand": "mokosh",
       "category": Object {
-        "description": "Profesjonalne SPA w domowym zaciszu",
+        "heading": "Profesjonalne SPA w domowym zaciszu",
         "id": "1",
         "name": "Pielęgnacja",
         "type": "care",
@@ -46,7 +46,7 @@ exports[`should render correctly 1`] = `
 >
   <styled.div>
     <div
-      className="sc-bdvvaa fImdWK"
+      className="sc-bdvvaa hugagk"
     >
       <Breadcrumb
         values={
@@ -65,7 +65,7 @@ exports[`should render correctly 1`] = `
         brand="mokosh"
         category={
           Object {
-            "description": "Profesjonalne SPA w domowym zaciszu",
+            "heading": "Profesjonalne SPA w domowym zaciszu",
             "id": "1",
             "name": "Pielęgnacja",
             "type": "care",
