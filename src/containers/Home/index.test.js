@@ -8,12 +8,15 @@ jest.mock('react-slick', () => {
 })
 
 const testProduct = { 
-  brand: "Rimmel",
+  id: "24",
+  rate: 9.3,
+  brand: "Xi Xiu",
+  name: "Lasting Eyeliner Pencil",
+  volume: "125 ml",
+  price: "17 zł",
   categoryId: "3",
-  description: "kremowa pomadka",
-  hasDiscount: true,
-  id: "22",
-  img: "pomadka.jpg",
+  img: "eyeliner.jpg",
+  description: "Zapewnia możliwość wykonania precyzyjnej kreski",
 }
 
 const testBanner = {

@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   html, body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   body {
@@ -24,10 +24,4 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const Style = () => {
-  return (
-    <GlobalStyle />
-  )
-}
-
-export default Style
+export default GlobalStyle

@@ -3,7 +3,7 @@ import media from '../../utils/media'
 import PropTypes from 'prop-types'
 
 import Price from '../Price'
-import { getImageProductsPath } from '../../utils/images'
+import { getProductImagesPath } from '../../utils/images'
 
 const Wrapper = styled.div``
 
@@ -86,7 +86,7 @@ const Product = ({ img, brand, name, volume, oldPrice, price, description, hasDi
   <Wrapper>
     <ContainerDetails>
       <ContentImage>
-        <Image src={getImageProductsPath(img)} alt="photo" />
+        <Image src={getProductImagesPath(img)} alt="photo" />
       </ContentImage>
 
       <ContentDetails>

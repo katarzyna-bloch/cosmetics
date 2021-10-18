@@ -4,7 +4,7 @@ import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 
 import Price from '../Price'
-import { getImageProductsPath } from '../../utils/images'
+import { getProductImagesPath } from '../../utils/images'
 
 const Link = styled(RouterLink)`
   text-decoration: none;
@@ -31,7 +31,7 @@ const ProductListItem = ({ product: {name, img, id, price, oldPrice, hasDiscount
   return (
     <Link to={`/products/${id}`}>
       <Wrapper className={className}>
-        <Image src={getImageProductsPath(img)} alt="cosmetics" />
+        <Image src={getProductImagesPath(img)} alt="cosmetics" />
         <Name>{name}</Name>
         <Price hasDiscount={hasDiscount} oldPrice={oldPrice} price={price} />
       </Wrapper>

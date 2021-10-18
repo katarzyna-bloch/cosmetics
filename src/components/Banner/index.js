@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 import media from '../../utils/media'
-import { getImageBannersPath  } from '../../utils/images'
+import { getBannerImagesPath } from '../../utils/images'
 
 const Link = styled(RouterLink)`
   text-decoration: none;
@@ -40,21 +40,19 @@ const Text = styled.div`
   }
 `
 
-export const Banner = ({ banner: { img, url, text } }) => (
+export const Banner = ({ img, url, text }) => (
   <Wrapper>
     <Link to={url}>
-      <Image src={getImageBannersPath(img)} alt="banners" />
+      <Image src={getBannerImagesPath(img)} alt="banners" />
       <Text>{text}</Text>
     </Link> 
   </Wrapper>
 )
 
 Banner.propTypes = {
-  banner: PropTypes.shape({
-    img: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-  }).isRequired,
+  img: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 }
 
 export default Banner

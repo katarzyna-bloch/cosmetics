@@ -2,8 +2,8 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Banners from '.'
 
-jest.mock('react-slick', () => {
-  const Carousel = () => 'Carousel'
+jest.mock('../../components/Carousel', () => {
+  const Carousel = () => null
   return Carousel
 })
 

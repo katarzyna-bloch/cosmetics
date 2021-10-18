@@ -1,3 +1,3 @@
-export const getImageProductsPath = fileName => `${process.env.PUBLIC_URL}/images/products/${fileName}`
+export const getProductImagesPath = fileName => `${process.env.PUBLIC_URL}/images/products/${fileName}`
 
-export const getImageBannersPath = fileName => `${process.env.PUBLIC_URL}/images/banners/${fileName}`
+export const getBannerImagesPath = fileName => `${process.env.PUBLIC_URL}/images/banners/${fileName}`

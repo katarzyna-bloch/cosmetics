@@ -3,12 +3,10 @@ import toJson from 'enzyme-to-json'
 import Banner from '.'
 
 const props = {
-  banner: {
-    id: '3',
-    img: 'makeup.jpg',
-    url: '/categories/makeup', 
-    text: 'Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!',
-  },
+  id: '3',
+  img: 'makeup.jpg',
+  url: '/categories/makeup', 
+  text: 'Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!',
 }
 
 it('should render correctly', () => {

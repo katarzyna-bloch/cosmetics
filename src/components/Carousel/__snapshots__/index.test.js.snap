@@ -1,12 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render correctly 1`] = `
+exports[`should not render dots for more items 1`] = `
 <styled.div
   sideMargins={0}
   withBottomMargin={false}
 >
   <Slider
     dots={false}
+    draggable={false}
+    gap={0}
+    infinite={true}
+    speed={200}
+  >
+    <styled.div
+      key="0"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="3"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="4"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="5"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="6"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="7"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="8"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="9"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="10"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+    <styled.div
+      key="11"
+    >
+      <Banner
+        name="Banner"
+      />
+    </styled.div>
+  </Slider>
+</styled.div>
+`;
+
+exports[`should render correctly 1`] = `
+<styled.div
+  sideMargins={0}
+  withBottomMargin={true}
+>
+  <Slider
+    dots={true}
     draggable={false}
     gap={0}
     infinite={true}
@@ -31,6 +131,36 @@ exports[`should render correctly 1`] = `
     >
       <Banner
         name="Banner 3"
+      />
+    </styled.div>
+  </Slider>
+</styled.div>
+`;
+
+exports[`should render correctly with a gap more than zero 1`] = `
+<styled.div
+  sideMargins={15}
+  withBottomMargin={false}
+>
+  <Slider
+    dots={false}
+    draggable={false}
+    gap={30}
+    infinite={true}
+    speed={200}
+  >
+    <styled.div
+      key="0"
+    >
+      <Banner
+        name="Banner 1"
+      />
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <Banner
+        name="Banner 2"
       />
     </styled.div>
   </Slider>

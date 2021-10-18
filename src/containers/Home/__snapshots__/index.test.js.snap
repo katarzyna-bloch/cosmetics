@@ -54,24 +54,30 @@ exports[`should get the data correctly 1`] = `
   saleProducts={
     Array [
       Object {
-        "brand": "Rimmel",
+        "brand": "Xi Xiu",
         "categoryId": "3",
-        "description": "kremowa pomadka",
-        "hasDiscount": true,
-        "id": "22",
-        "img": "pomadka.jpg",
+        "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+        "id": "24",
+        "img": "eyeliner.jpg",
+        "name": "Lasting Eyeliner Pencil",
+        "price": "17 zł",
+        "rate": 9.3,
+        "volume": "125 ml",
       },
     ]
   }
   topProducts={
     Array [
       Object {
-        "brand": "Rimmel",
+        "brand": "Xi Xiu",
         "categoryId": "3",
-        "description": "kremowa pomadka",
-        "hasDiscount": true,
-        "id": "22",
-        "img": "pomadka.jpg",
+        "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+        "id": "24",
+        "img": "eyeliner.jpg",
+        "name": "Lasting Eyeliner Pencil",
+        "price": "17 zł",
+        "rate": 9.3,
+        "volume": "125 ml",
       },
     ]
   }
@@ -96,14 +102,10 @@ exports[`should get the data correctly 1`] = `
           items={
             Array [
               <Banner
-                banner={
-                  Object {
-                    "id": "3",
-                    "img": "makeup.jpg",
-                    "text": "Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!",
-                    "url": "/categories/makeup",
-                  }
-                }
+                id="3"
+                img="makeup.jpg"
+                text="Różnorodne rabaty dla Ciebie. Zobacz wybrane produkty w super cenach!"
+                url="/categories/makeup"
               />,
             ]
           }
@@ -148,12 +150,15 @@ exports[`should get the data correctly 1`] = `
         products={
           Array [
             Object {
-              "brand": "Rimmel",
+              "brand": "Xi Xiu",
               "categoryId": "3",
-              "description": "kremowa pomadka",
-              "hasDiscount": true,
-              "id": "22",
-              "img": "pomadka.jpg",
+              "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+              "id": "24",
+              "img": "eyeliner.jpg",
+              "name": "Lasting Eyeliner Pencil",
+              "price": "17 zł",
+              "rate": 9.3,
+              "volume": "125 ml",
             },
           ]
         }
@@ -164,12 +169,15 @@ exports[`should get the data correctly 1`] = `
               <Styled(ProductListItem)
                 product={
                   Object {
-                    "brand": "Rimmel",
+                    "brand": "Xi Xiu",
                     "categoryId": "3",
-                    "description": "kremowa pomadka",
-                    "hasDiscount": true,
-                    "id": "22",
-                    "img": "pomadka.jpg",
+                    "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+                    "id": "24",
+                    "img": "eyeliner.jpg",
+                    "name": "Lasting Eyeliner Pencil",
+                    "price": "17 zł",
+                    "rate": 9.3,
+                    "volume": "125 ml",
                   }
                 }
               />,
@@ -182,7 +190,6 @@ exports[`should get the data correctly 1`] = `
                 Object {
                   "breakpoint": 768,
                   "settings": Object {
-                    "infinite": true,
                     "slidesToScroll": 2,
                     "slidesToShow": 2,
                   },
@@ -217,7 +224,6 @@ exports[`should get the data correctly 1`] = `
                     Object {
                       "breakpoint": 768,
                       "settings": Object {
-                        "infinite": true,
                         "slidesToScroll": 2,
                         "slidesToShow": 2,
                       },
@@ -252,12 +258,15 @@ exports[`should get the data correctly 1`] = `
         products={
           Array [
             Object {
-              "brand": "Rimmel",
+              "brand": "Xi Xiu",
               "categoryId": "3",
-              "description": "kremowa pomadka",
-              "hasDiscount": true,
-              "id": "22",
-              "img": "pomadka.jpg",
+              "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+              "id": "24",
+              "img": "eyeliner.jpg",
+              "name": "Lasting Eyeliner Pencil",
+              "price": "17 zł",
+              "rate": 9.3,
+              "volume": "125 ml",
             },
           ]
         }
@@ -268,12 +277,15 @@ exports[`should get the data correctly 1`] = `
               <Styled(ProductListItem)
                 product={
                   Object {
-                    "brand": "Rimmel",
+                    "brand": "Xi Xiu",
                     "categoryId": "3",
-                    "description": "kremowa pomadka",
-                    "hasDiscount": true,
-                    "id": "22",
-                    "img": "pomadka.jpg",
+                    "description": "Zapewnia możliwość wykonania precyzyjnej kreski",
+                    "id": "24",
+                    "img": "eyeliner.jpg",
+                    "name": "Lasting Eyeliner Pencil",
+                    "price": "17 zł",
+                    "rate": 9.3,
+                    "volume": "125 ml",
                   }
                 }
               />,
@@ -286,7 +298,6 @@ exports[`should get the data correctly 1`] = `
                 Object {
                   "breakpoint": 768,
                   "settings": Object {
-                    "infinite": true,
                     "slidesToScroll": 2,
                     "slidesToShow": 2,
                   },
@@ -321,7 +332,6 @@ exports[`should get the data correctly 1`] = `
                     Object {
                       "breakpoint": 768,
                       "settings": Object {
-                        "infinite": true,
                         "slidesToScroll": 2,
                         "slidesToShow": 2,
                       },
