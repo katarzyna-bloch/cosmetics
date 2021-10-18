@@ -123,28 +123,6 @@
       "description": "Głęboko kobieca nuta, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń."
     },
     {
-      "id": "10",
-      "brand": "SINA RICCI",
-      "name": "Saint Laurent Pink Opium",
-      "volume": "75 ml",
-      "price": "22 zł",
-      "categoryId": "2",
-      "img": "perfum3.jpg",
-      "description": "Nowy zapach Saint Laurent Pink Opium. Zdefiniowany przez prowansalską lawendę. Zachęca do wolności i łamania wszelkich granic, zamknięty w prostym flakonie ze złotym symbolem oznacza wolność."
-    },
-    {
-      "id": "11",
-      "brand": "quokka",
-      "name": "Crystal For Women",
-      "volume": "100 ml",
-      "oldPrice": "65 zł",
-      "hasDiscount": true,
-      "price": "42,20 zł",
-      "categoryId": "2",
-      "img": "perfum4.jpg",
-      "description": "Piękny, rozkwitający, uwodzicielski. Wzbudza pożądanie, odkrywa tajemnice. Najnowszy zapach w rodzinie. Wejdź do świata czyli Szalonej Miłości."
-    },
-    {
       "id": "12",
       "brand": "BLACK CURRANT 10",
       "name": "Morra 2nd collection",
