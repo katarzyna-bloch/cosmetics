@@ -3,11 +3,7 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: push
 
 jobs:
   build:
@@ -41,9 +37,11 @@ jobs:
       run: yarn test:nowatch
 
     - name: Build
+      if: ${{ github.ref == 'refs/heads/ci-configuration' }}
       run: yarn build
 
     - name: Deploy
+      if: ${{ github.ref == 'refs/heads/ci-configuration' }}
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
