@@ -1,4 +1,6 @@
-# Setup API
+Demo: https://katarzyna-bloch.github.io/cosmetics/#
+
+## Setup API
 
 The project uses `json-server` for API
 
@@ -8,7 +10,7 @@ https://github.com/typicode/json-server
 
 Runs `json-server` API
 
-# Setup frontend
+## Setup frontend
 
 ### `yarn install`
 

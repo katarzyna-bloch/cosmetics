@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<BrowserRouter>
+<HashRouter>
   <Header />
   <Connect(Navigation) />
   <styled.main>
     <Routes />
   </styled.main>
   <Footer />
-</BrowserRouter>
+</HashRouter>
 `;
