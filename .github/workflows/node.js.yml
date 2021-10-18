@@ -37,11 +37,11 @@ jobs:
       run: yarn test:nowatch
 
     - name: Build
-      if: ${{ github.ref == 'refs/heads/ci-configuration' }}
+      if: ${{ github.ref == 'refs/heads/main' }}
       run: yarn build
 
     - name: Deploy
-      if: ${{ github.ref == 'refs/heads/ci-configuration' }}
+      if: ${{ github.ref == 'refs/heads/main' }}
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
