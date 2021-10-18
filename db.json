@@ -43,7 +43,7 @@
       "price": "21 zł",
       "categoryId": "1",
       "img": "shampon.jpg",
-      "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby także bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację."
+      "description": "Natychmiastowa restrukturyzacja uszkodzonych włosów. Szampon jest opracowany tak, aby bardzo uszkodzonym włosom dostarczyć potrzebnej dawki odżywienia i zapewnić ich szybką regenerację."
     },
     {
       "id": "3",
@@ -119,7 +119,7 @@
       "price": "38 zł",
       "categoryId": "2",
       "img": "perfum2.jpg",
-      "description": "Głęboko kobieca, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń."
+      "description": "Głęboko kobieca nuta, a jednocześnie magnetyczna woń sprawi, że będą Cię otaczały tysiące spojrzeń."
     },
     {
       "id": "10",
@@ -193,7 +193,7 @@
       "price": "35 zł",
       "categoryId": "2",
       "img": "perfum9.jpg",
-      "description": "Zmysłowy, krystalicznie przejrzysty, cudownie lśniący."
+      "description": "Zmysłowy, krystalicznie przejrzysty, cudownie lśniący zapach."
     },
     {
       "id": "17",
@@ -225,7 +225,7 @@
       "price": "27 zł",
       "categoryId": "3",
       "img": "tusz do rzes.jpg",
-      "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydluzenia."
+      "description": "Nowy wielofunkcyjny tusz L’Oréal Paris pozwala uzyskac efekt multiplikacji rzes, a takze wyjatkowego wydłużenia."
     },
     {
       "id": "20",
