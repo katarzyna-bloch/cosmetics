@@ -27,11 +27,11 @@ export const fetchCategories = () => {
 }
 
 export const fetchTopProducts = () => {
-  return fetch('http://localhost:3004/products?rate_gte=7')
+  return fetch(`${URL}/products?rate_gte=7`)
     .then((response) => response.json());
 }
 
 export const fetchBanners = () => {
-  return fetch('http://localhost:3004/banners')
+  return fetch(`${URL}/banners`)
     .then((response) => response.json());
 }

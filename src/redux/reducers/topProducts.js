@@ -12,4 +12,3 @@ const topProducts = (state = initialState, action) => {
 }
 
 export default topProducts
- 
