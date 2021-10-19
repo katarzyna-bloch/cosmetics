@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link as RouterLink } from 'react-router-dom'
 
 import media from '../../utils/media'
-import { getProductImagesPath  } from '../../utils/images'
+import { getProductImagesPath } from '../../utils/images'
 
 const Wrapper = styled.header`
   background-color: lavender;
