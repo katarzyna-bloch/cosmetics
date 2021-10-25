@@ -10,7 +10,7 @@ jest.mock('../../components/ProductsList', () => {
 it('should render correctly', () => {
   const props = {
     fetchProducts: jest.fn(),
-    products: [
+    saleProducts: [
       { 
       name: 'Test',
       img: 'img.jpg',
@@ -20,6 +20,7 @@ it('should render correctly', () => {
       hasDiscount: true,
       },
     ],
+    loading: false,
   }
   const wrapped = mount(<Sale {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

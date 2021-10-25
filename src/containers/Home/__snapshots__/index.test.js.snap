@@ -12,7 +12,7 @@ exports[`should get the data correctly 1`] = `
       },
     ]
   }
-  fetchBanners={
+  fetchDashboardData={
     [MockFunction] {
       "calls": Array [
         Array [],
@@ -25,32 +25,7 @@ exports[`should get the data correctly 1`] = `
       ],
     }
   }
-  fetchSaleProducts={
-    [MockFunction] {
-      "calls": Array [
-        Array [],
-      ],
-      "results": Array [
-        Object {
-          "type": "return",
-          "value": undefined,
-        },
-      ],
-    }
-  }
-  fetchTopProducts={
-    [MockFunction] {
-      "calls": Array [
-        Array [],
-      ],
-      "results": Array [
-        Object {
-          "type": "return",
-          "value": undefined,
-        },
-      ],
-    }
-  }
+  loading={false}
   saleProducts={
     Array [
       Object {
@@ -141,7 +116,7 @@ exports[`should get the data correctly 1`] = `
       </Banners>
       <Styled(styled.h5)>
         <h5
-          className="sc-bdvvaa sc-ksdxAp cRcTHD gIxfol"
+          className="sc-bdvvaa sc-hBURRC cRcTHD kMGDgY"
         >
           W tym tygodniu w promocji
         </h5>
@@ -249,7 +224,7 @@ exports[`should get the data correctly 1`] = `
       </ProductsSlider>
       <Styled(styled.h5)>
         <h5
-          className="sc-bdvvaa sc-ksdxAp cRcTHD gIxfol"
+          className="sc-bdvvaa sc-hBURRC cRcTHD kMGDgY"
         >
           Top oferty
         </h5>

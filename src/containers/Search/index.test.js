@@ -11,7 +11,7 @@ jest.mock('../../components/ProductsList', () => {
 it('should render correctly', () => {
   const props = {
     fetchProducts: jest.fn(),
-    products: [
+    searchProducts: [
       { 
         name: 'Test', 
         img: 'img.jpg', 
@@ -22,6 +22,7 @@ it('should render correctly', () => {
     location: {
       search: '?q=krem',
     },
+    loading: false,
   }
   const wrapped = mount(<Search {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()
@@ -32,10 +33,11 @@ it('should render correctly', () => {
 it('should render correctly without products', () => {
   const props = {
     fetchProducts: jest.fn(),
-    products: [],
+    searchProducts: [],
     location: {
       search: '?q=krem',
     },
+    loading: false,
   }
   const wrapped = shallow(<Search {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

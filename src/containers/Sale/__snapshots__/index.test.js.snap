@@ -15,7 +15,8 @@ exports[`should render correctly 1`] = `
       ],
     }
   }
-  products={
+  loading={false}
+  saleProducts={
     Array [
       Object {
         "hasDiscount": true,

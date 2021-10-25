@@ -21,9 +21,21 @@ it('should handle FETCH_CATEGORY_SUCCESS successfully', () => {
       }
     ]
   }
+  
+  const initialState = {
+    category: null,
+    loading: true,
+  }
+
   const action = {
     type: FETCH_CATEGORY_SUCCESS,
     payload: categoryData,
   }
-  expect(category(null, action)).toEqual(categoryData)
+
+  const expectedState = {
+    category: categoryData,
+    loading: false,
+  }
+  
+  expect(category(initialState, action)).toEqual(expectedState)
 })

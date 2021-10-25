@@ -8,14 +8,15 @@ import ContentHeader from '../../components/ContentHeader'
 import PageWrapper from '../../components/PageWrapper'
 import ProductsList from '../../components/ProductsList'
 import { requestCategory } from '../../redux/actions'
+import Preloader from '../../components/Preloader'
 
-export const Category = ({ fetchCategoryByUrl, category, match: { url } }) => {
+export const Category = ({ fetchCategoryByUrl, category, match: { url }, loading}) => {
   useEffect(() => {
     fetchCategoryByUrl(url)
   }, [url])
 
-  if (!category) {
-    return null
+  if (!category || loading) {
+    return <Preloader />
   }
 
   return (
@@ -27,7 +28,7 @@ export const Category = ({ fetchCategoryByUrl, category, match: { url } }) => {
 }
 
 const mapStateToProps = ({ category }) => ({
-  category,
+  ...category,
 })
 
 const mapDispatchToProps = (dispatch) => ({
@@ -40,6 +41,7 @@ Category.propTypes = {
     url: PropTypes.string.isRequired,
   }).isRequired,
   category: PropTypes.object,
+  loading: PropTypes.bool.isRequired,
 }
 
 export default compose(

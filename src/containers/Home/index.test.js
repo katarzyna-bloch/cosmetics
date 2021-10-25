@@ -27,12 +27,11 @@ const testBanner = {
 }
 
 const props = {
-  fetchSaleProducts: jest.fn(),
-  fetchTopProducts: jest.fn(),
-  fetchBanners: jest.fn(),
+  fetchDashboardData: jest.fn(),
   saleProducts: [ testProduct ],
   topProducts: [ testProduct ],
   banners: [ testBanner ],
+  loading: false,
 }
 
 it('should get the data correctly', () => {
@@ -40,7 +39,5 @@ it('should get the data correctly', () => {
   expect(toJson(wrapped)).toMatchSnapshot()
 
   wrapped.update()
-  expect(props.fetchSaleProducts).toHaveBeenCalled()
-  expect(props.fetchTopProducts).toHaveBeenCalled()
-  expect(props.fetchBanners).toHaveBeenCalled()
+  expect(props.fetchDashboardData).toHaveBeenCalled()
 })

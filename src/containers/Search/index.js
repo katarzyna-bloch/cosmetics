@@ -9,21 +9,26 @@ import ProductsList from '../../components/ProductsList'
 import PageWrapper from '../../components/PageWrapper'
 import ProductNotFound from '../../components/ProductNotFound'
 import ContentHeader from '../../components/ContentHeader'
+import Preloader from '../../components/Preloader'
 
-export const Search = ({ fetchProducts, products, location: { search } }) => {
+export const Search = ({ fetchProducts, searchProducts, location: { search }, loading }) => {
   const searchParams = new URLSearchParams(search)
   const query = searchParams.get('q')
-
+  
   useEffect(() => {
     fetchProducts(search)
   }, [search])
+  
+  if (loading) {
+    return <Preloader />
+  }
 
   return (
     <PageWrapper>
-      {products.length > 0 ? (
+      {searchProducts.length > 0 ? (
         <>
-          <ContentHeader>Wyniki dla frazy: {query} ({products.length})</ContentHeader>
-          <ProductsList products={products} />
+          <ContentHeader>Wyniki dla frazy: {query} ({searchProducts.length})</ContentHeader>
+          <ProductsList products={searchProducts} />
         </>
       ) : (
         <ProductNotFound />
@@ -32,8 +37,8 @@ export const Search = ({ fetchProducts, products, location: { search } }) => {
   )
 }
 
-const mapStateToProps = ({ search }) => ({
-  products: search,
+const mapStateToProps = ({ searchProducts }) => ({
+  ...searchProducts
 })
 
 const mapDispatchToProps = (dispatch) => ({
@@ -42,10 +47,11 @@ const mapDispatchToProps = (dispatch) => ({
 
 Search.propTypes = {
   fetchProducts: PropTypes.func.isRequired,
-  products: PropTypes.array.isRequired,
+  searchProducts: PropTypes.array.isRequired,
   location: PropTypes.shape({
     search: PropTypes.string.isRequired,
   }).isRequired,
+  loading: PropTypes.bool.isRequired,
 }
 
 export default compose(
