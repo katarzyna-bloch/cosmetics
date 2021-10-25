@@ -38,6 +38,7 @@ exports[`should render correctly 1`] = `
       ],
     }
   }
+  loading={false}
   match={
     Object {
       "url": "/categories/care",

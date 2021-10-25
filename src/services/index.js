@@ -35,3 +35,17 @@ export const fetchBanners = () => {
   return fetch(`${URL}/banners`)
     .then((response) => response.json());
 }
+
+export const fetchDashboardData = () => {
+  const promises = [
+    fetchSale(),
+    fetchTopProducts(),
+    fetchBanners(),
+  ]
+
+  return Promise.all(promises).then((response) => ({
+    saleProducts: response[0],
+    topProducts: response[1],
+    banners: response[2],
+  }))
+}

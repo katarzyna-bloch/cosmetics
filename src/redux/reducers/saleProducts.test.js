@@ -1,5 +1,5 @@
-import sale from './sale'
-import { FETCH_SALE_SUCCESS } from '../actions/sale'
+import saleProducts from './saleProducts'
+import { FETCH_SALE_SUCCESS } from '../actions/saleProducts'
 
 it('should handle FETCH_SALE_SUCCESS successfully', () => {
   const products = [
@@ -20,9 +20,20 @@ it('should handle FETCH_SALE_SUCCESS successfully', () => {
       "hasDiscount": true,
     },
   ]
+  const initialState = {
+    saleProducts: [],
+    loading: true,
+  }
+
   const action = {
     type: FETCH_SALE_SUCCESS,
     payload: products,
   }
-  expect(sale([], action)).toEqual(products)
+
+  const expectState = {
+    saleProducts: products,
+    loading: false, 
+  }
+
+  expect(saleProducts(initialState, action)).toEqual(expectState)
 })

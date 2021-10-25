@@ -10,9 +10,21 @@ it('should handle FETCH_PRODUCT_SUCCESS successfully', () => {
     "volume": "15ml",
     "description": "Opis produktu",
   }
+
+  const initialState = {
+    product: null,
+    loading: true,
+  }
+
   const action = {
     type: FETCH_PRODUCT_SUCCESS,
     payload: productData,
   }
-  expect(product(null, action)).toEqual(productData)
+
+  const expectedState = {
+    product: productData,
+    loading: false,
+  }
+
+  expect(product(initialState, action)).toEqual(expectedState)
 })

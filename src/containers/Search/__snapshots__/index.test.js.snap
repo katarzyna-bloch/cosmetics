@@ -17,12 +17,13 @@ exports[`should render correctly 1`] = `
       ],
     }
   }
+  loading={false}
   location={
     Object {
       "search": "?q=krem",
     }
   }
-  products={
+  searchProducts={
     Array [
       Object {
         "id": "1",

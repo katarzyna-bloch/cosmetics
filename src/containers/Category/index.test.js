@@ -31,7 +31,8 @@ it('should render correctly', () => {
     },
     match: {
       url: '/categories/care',
-    }
+    },
+    loading: false,
   }
   const wrapped = mount(<Category {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

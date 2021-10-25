@@ -37,6 +37,7 @@ it('should render correctly', () => {
         id: '1',
       },
     },
+    loading: false,
   }
   const wrapped = mount(<Product {...props} />)
   expect(toJson(wrapped)).toMatchSnapshot()

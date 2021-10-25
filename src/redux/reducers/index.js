@@ -1,18 +1,16 @@
 import { combineReducers } from 'redux'
 import product from './product'
-import search from './search'
+import searchProducts from './searchProducts'
 import category from './category'
-import sale from './sale'
+import saleProducts from './saleProducts'
 import categories from './categories'
-import topProducts from './topProducts'
-import banners from './banners'
+import dashboard from './dashboard'
 
 export default combineReducers({
   product,
-  search,
+  searchProducts,
   category,
-  sale,
+  saleProducts,
   categories,
-  topProducts,
-  banners,
+  dashboard,
 })

@@ -7,19 +7,22 @@ import ContentHeader from '../../components/ContentHeader'
 import Banners from '../../components/Banners'
 import PageWrapper from '../../components/PageWrapper'
 import ProductsSlider from '../../components/ProductsSlider'
-import { requestBanners, requestTopProducts, requestSale } from '../../redux/actions'
+import Preloader from '../../components/Preloader'
+import { requestDashboardData } from '../../redux/actions'
 
 const Heading = styled(ContentHeader)`
   font-size: 25px;
   margin: 20px 0;
 `
 
-export const Home = ({ fetchSaleProducts, saleProducts, topProducts, fetchTopProducts, banners, fetchBanners }) => {
+export const Home = ({ fetchDashboardData, saleProducts, topProducts, banners, loading }) => {
   useEffect(() => {
-    fetchSaleProducts()
-    fetchTopProducts()
-    fetchBanners()
+    fetchDashboardData()
   }, [])
+  
+  if (loading) {
+    return <Preloader />
+  }
 
   return (
     <PageWrapper>
@@ -32,25 +35,20 @@ export const Home = ({ fetchSaleProducts, saleProducts, topProducts, fetchTopPro
   )
 }
 
-const mapStateToProps = ({ sale, topProducts, banners }) => ({
-  saleProducts: sale,
-  topProducts,
-  banners,
+const mapStateToProps = ({ dashboard }) => ({
+  ...dashboard,
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchSaleProducts: () => dispatch(requestSale()),
-  fetchTopProducts: () => dispatch(requestTopProducts()),
-  fetchBanners: () => dispatch(requestBanners()),
+  fetchDashboardData: () => dispatch(requestDashboardData()),
 })
 
 Home.propTypes = {
-  fetchSaleProducts: PropTypes.func.isRequired,
+  fetchDashboardData: PropTypes.func.isRequired,
   saleProducts: PropTypes.array.isRequired,
   topProducts: PropTypes.array.isRequired,
-  fetchTopProducts: PropTypes.func.isRequired,
   banners: PropTypes.array.isRequired,
-  fetchBanners: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

@@ -1,5 +1,5 @@
-import search from './search'
-import { FETCH_SEARCH_SUCCESS } from '../actions/search'
+import searchProducts from './searchProducts'
+import { FETCH_SEARCH_SUCCESS } from '../actions/searchProducts'
 
 it('should handle FETCH_SEARCH_SUCCESS successfully', () => {
   const products = [
@@ -16,9 +16,21 @@ it('should handle FETCH_SEARCH_SUCCESS successfully', () => {
       "price": "10zł",
     },
   ]
+  
+  const initialState = {
+    searchProducts: [],
+    loading: true,
+  }
+
   const action = {
     type: FETCH_SEARCH_SUCCESS,
     payload: products,
   }
-  expect(search ([], action)).toEqual(products)
+
+  const expectState = {
+    searchProducts: products,
+    loading: false, 
+  }
+     
+  expect(searchProducts(initialState, action)).toEqual(expectState)
 })
